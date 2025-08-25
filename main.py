@@ -3,7 +3,7 @@ import pandas as pd
 import os
 import matplotlib.pyplot as plt
 import seaborn as sns
-
+import matplotlib.pyplot as plt
 # ===========================
 # Configuration globale
 # ===========================
