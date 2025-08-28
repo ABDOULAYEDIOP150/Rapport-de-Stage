@@ -55,42 +55,38 @@ def load_csv_from_github(repo_base_url, file_list, sep=","):
     return dfs
 
 # ===========================
-# KPI interactif avec nom de formation
+# KPI interactif pour une année donnée
 # ===========================
-def calculate_kpi_interactive(df_kpi, df_formation):
+def calculate_kpi_for_year(df_kpi, df_formation, year_selected):
     # Vérification des colonnes
     required_cols = ['id_formation', 'annee_academique', 'ca_total_millions', 'cout_total_professeur_millions']
     if not all(col in df_kpi.columns for col in required_cols):
         st.error(f"Le fichier Fait_KPI.csv doit contenir les colonnes : {required_cols}")
         return
-    
-    # Fusion avec Table_Formation pour récupérer les noms
-    df_kpi = df_kpi.merge(df_formation[['id_formation', 'formation']], on='id_formation', how='left')
-    df_kpi['CA'] = df_kpi['ca_total_millions']
-    df_kpi['Cout'] = df_kpi['cout_total_professeur_millions']
-    df_kpi['Marge'] = df_kpi['CA'] - df_kpi['Cout']
 
-    # Filtre année académique
-    annees = st.multiselect("Sélectionner l'année académique", options=sorted(df_kpi['annee_academique'].unique()), default=[2023,2024])
-    df_kpi_filtered = df_kpi[df_kpi['annee_academique'].isin(annees)]
+    # Filtrer par année
+    df_kpi_year = df_kpi[df_kpi['annee_academique'] == year_selected]
 
-    # Top formations par CA
-    top_n = st.slider("Nombre de formations à afficher", min_value=1, max_value=len(df_kpi_filtered), value=min(10,len(df_kpi_filtered)))
-    kpi_top = df_kpi_filtered.sort_values('CA', ascending=False).head(top_n)
+    # Fusion pour récupérer le nom de la formation
+    df_kpi_year = df_kpi_year.merge(df_formation[['id_formation', 'formation']], on='id_formation', how='left')
+    df_kpi_year['CA'] = df_kpi_year['ca_total_millions']
+    df_kpi_year['Cout'] = df_kpi_year['cout_total_professeur_millions']
+    df_kpi_year['Marge'] = df_kpi_year['CA'] - df_kpi_year['Cout']
 
-    st.markdown("<h2 class='section-header'>💰 KPI par Formation</h2>", unsafe_allow_html=True)
-    st.dataframe(kpi_top[['formation','annee_academique','CA','Cout','Marge']])
+    # Trier et afficher top N formations
+    top_n = st.slider("Nombre de formations à afficher", min_value=1, max_value=len(df_kpi_year), value=min(10,len(df_kpi_year)))
+    df_top = df_kpi_year.sort_values('CA', ascending=False).head(top_n)
 
-    # Graphique combiné CA, Coût, Marge
+    st.markdown(f"<h2 class='section-header'>💰 KPI par Formation - Année {year_selected}</h2>", unsafe_allow_html=True)
+    st.dataframe(df_top[['formation','CA','Cout','Marge']])
+
+    # Graphique CA, Coût, Marge
     fig = go.Figure()
-    fig.add_trace(go.Bar(x=kpi_top['formation'] + " (" + kpi_top['annee_academique'].astype(str) + ")",
-                         y=kpi_top['CA'], name='Chiffre d\'Affaires', marker_color='orange', text=kpi_top['CA'], textposition='auto'))
-    fig.add_trace(go.Bar(x=kpi_top['formation'] + " (" + kpi_top['annee_academique'].astype(str) + ")",
-                         y=kpi_top['Cout'], name='Coût', marker_color='blue', text=kpi_top['Cout'], textposition='auto'))
-    fig.add_trace(go.Bar(x=kpi_top['formation'] + " (" + kpi_top['annee_academique'].astype(str) + ")",
-                         y=kpi_top['Marge'], name='Marge', marker_color='green', text=kpi_top['Marge'], textposition='auto'))
+    fig.add_trace(go.Bar(x=df_top['formation'], y=df_top['CA'], name='Chiffre d\'Affaires', marker_color='orange', text=df_top['CA'], textposition='auto'))
+    fig.add_trace(go.Bar(x=df_top['formation'], y=df_top['Cout'], name='Coût', marker_color='blue', text=df_top['Cout'], textposition='auto'))
+    fig.add_trace(go.Bar(x=df_top['formation'], y=df_top['Marge'], name='Marge', marker_color='green', text=df_top['Marge'], textposition='auto'))
 
-    fig.update_layout(barmode='group', title="💹 KPIs par Formation et Année", xaxis_title="Formation (Année)", yaxis_title="Montants en millions", legend_title="Indicateurs")
+    fig.update_layout(barmode='group', title=f"💹 KPIs par Formation - Année {year_selected}", xaxis_title="Formation", yaxis_title="Montants en millions", legend_title="Indicateurs")
     st.plotly_chart(fig, use_container_width=True)
 
 # ===========================
@@ -125,7 +121,8 @@ def main():
         df_kpi = dfs.get("fait_kpi")
         df_formation = dfs.get("table_formation")
         if df_kpi is not None and df_formation is not None:
-            calculate_kpi_interactive(df_kpi, df_formation)
+            year_selected = st.radio("Choisir l'année académique pour l'analyse", [2023, 2024], index=1)
+            calculate_kpi_for_year(df_kpi, df_formation, year_selected)
         else:
             st.error("❌ Fichiers nécessaires non trouvés (Fait_KPI.csv et Table_Formation.csv).")
 
