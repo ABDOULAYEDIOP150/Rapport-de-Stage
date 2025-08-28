@@ -23,7 +23,10 @@ def load_csv_from_github(repo_base_url, file_list, sep=","):
     for f in file_list:
         url = f"{repo_base_url}/{f}"
         try:
-            dfs[f.replace(".csv", "").lower()] = pd.read_csv(url, sep=sep)
+            df = pd.read_csv(url, sep=sep)
+            # Nettoyer les noms de colonnes
+            df.columns = df.columns.str.strip().str.lower()
+            dfs[f.replace(".csv", "").lower()] = df
         except Exception as e:
             st.error(f"❌ Erreur chargement {f} : {e}")
     return dfs
@@ -68,15 +71,22 @@ def explore_data(df, name):
 # Calcul CA et Coût par Formation
 # ===========================
 def calculate_kpi(df_kpi):
+    # Vérifier les colonnes essentielles
+    required_cols = ['annee', 'id_formation', 'ca', 'cout']
+    if not all(col in df_kpi.columns for col in required_cols):
+        st.error(f"Le fichier Fait_KPI.csv doit contenir les colonnes : {required_cols}")
+        st.write("Colonnes disponibles :", df_kpi.columns.tolist())
+        return
+
     # Filtrer à partir de l'année 2023
     df_kpi = df_kpi[df_kpi['annee'] >= 2023]
-    
+
     # Calcul du CA et du coût par formation
     kpi_summary = df_kpi.groupby(['id_formation', 'annee']).agg(
-        CA=('CA', 'sum'),
-        Cout=('Cout', 'sum')
+        CA=('ca', 'sum'),
+        Cout=('cout', 'sum')
     ).reset_index()
-    
+
     st.write("### 💰 Chiffre d'affaires et Coût par formation")
     st.dataframe(kpi_summary)
 
@@ -112,7 +122,7 @@ def main():
         st.header("📂 Données Brutes")
         for name, df in dfs.items():
             with st.expander(name):
-                st.write(f"Nombre de lignes : {df.shape[0]}")
+                st.button(f"Lignes : {df.shape[0]}", key=f"btn_{name}")
                 st.dataframe(df.head(20))
 
     elif menu == "Données Traitées":
@@ -120,7 +130,7 @@ def main():
         st.header("📂 Données Traitées")
         for name, df in dfs.items():
             with st.expander(name):
-                st.write(f"Nombre de lignes : {df.shape[0]}")
+                st.button(f"Lignes : {df.shape[0]}", key=f"btn_{name}")
                 st.dataframe(df.head(20))
 
     elif menu == "Exploration Graphique":
@@ -141,4 +151,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
