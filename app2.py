@@ -1,13 +1,11 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+import plotly.express as px
 
 # ===========================
 # Configuration globale
 # ===========================
 st.set_page_config(page_title="📊 Dashboard Analytique", layout="wide")
-sns.set_theme(style="whitegrid")
 
 st.markdown("""
 <style>
@@ -33,50 +31,48 @@ def load_csv_from_github(repo_base_url, file_list, sep=","):
 
 
 # ===========================
-# Exploration graphique
+# Exploration graphique simple
 # ===========================
 def explore_data(df, name):
-    st.markdown(f"<h2 style='color:#0066CC;'>Analyse : {name}</h2>", unsafe_allow_html=True)
-    st.write("### Aperçu")
+    st.markdown(f"<h2 style='color:#0066CC;'>📊 Analyse : {name}</h2>", unsafe_allow_html=True)
+    st.write("### 👀 Aperçu des données")
     st.dataframe(df.head())
 
-    st.write("### Stats descriptives")
+    # Statistiques descriptives simples
+    st.write("### 📑 Statistiques descriptives")
     st.dataframe(df.describe(include='all'))
 
-    # Valeurs manquantes
-    miss = df.isnull().sum()
-    if miss.any():
-        st.write("### Valeurs manquantes")
-        st.bar_chart(miss)
+    # Variables catégorielles -> graphique circulaire
+    cat_cols = df.select_dtypes(include=['object']).columns.tolist()
+    if cat_cols:
+        col = st.selectbox(f"📌 Choisir une variable catégorielle ({name})", cat_cols, key=f"cat_{name}")
+        if col:
+            fig = px.pie(df, names=col, title=f"Répartition de {col}")
+            st.plotly_chart(fig, use_container_width=True)
+            st.info("💡 Ce graphique montre la proportion de chaque catégorie.")
 
-    # Variables numériques
-    num = df.select_dtypes(include=['int', 'float']).columns.tolist()
-    if num:
-        st.write("### Histogrammes")
-        for col in num:
-            fig, ax = plt.subplots(figsize=(5, 3))
-            sns.histplot(df[col], kde=True, ax=ax, color='#FF9933')
-            st.pyplot(fig)
-
-        st.write("### Boxplots")
-        for col in num:
-            fig, ax = plt.subplots(figsize=(5, 3))
-            sns.boxplot(x=df[col], ax=ax, color='#3399FF')
-            st.pyplot(fig)
-
-        if len(num) > 1:
-            st.write("### Corrélations")
-            fig, ax = plt.subplots(figsize=(6, 4))
-            sns.heatmap(df[num].corr(), annot=True, cmap='coolwarm', fmt=".2f", ax=ax)
-            st.pyplot(fig)
+    # Variables numériques -> histogramme et boxplot
+    num_cols = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
+    if num_cols:
+        col = st.selectbox(f"📌 Choisir une variable numérique ({name})", num_cols, key=f"num_{name}")
+        if col:
+            col1, col2 = st.columns(2)
+            with col1:
+                fig = px.histogram(df, x=col, nbins=20, title=f"Distribution de {col}", color_discrete_sequence=['#FF9933'])
+                st.plotly_chart(fig, use_container_width=True)
+                st.info("💡 L’histogramme montre la répartition des valeurs.")
+            with col2:
+                fig = px.box(df, y=col, title=f"Boxplot de {col}", color_discrete_sequence=['#3399FF'])
+                st.plotly_chart(fig, use_container_width=True)
+                st.info("💡 Le boxplot met en évidence la médiane et les valeurs atypiques (outliers).")
 
 
 # ===========================
 # Interface Streamlit
 # ===========================
 def main():
-    st.markdown("<h1 style='text-align:center;color:#003366;'>Dashboard Analytique</h1>", unsafe_allow_html=True)
-    st.sidebar.title("Menu")
+    st.markdown("<h1 style='text-align:center;color:#003366;'>📊 Dashboard Analytique</h1>", unsafe_allow_html=True)
+    st.sidebar.title("📌 Menu")
     menu = st.sidebar.radio("Navigation", ["Données Brutes", "Données Traitées", "Exploration Graphique"])
 
     repo = "https://raw.githubusercontent.com/ABDOULAYEDIOP150/Rapport-de-Stage/main"
@@ -95,7 +91,7 @@ def main():
     # ================= Données brutes =================
     if menu == "Données Brutes":
         dfs = load_csv_from_github(repo, raw_files, sep=";")
-        st.header("Données Brutes")
+        st.header("📂 Données Brutes")
         for name, df in dfs.items():
             with st.expander(name):
                 st.dataframe(df.head(20))
@@ -103,7 +99,7 @@ def main():
     # ================= Données traitées =================
     elif menu == "Données Traitées":
         dfs = load_csv_from_github(repo, proc_files, sep=",")
-        st.header("Données Traitées")
+        st.header("📂 Données Traitées")
         for name, df in dfs.items():
             with st.expander(name):
                 st.dataframe(df.head(20))
@@ -111,7 +107,7 @@ def main():
     # ================= Exploration =================
     else:
         dfs = load_csv_from_github(repo, proc_files, sep=",")
-        st.header("Exploration Graphique")
+        st.header("🔎 Exploration Graphique")
         for name, df in dfs.items():
             with st.expander(name):
                 explore_data(df, name)
