@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 import plotly.graph_objects as go
 
 # ===========================
@@ -29,29 +28,21 @@ st.markdown("""
 def display_etl_summary():
     st.markdown("<h2 class='section-header'>📝 Résumé du Projet</h2>", unsafe_allow_html=True)
     st.info("""
-    Ce projet consiste à collecter, nettoyer et analyser les données de la HEM Dakar.  
-    **Objectif :** Transformer des données brutes en informations exploitables pour le reporting et la prise de décision.
-
+    Ce projet collecte, nettoie et analyse les données de la HEM Dakar.
+    **Objectif :** Transformer des données brutes en informations exploitables pour reporting et décision.
+    
     **Processus ETL simplifié :**
-    1. **Collecte :** Données d'étudiants, enseignants et cours depuis différents fichiers CSV.
-    2. **Nettoyage :**
-       - Suppression des doublons et colonnes inutiles.
-       - Gestion des valeurs manquantes.
-       - Harmonisation des formats de dates et des libellés.
-    3. **Enrichissement :**
-       - Création d'identifiants uniques pour les formations.
-       - Calcul des volumes horaires annuels et coûts enseignants.
-    4. **Agrégation :**
-       - Calcul du chiffre d'affaires, des marges et des taux de réussite par formation.
-    5. **Modélisation :**
-       - Schéma en étoile optimisé pour analyse multidimensionnelle.
+    1. Collecte : étudiants, enseignants, cours depuis CSV.
+    2. Nettoyage : suppression doublons, colonnes inutiles, harmonisation formats.
+    3. Enrichissement : identifiants uniques, calcul volumes horaires et coûts.
+    4. Agrégation : calcul CA, marges, taux de réussite.
+    5. Modélisation : schéma en étoile pour analyse multidimensionnelle.
     """)
 
 # ===========================
-# Fonction de chargement CSV
+# Chargement CSV
 # ===========================
 def load_csv_from_github(repo_base_url, file_list, sep=","):
-    """Charge des fichiers CSV depuis GitHub et normalise les colonnes."""
     dfs = {}
     for f in file_list:
         url = f"{repo_base_url}/{f}"
@@ -64,70 +55,42 @@ def load_csv_from_github(repo_base_url, file_list, sep=","):
     return dfs
 
 # ===========================
-# Exploration graphique
+# KPI interactif avec nom de formation
 # ===========================
-def explore_data(df, name):
-    st.markdown(f"<h2 class='section-header'>📊 Analyse : {name}</h2>", unsafe_allow_html=True)
-    st.info("💡 Explorez la distribution des variables numériques et la répartition des catégories.")
-
-    st.write("### 👀 Aperçu des données")
-    st.dataframe(df.head())
-
-    st.write("### 📑 Statistiques descriptives")
-    st.dataframe(df.describe(include='all'))
-
-    cat_cols = df.select_dtypes(include=['object']).columns.tolist()
-    if cat_cols:
-        col = st.selectbox(f"📌 Variable catégorielle ({name})", cat_cols, key=f"cat_{name}")
-        if col:
-            fig = px.pie(df, names=col, title=f"Répartition de {col}")
-            st.plotly_chart(fig, use_container_width=True)
-
-    num_cols = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
-    if num_cols:
-        col = st.selectbox(f"📌 Variable numérique ({name})", num_cols, key=f"num_{name}")
-        if col:
-            col1, col2 = st.columns(2)
-            with col1:
-                fig_hist = px.histogram(df, x=col, nbins=20, title=f"Distribution de {col}", color_discrete_sequence=['#FF9933'])
-                st.plotly_chart(fig_hist, use_container_width=True)
-                st.info("Histogramme : répartition des valeurs numériques.")
-            with col2:
-                fig_box = px.box(df, y=col, title=f"Boxplot de {col}", color_discrete_sequence=['#3399FF'])
-                st.plotly_chart(fig_box, use_container_width=True)
-                st.info("Boxplot : visualisation des valeurs atypiques et de la médiane.")
-
-# ===========================
-# KPI interactif par année et formation
-# ===========================
-def calculate_kpi_by_year(df_kpi, df_formation):
+def calculate_kpi_interactive(df_kpi, df_formation):
+    # Vérification des colonnes
     required_cols = ['id_formation', 'annee_academique', 'ca_total_millions', 'cout_total_professeur_millions']
     if not all(col in df_kpi.columns for col in required_cols):
         st.error(f"Le fichier Fait_KPI.csv doit contenir les colonnes : {required_cols}")
         return
-
-    # Filtrer pour années 2023 et 2024
-    df_kpi = df_kpi[df_kpi['annee_academique'].isin([2023, 2024])]
     
-    # Ajouter le nom de la formation
-    df_kpi = df_kpi.merge(df_formation[['id_formation','formation']], on='id_formation', how='left')
-    
-    # Renommer colonnes
-    df_kpi = df_kpi.rename(columns={'ca_total_millions':'CA','cout_total_professeur_millions':'Cout'})
+    # Fusion avec Table_Formation pour récupérer les noms
+    df_kpi = df_kpi.merge(df_formation[['id_formation', 'formation']], on='id_formation', how='left')
+    df_kpi['CA'] = df_kpi['ca_total_millions']
+    df_kpi['Cout'] = df_kpi['cout_total_professeur_millions']
     df_kpi['Marge'] = df_kpi['CA'] - df_kpi['Cout']
-    
-    st.markdown("<h2 class='section-header'>💰 KPI par Formation (2023 & 2024)</h2>", unsafe_allow_html=True)
-    st.info("💡 Le graphique montre le CA et le Coût pour chaque formation, par année académique.")
 
-    # Graphique interactif avec Plotly Express
-    fig = px.bar(
-        df_kpi, x='formation', y=['CA','Cout'],
-        color='annee_academique', barmode='group',
-        text_auto=True,
-        labels={'value':'Montant en millions', 'formation':'Formation', 'variable':'Indicateur', 'annee_academique':'Année'},
-        title="💹 CA et Coût par Formation pour 2023 & 2024"
-    )
-    fig.update_layout(xaxis_tickangle=-45)
+    # Filtre année académique
+    annees = st.multiselect("Sélectionner l'année académique", options=sorted(df_kpi['annee_academique'].unique()), default=[2023,2024])
+    df_kpi_filtered = df_kpi[df_kpi['annee_academique'].isin(annees)]
+
+    # Top formations par CA
+    top_n = st.slider("Nombre de formations à afficher", min_value=1, max_value=len(df_kpi_filtered), value=min(10,len(df_kpi_filtered)))
+    kpi_top = df_kpi_filtered.sort_values('CA', ascending=False).head(top_n)
+
+    st.markdown("<h2 class='section-header'>💰 KPI par Formation</h2>", unsafe_allow_html=True)
+    st.dataframe(kpi_top[['formation','annee_academique','CA','Cout','Marge']])
+
+    # Graphique combiné CA, Coût, Marge
+    fig = go.Figure()
+    fig.add_trace(go.Bar(x=kpi_top['formation'] + " (" + kpi_top['annee_academique'].astype(str) + ")",
+                         y=kpi_top['CA'], name='Chiffre d\'Affaires', marker_color='orange', text=kpi_top['CA'], textposition='auto'))
+    fig.add_trace(go.Bar(x=kpi_top['formation'] + " (" + kpi_top['annee_academique'].astype(str) + ")",
+                         y=kpi_top['Cout'], name='Coût', marker_color='blue', text=kpi_top['Cout'], textposition='auto'))
+    fig.add_trace(go.Bar(x=kpi_top['formation'] + " (" + kpi_top['annee_academique'].astype(str) + ")",
+                         y=kpi_top['Marge'], name='Marge', marker_color='green', text=kpi_top['Marge'], textposition='auto'))
+
+    fig.update_layout(barmode='group', title="💹 KPIs par Formation et Année", xaxis_title="Formation (Année)", yaxis_title="Montants en millions", legend_title="Indicateurs")
     st.plotly_chart(fig, use_container_width=True)
 
 # ===========================
@@ -136,7 +99,7 @@ def calculate_kpi_by_year(df_kpi, df_formation):
 def main():
     st.markdown("<h1 style='text-align:center;color:#003366;'>📊 Dashboard Analytique HEM Dakar</h1>", unsafe_allow_html=True)
     st.sidebar.title("📌 Navigation")
-    menu = st.sidebar.radio("Sélectionner une section", ["Résumé du Projet", "Données Brutes", "Données Traitées", "Exploration Graphique", "KPI Formations"])
+    menu = st.sidebar.radio("Sélectionner une section", ["Résumé du Projet", "Données Brutes", "Données Traitées", "KPI Formations"])
 
     repo_base = "https://raw.githubusercontent.com/ABDOULAYEDIOP150/Rapport-de-Stage/main"
     raw_files = ["etudiants_annee_2021.csv","etudiants_annee_2022.csv","etudiants_annee_2023.csv","etudiants_annee_2024.csv","professeurs.csv","gestion_enseignements.csv"]
@@ -146,35 +109,25 @@ def main():
         display_etl_summary()
     elif menu == "Données Brutes":
         st.markdown("<h2 class='section-header'>📂 Données Brutes</h2>", unsafe_allow_html=True)
-        st.info("💡 Fichiers originaux collectés, non nettoyés.")
         dfs = load_csv_from_github(repo_base, raw_files, sep=";")
         for name, df in dfs.items():
             with st.expander(name):
                 st.dataframe(df.head(20))
     elif menu == "Données Traitées":
         st.markdown("<h2 class='section-header'>🔄 Données Traitées</h2>", unsafe_allow_html=True)
-        st.info("💡 Données nettoyées, enrichies et prêtes pour l'analyse.")
         dfs = load_csv_from_github(repo_base, proc_files, sep=",")
         for name, df in dfs.items():
             with st.expander(name):
                 st.dataframe(df.head(20))
-    elif menu == "Exploration Graphique":
-        st.markdown("<h2 class='section-header'>🔎 Exploration Graphique</h2>", unsafe_allow_html=True)
-        st.info("💡 Explorez graphiquement les distributions et catégories.")
-        dfs = load_csv_from_github(repo_base, proc_files, sep=",")
-        for name, df in dfs.items():
-            with st.expander(name):
-                explore_data(df, name)
-    else:
+    else:  # KPI Formations
         st.markdown("<h2 class='section-header'>📈 KPI Formations</h2>", unsafe_allow_html=True)
-        st.info("💡 Analyse interactive des indicateurs financiers par formation pour 2023 et 2024.")
         dfs = load_csv_from_github(repo_base, ["Fait_KPI.csv","Table_Formation.csv"], sep=",")
         df_kpi = dfs.get("fait_kpi")
         df_formation = dfs.get("table_formation")
         if df_kpi is not None and df_formation is not None:
-            calculate_kpi_by_year(df_kpi, df_formation)
+            calculate_kpi_interactive(df_kpi, df_formation)
         else:
-            st.error("❌ Fichiers Fait_KPI.csv ou Table_Formation.csv non trouvés.")
+            st.error("❌ Fichiers nécessaires non trouvés (Fait_KPI.csv et Table_Formation.csv).")
 
 # ===========================
 # Point d'entrée
