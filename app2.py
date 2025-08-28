@@ -11,14 +11,12 @@ st.set_page_config(
     page_icon="📊"
 )
 
-# Style personnalisé
 st.markdown("""
 <style>
   html, body, [class*="css"] { font-family: 'Roboto', sans-serif; }
   h1, h2, h3, h4 { color: #003366; }
   .stSidebar { background-color: #F4F6F8; }
   .section-header { font-size: 1.6rem; color: #0066CC; margin-top: 1rem; }
-  .info-box { background-color: #F0F8FF; padding: 1rem; border-radius: 0.5rem; margin: 0.5rem 0; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -55,32 +53,38 @@ def load_csv_from_github(repo_base_url, file_list, sep=","):
     return dfs
 
 # ===========================
-# KPI interactif pour une année donnée
+# KPI par formation avec jointure
 # ===========================
-def calculate_kpi_for_year(df_kpi, df_formation, year_selected):
-    # Vérification des colonnes
-    required_cols = ['id_formation', 'annee_academique', 'ca_total_millions', 'cout_total_professeur_millions']
-    if not all(col in df_kpi.columns for col in required_cols):
-        st.error(f"Le fichier Fait_KPI.csv doit contenir les colonnes : {required_cols}")
+def calculate_kpi_with_joins(df_kpi, df_formation, df_temps, year_selected):
+    # Vérifier colonnes essentielles
+    required_kpi_cols = ['id_formation', 'annee_academique', 'ca_total_millions', 'cout_total_professeur_millions']
+    if not all(col in df_kpi.columns for col in required_kpi_cols):
+        st.error(f"Le fichier Fait_KPI.csv doit contenir : {required_kpi_cols}")
         return
 
-    # Filtrer par année
+    # Filtrer par année académique sélectionnée
     df_kpi_year = df_kpi[df_kpi['annee_academique'] == year_selected]
 
-    # Fusion pour récupérer le nom de la formation
+    # Jointure avec Table_Formation pour récupérer le nom de la formation
     df_kpi_year = df_kpi_year.merge(df_formation[['id_formation', 'formation']], on='id_formation', how='left')
+
+    # Optionnel : joindre avec Dim_Temps pour récupérer infos temporelles supplémentaires
+    # Ici, on suppose que Dim_Temps contient 'annee_academique' et 'id_temps'
+    df_kpi_year = df_kpi_year.merge(df_temps[['annee_academique']], on='annee_academique', how='left')
+
+    # Calcul des indicateurs
     df_kpi_year['CA'] = df_kpi_year['ca_total_millions']
     df_kpi_year['Cout'] = df_kpi_year['cout_total_professeur_millions']
     df_kpi_year['Marge'] = df_kpi_year['CA'] - df_kpi_year['Cout']
 
-    # Trier et afficher top N formations
+    # Top N formations
     top_n = st.slider("Nombre de formations à afficher", min_value=1, max_value=len(df_kpi_year), value=min(10,len(df_kpi_year)))
     df_top = df_kpi_year.sort_values('CA', ascending=False).head(top_n)
 
     st.markdown(f"<h2 class='section-header'>💰 KPI par Formation - Année {year_selected}</h2>", unsafe_allow_html=True)
     st.dataframe(df_top[['formation','CA','Cout','Marge']])
 
-    # Graphique CA, Coût, Marge
+    # Graphique combiné
     fig = go.Figure()
     fig.add_trace(go.Bar(x=df_top['formation'], y=df_top['CA'], name='Chiffre d\'Affaires', marker_color='orange', text=df_top['CA'], textposition='auto'))
     fig.add_trace(go.Bar(x=df_top['formation'], y=df_top['Cout'], name='Coût', marker_color='blue', text=df_top['Cout'], textposition='auto'))
@@ -117,14 +121,15 @@ def main():
                 st.dataframe(df.head(20))
     else:  # KPI Formations
         st.markdown("<h2 class='section-header'>📈 KPI Formations</h2>", unsafe_allow_html=True)
-        dfs = load_csv_from_github(repo_base, ["Fait_KPI.csv","Table_Formation.csv"], sep=",")
+        dfs = load_csv_from_github(repo_base, ["Fait_KPI.csv","Table_Formation.csv","Dim_Temps.csv"], sep=",")
         df_kpi = dfs.get("fait_kpi")
         df_formation = dfs.get("table_formation")
-        if df_kpi is not None and df_formation is not None:
+        df_temps = dfs.get("dim_temps")
+        if df_kpi is not None and df_formation is not None and df_temps is not None:
             year_selected = st.radio("Choisir l'année académique pour l'analyse", [2023, 2024], index=1)
-            calculate_kpi_for_year(df_kpi, df_formation, year_selected)
+            calculate_kpi_with_joins(df_kpi, df_formation, df_temps, year_selected)
         else:
-            st.error("❌ Fichiers nécessaires non trouvés (Fait_KPI.csv et Table_Formation.csv).")
+            st.error("❌ Fichiers nécessaires non trouvés (Fait_KPI.csv, Table_Formation.csv et Dim_Temps.csv).")
 
 # ===========================
 # Point d'entrée
