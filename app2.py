@@ -64,7 +64,7 @@ def load_csv_from_github(repo_base_url, file_list, sep=","):
     return dfs
 
 # ===========================
-# Fonction d'exploration graphique
+# Exploration graphique
 # ===========================
 def explore_data(df, name):
     st.markdown(f"<h2 class='section-header'>📊 Analyse : {name}</h2>", unsafe_allow_html=True)
@@ -98,31 +98,36 @@ def explore_data(df, name):
                 st.info("Boxplot : visualisation des valeurs atypiques et de la médiane.")
 
 # ===========================
-# Calcul KPI interactif amélioré
+# KPI interactif par année et formation
 # ===========================
-def calculate_kpi_interactive(df_kpi):
-    required_cols = ['id_formation', 'ca_total_millions', 'cout_total_professeur_millions']
+def calculate_kpi_by_year(df_kpi, df_formation):
+    required_cols = ['id_formation', 'annee_academique', 'ca_total_millions', 'cout_total_professeur_millions']
     if not all(col in df_kpi.columns for col in required_cols):
         st.error(f"Le fichier Fait_KPI.csv doit contenir les colonnes : {required_cols}")
         return
 
+    # Filtrer pour années 2023 et 2024
+    df_kpi = df_kpi[df_kpi['annee_academique'].isin([2023, 2024])]
+    
+    # Ajouter le nom de la formation
+    df_kpi = df_kpi.merge(df_formation[['id_formation','formation']], on='id_formation', how='left')
+    
+    # Renommer colonnes
     df_kpi = df_kpi.rename(columns={'ca_total_millions':'CA','cout_total_professeur_millions':'Cout'})
     df_kpi['Marge'] = df_kpi['CA'] - df_kpi['Cout']
+    
+    st.markdown("<h2 class='section-header'>💰 KPI par Formation (2023 & 2024)</h2>", unsafe_allow_html=True)
+    st.info("💡 Le graphique montre le CA et le Coût pour chaque formation, par année académique.")
 
-    st.markdown("<h2 class='section-header'>💰 KPI par Formation</h2>", unsafe_allow_html=True)
-    st.info("💡 Analyse interactive du chiffre d'affaires, coût et marge pour chaque formation.")
-
-    top_n = st.slider("Nombre de formations à afficher", min_value=1, max_value=len(df_kpi), value=min(10,len(df_kpi)))
-    kpi_top = df_kpi.sort_values('CA', ascending=False).head(top_n)
-    st.dataframe(kpi_top)
-
-    # Graphique combiné CA, Coût et Marge
-    fig = go.Figure()
-    fig.add_trace(go.Bar(x=kpi_top['id_formation'], y=kpi_top['CA'], name='Chiffre d\'Affaires', marker_color='orange', text=kpi_top['CA'], textposition='auto'))
-    fig.add_trace(go.Bar(x=kpi_top['id_formation'], y=kpi_top['Cout'], name='Coût', marker_color='blue', text=kpi_top['Cout'], textposition='auto'))
-    fig.add_trace(go.Bar(x=kpi_top['id_formation'], y=kpi_top['Marge'], name='Marge', marker_color='green', text=kpi_top['Marge'], textposition='auto'))
-
-    fig.update_layout(barmode='group', title="💹 KPIs par Formation", xaxis_title="Formation", yaxis_title="Montants en millions", legend_title="Indicateurs")
+    # Graphique interactif avec Plotly Express
+    fig = px.bar(
+        df_kpi, x='formation', y=['CA','Cout'],
+        color='annee_academique', barmode='group',
+        text_auto=True,
+        labels={'value':'Montant en millions', 'formation':'Formation', 'variable':'Indicateur', 'annee_academique':'Année'},
+        title="💹 CA et Coût par Formation pour 2023 & 2024"
+    )
+    fig.update_layout(xaxis_tickangle=-45)
     st.plotly_chart(fig, use_container_width=True)
 
 # ===========================
@@ -162,13 +167,14 @@ def main():
                 explore_data(df, name)
     else:
         st.markdown("<h2 class='section-header'>📈 KPI Formations</h2>", unsafe_allow_html=True)
-        st.info("💡 Analyse interactive des indicateurs financiers par formation.")
-        dfs = load_csv_from_github(repo_base, ["Fait_KPI.csv"], sep=",")
+        st.info("💡 Analyse interactive des indicateurs financiers par formation pour 2023 et 2024.")
+        dfs = load_csv_from_github(repo_base, ["Fait_KPI.csv","Table_Formation.csv"], sep=",")
         df_kpi = dfs.get("fait_kpi")
-        if df_kpi is not None:
-            calculate_kpi_interactive(df_kpi)
+        df_formation = dfs.get("table_formation")
+        if df_kpi is not None and df_formation is not None:
+            calculate_kpi_by_year(df_kpi, df_formation)
         else:
-            st.error("❌ Fichier Fait_KPI.csv non trouvé.")
+            st.error("❌ Fichiers Fait_KPI.csv ou Table_Formation.csv non trouvés.")
 
 # ===========================
 # Point d'entrée
