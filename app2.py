@@ -24,7 +24,6 @@ def load_csv_from_github(repo_base_url, file_list, sep=","):
         url = f"{repo_base_url}/{f}"
         try:
             df = pd.read_csv(url, sep=sep)
-            # Nettoyer les noms de colonnes
             df.columns = df.columns.str.strip().str.lower()
             dfs[f.replace(".csv", "").lower()] = df
         except Exception as e:
@@ -39,11 +38,9 @@ def explore_data(df, name):
     st.write("### 👀 Aperçu des données")
     st.dataframe(df.head())
 
-    # Statistiques descriptives simples
     st.write("### 📑 Statistiques descriptives")
     st.dataframe(df.describe(include='all'))
 
-    # Variables catégorielles -> graphique circulaire
     cat_cols = df.select_dtypes(include=['object']).columns.tolist()
     if cat_cols:
         col = st.selectbox(f"📌 Choisir une variable catégorielle ({name})", cat_cols, key=f"cat_{name}")
@@ -52,7 +49,6 @@ def explore_data(df, name):
             st.plotly_chart(fig, use_container_width=True)
             st.info("💡 Ce graphique montre la proportion de chaque catégorie.")
 
-    # Variables numériques -> histogramme et boxplot
     num_cols = df.select_dtypes(include=['int64', 'float64']).columns.tolist()
     if num_cols:
         col = st.selectbox(f"📌 Choisir une variable numérique ({name})", num_cols, key=f"num_{name}")
@@ -71,18 +67,21 @@ def explore_data(df, name):
 # Calcul CA et Coût par Formation
 # ===========================
 def calculate_kpi(df_kpi):
-    # Vérifier les colonnes essentielles
-    required_cols = ['annee', 'id_formation', 'ca', 'cout']
+    # Colonnes existantes dans le fichier
+    required_cols = ['id_formation', 'ca_total_millions', 'cout_total_professeur_millions']
     if not all(col in df_kpi.columns for col in required_cols):
         st.error(f"Le fichier Fait_KPI.csv doit contenir les colonnes : {required_cols}")
         st.write("Colonnes disponibles :", df_kpi.columns.tolist())
         return
 
-    # Filtrer à partir de l'année 2023
-    df_kpi = df_kpi[df_kpi['annee'] >= 2023]
+    # Renommer les colonnes pour simplifier
+    df_kpi = df_kpi.rename(columns={
+        'ca_total_millions': 'ca',
+        'cout_total_professeur_millions': 'cout'
+    })
 
-    # Calcul du CA et du coût par formation
-    kpi_summary = df_kpi.groupby(['id_formation', 'annee']).agg(
+    # Somme par formation (regroupement)
+    kpi_summary = df_kpi.groupby('id_formation').agg(
         CA=('ca', 'sum'),
         Cout=('cout', 'sum')
     ).reset_index()
@@ -91,8 +90,8 @@ def calculate_kpi(df_kpi):
     st.dataframe(kpi_summary)
 
     # Graphiques interactifs
-    fig_ca = px.bar(kpi_summary, x='id_formation', y='CA', color='annee', barmode='group', title="CA par formation")
-    fig_cout = px.bar(kpi_summary, x='id_formation', y='Cout', color='annee', barmode='group', title="Coût par formation")
+    fig_ca = px.bar(kpi_summary, x='id_formation', y='CA', title="CA par formation", color='CA', color_continuous_scale='Oranges')
+    fig_cout = px.bar(kpi_summary, x='id_formation', y='Cout', title="Coût par formation", color='Cout', color_continuous_scale='Blues')
     
     st.plotly_chart(fig_ca, use_container_width=True)
     st.plotly_chart(fig_cout, use_container_width=True)
