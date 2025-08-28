@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
-import zipfile
 import matplotlib.pyplot as plt
 import seaborn as sns
-import os
 
 # ===========================
 # Configuration globale
@@ -21,20 +19,22 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ===========================
-# 1️⃣ Charger CSV depuis ZIP
+# 1️⃣ Charger CSV depuis GitHub
 # ===========================
-def load_csv_from_zip(zip_path):
+def load_csv_from_github(repo_url, file_list):
+    """
+    repo_url : URL de base GitHub 'raw'
+    file_list : liste des fichiers CSV à charger
+    """
     dataframes = {}
-    try:
-        with zipfile.ZipFile(zip_path, 'r') as z:
-            for file in z.namelist():
-                if file.endswith('.csv'):
-                    with z.open(file) as f:
-                        df = pd.read_csv(f, sep=None, engine='python')
-                        name = os.path.splitext(os.path.basename(file))[0].lower()
-                        dataframes[name] = df
-    except Exception as e:
-        st.error(f"Erreur lors du traitement de {zip_path}: {e}")
+    for file in file_list:
+        try:
+            url = f"{repo_url}/{file}"
+            df = pd.read_csv(url)
+            name = file.replace(".csv", "").lower()
+            dataframes[name] = df
+        except Exception as e:
+            st.error(f"❌ Erreur lors du chargement de {file} : {e}")
     return dataframes
 
 # ===========================
@@ -42,8 +42,8 @@ def load_csv_from_zip(zip_path):
 # ===========================
 def calculate_kpis(dataframes):
     kpi_results = {}
-    if "table_inscription" in dataframes:
-        df = dataframes["table_inscription"]
+    if "table_inscription1" in dataframes:
+        df = dataframes["table_inscription1"]
 
         if {'id_formation', 'CODE_ETUDIANT'}.issubset(df.columns):
             nb_etudiants = df.groupby('id_formation')['CODE_ETUDIANT'].nunique().reset_index()
@@ -73,7 +73,6 @@ def calculate_kpis(dataframes):
 # ===========================
 def explore_data(df, name):
     st.markdown(f"<h2 style='color:#0066CC;'>📊 Analyse : {name}</h2>", unsafe_allow_html=True)
-    st.info("🔍 Astuce : Explorez les distributions pour détecter des anomalies.")
 
     st.write("### 👀 Aperçu des données")
     st.dataframe(df.head())
@@ -107,71 +106,70 @@ def explore_data(df, name):
             fig, ax = plt.subplots(figsize=(8,6))
             sns.heatmap(df[numeric_cols].corr(), annot=True, cmap='coolwarm', fmt=".2f", ax=ax)
             st.pyplot(fig)
-    else:
-        st.warning("Aucune colonne numérique pour générer des graphiques.")
 
 # ===========================
 # 4️⃣ Interface Streamlit
 # ===========================
 def main():
     st.markdown("<h1 style='text-align:center;color:#003366;'>📊 Dashboard Analytique</h1>", unsafe_allow_html=True)
-    st.markdown("<p style='text-align:center;color:#666;'>Analyse complète des données brutes et traitées avec KPIs & visualisations</p>", unsafe_allow_html=True)
 
     st.sidebar.title("📌 Menu Principal")
     menu = st.sidebar.radio("Navigation", ["📂 Données Brutes", "📊 Données Traitées & KPIs"])
 
-    # =================
-    # Données Brutes
-    # =================
+    # Ton lien GitHub RAW (⚠️ remplace par le tien)
+    repo_url = "https://raw.githubusercontent.com/ABDOULAYEDIOP150/ton_repo/main"
+
+    # Données brutes (exemple avec étudiants/profs/enseignements)
+    raw_files = [
+        "etudiants_annee_2021.csv",
+        "etudiants_annee_2022.csv",
+        "etudiants_annee_2023.csv",
+        "etudiants_annee_2024.csv",
+        "professeurs.csv",
+        "gestion_enseignements.csv"
+    ]
+
+    # Données traitées (les 5 tables)
+    processed_files = [
+        "Dim_Temps.csv",
+        "Etudiant_1.csv",
+        "Fait_KPI.csv",
+        "Table_Formation.csv",
+        "Table_Inscription1.csv"
+    ]
+
     if menu == "📂 Données Brutes":
-        st.markdown("<h2 style='color:#0066CC;'>📂 Visualisation des Données Brutes</h2>", unsafe_allow_html=True)
-        st.info("💡 Conseil : Uploadez votre fichier ZIP contenant les CSV bruts.")
-        uploaded_zip = st.file_uploader("📁 Upload fichier ZIP des données brutes", type="zip")
-        if uploaded_zip:
-            dataframes = load_csv_from_zip(uploaded_zip)
-            if not dataframes:
-                st.warning("Aucun CSV trouvé dans le ZIP.")
-            else:
-                for name, df in dataframes.items():
-                    with st.expander(f"📄 {name}"):
-                        st.dataframe(df.head(20))
+        dataframes = load_csv_from_github(repo_url, raw_files)
+        st.header("📂 Données Brutes")
+        for name, df in dataframes.items():
+            with st.expander(f"📄 {name}"):
+                st.dataframe(df.head(20))
 
-    # =================
-    # Données traitées
-    # =================
     elif menu == "📊 Données Traitées & KPIs":
-        st.markdown("<h2 style='color:#0066CC;'>📊 Données Traitées & KPIs</h2>", unsafe_allow_html=True)
-        st.info("📌 Conseil : Uploadez votre ZIP des données traitées.")
-        uploaded_zip = st.file_uploader("📁 Upload fichier ZIP des données traitées", type="zip")
-        if uploaded_zip:
-            dataframes = load_csv_from_zip(uploaded_zip)
-            if not dataframes:
-                st.warning("Aucun CSV trouvé dans le ZIP.")
+        dataframes = load_csv_from_github(repo_url, processed_files)
+        st.header("📊 Données Traitées & KPIs")
+
+        st.sidebar.subheader("🔍 Sous-menu")
+        sub_menu = st.sidebar.radio("Options", ["📄 Visualisation", "📈 KPIs", "📊 Exploration Graphique"])
+
+        if sub_menu == "📄 Visualisation":
+            for name, df in dataframes.items():
+                with st.expander(f"📄 {name}"):
+                    st.dataframe(df.head(20))
+
+        elif sub_menu == "📈 KPIs":
+            kpis = calculate_kpis(dataframes)
+            if not kpis:
+                st.warning("Aucun KPI calculé.")
             else:
-                st.sidebar.subheader("🔍 Sous-menu")
-                sub_menu = st.sidebar.radio("Options", ["📄 Visualisation", "📈 KPIs", "📊 Exploration Graphique"])
+                for kpi_name, kpi_df in kpis.items():
+                    st.subheader(kpi_name)
+                    st.dataframe(kpi_df)
 
-                if sub_menu == "📄 Visualisation":
-                    st.header("📂 Tables Traitées")
-                    for name, df in dataframes.items():
-                        with st.expander(f"📄 {name}"):
-                            st.dataframe(df.head(20))
-
-                elif sub_menu == "📈 KPIs":
-                    st.header("📈 KPIs")
-                    kpis = calculate_kpis(dataframes)
-                    if not kpis:
-                        st.warning("Aucun KPI calculé.")
-                    else:
-                        for kpi_name, kpi_df in kpis.items():
-                            st.subheader(kpi_name)
-                            st.dataframe(kpi_df)
-
-                elif sub_menu == "📊 Exploration Graphique":
-                    st.header("📊 Exploration Graphique")
-                    for name, df in dataframes.items():
-                        with st.expander(f"📈 Explorer {name}"):
-                            explore_data(df, name)
+        elif sub_menu == "📊 Exploration Graphique":
+            for name, df in dataframes.items():
+                with st.expander(f"📈 Explorer {name}"):
+                    explore_data(df, name)
 
 if __name__ == "__main__":
     main()
