@@ -35,18 +35,19 @@ def load_csv_from_github(repo_base_url, file_list):
 # ===========================
 def explore_data(df, name):
     st.markdown(f"<h2 style='color:#0066CC;'>Analyse : {name}</h2>", unsafe_allow_html=True)
-
     st.write("### Aperçu")
     st.dataframe(df.head())
-
-    st.write("### Statistiques descriptives")
+    
+    st.write("### Stats descriptives")
     st.dataframe(df.describe(include='all'))
-
+    
+    # Valeurs manquantes
     miss = df.isnull().sum()
     if miss.any():
         st.write("### Valeurs manquantes")
         st.bar_chart(miss)
-
+    
+    # Variables numériques
     num = df.select_dtypes(include=['int','float']).columns.tolist()
     if num:
         st.write("### Histogrammes")
@@ -72,26 +73,43 @@ def explore_data(df, name):
 # ===========================
 def main():
     st.markdown("<h1 style='text-align:center;color:#003366;'>Dashboard Analytique</h1>", unsafe_allow_html=True)
-    st.sidebar.title("Navigation")
+    st.sidebar.title("Menu")
+    menu = st.sidebar.radio("Navigation", ["Données Brutes", "Données Traitées", "Exploration Graphique"])
 
     repo = "https://raw.githubusercontent.com/ABDOULAYEDIOP150/Rapport-de-Stage/main"
-    all_files = [
+    raw_files = [
         "etudiants_annee_2021.csv", "etudiants_annee_2022.csv",
         "etudiants_annee_2023.csv", "etudiants_annee_2024.csv",
-        "professeurs.csv", "gestion_enseignements.csv",
+        "professeurs.csv", "gestion_enseignements.csv"
+    ]
+    proc_files = [
         "Dim_Temps.csv", "Etudiant_1.csv", "Fait_KPI.csv",
         "Table_Formation.csv", "Table_Inscription1.csv"
     ]
 
-    dfs = load_csv_from_github(repo, all_files)
+    # ================= Données brutes =================
+    if menu == "Données Brutes":
+        dfs = load_csv_from_github(repo, raw_files)
+        st.header("Données Brutes")
+        for name, df in dfs.items():
+            with st.expander(name):
+                st.dataframe(df.head(20))
 
-    # Navigation simple
-    menu = st.sidebar.radio("Choisissez un dataset :", list(dfs.keys()))
+    # ================= Données traitées =================
+    elif menu == "Données Traitées":
+        dfs = load_csv_from_github(repo, proc_files)
+        st.header("Données Traitées")
+        for name, df in dfs.items():
+            with st.expander(name):
+                st.dataframe(df.head(20))
 
-    if menu:
-        df = dfs[menu]
-        if df is not None and not df.empty:
-            explore_data(df, menu)
+    # ================= Exploration =================
+    else:
+        dfs = load_csv_from_github(repo, proc_files)
+        st.header("Exploration Graphique")
+        for name, df in dfs.items():
+            with st.expander(name):
+                explore_data(df, name)
 
 if __name__ == "__main__":
     main()
