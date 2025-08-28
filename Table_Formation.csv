@@ -1,0 +1,61 @@
+﻿formation_concerne,niveau_concerne,annee_academique,id_formation,total_heures_semaine
+Commerce International,L1,2021-2022,120211,39
+Commerce International,L1,2022-2023,120221,3
+Commerce International,L1,2023-2024,120231,40
+Commerce International,L1,2024-2025,120241,3
+Commerce International,L2,2022-2023,120222,44
+Commerce International,L2,2023-2024,120232,8
+Commerce International,L3,2023-2024,120233,4
+Commerce International,L3,2024-2025,120243,48
+Comptabilité,L1,2021-2022,520211,45
+Comptabilité,L1,2022-2023,520221,41
+Comptabilité,L1,2024-2025,520241,44
+Comptabilité,L2,2022-2023,520222,6
+Comptabilité,L2,2023-2024,520232,45
+Comptabilité,L3,2023-2024,520233,8
+Comptabilité,L3,2024-2025,520243,7
+Comptabilité Gestion,L1,2021-2022,620211,47
+Comptabilité Gestion,L1,2022-2023,620221,7
+Comptabilité Gestion,L1,2023-2024,620231,3
+Comptabilité Gestion,L2,2022-2023,620222,44
+Comptabilité Gestion,L2,2023-2024,620232,4
+Comptabilité Gestion,L2,2024-2025,620242,7
+Comptabilité Gestion,L3,2023-2024,620233,46
+Comptabilité Gestion,L3,2024-2025,620243,46
+Comptabilité et Gestion,L1,2021-2022,720211,42
+Comptabilité et Gestion,L1,2022-2023,720221,40
+Comptabilité et Gestion,L1,2024-2025,720241,41
+Comptabilité et Gestion,L2,2022-2023,720222,6
+Comptabilité et Gestion,L2,2023-2024,720232,44
+Comptabilité et Gestion,L3,2023-2024,720233,8
+Comptabilité et Gestion,L3,2024-2025,720243,10
+Douane transit,L1,2021-2022,420211,45
+Douane transit,L1,2022-2023,420221,47
+Douane transit,L1,2023-2024,420231,6
+Douane transit,L1,2024-2025,420241,48
+Douane transit,L2,2022-2023,420222,3
+Douane transit,L2,2023-2024,420232,41
+Douane transit,L2,2024-2025,420242,3
+Douane transit,L3,2023-2024,420233,3
+Douane transit,L3,2024-2025,420243,3
+Gestion des entreprises,L1,2021-2022,320211,50
+Gestion des entreprises,L1,2022-2023,320221,11
+Gestion des entreprises,L1,2023-2024,320231,12
+Gestion des entreprises,L2,2022-2023,320222,43
+Gestion des entreprises,L2,2023-2024,320232,43
+Gestion des entreprises,L2,2024-2025,320242,40
+Gestion des entreprises,L3,2024-2025,320243,10
+Hotellerie et Restauration,L1,2021-2022,820211,47
+Hotellerie et Restauration,L1,2022-2023,820221,43
+Hotellerie et Restauration,L1,2023-2024,820231,4
+Hotellerie et Restauration,L1,2024-2025,820241,7
+Hotellerie et Restauration,L2,2022-2023,820222,7
+Hotellerie et Restauration,L2,2023-2024,820232,44
+Hotellerie et Restauration,L3,2024-2025,820243,47
+Transport Logistique,L1,2021-2022,220211,45
+Transport Logistique,L1,2022-2023,220221,7
+Transport Logistique,L1,2023-2024,220231,43
+Transport Logistique,L1,2024-2025,220241,46
+Transport Logistique,L2,2022-2023,220222,49
+Transport Logistique,L2,2023-2024,220232,11
+Transport Logistique,L2,2024-2025,220242,9
