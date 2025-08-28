@@ -64,10 +64,9 @@ def explore_data(df, name):
                 st.info("💡 Le boxplot met en évidence la médiane et les valeurs atypiques (outliers).")
 
 # ===========================
-# Calcul CA et Coût par Formation
+# Calcul KPI interactif
 # ===========================
-def calculate_kpi(df_kpi):
-    # Colonnes existantes dans le fichier
+def calculate_kpi_interactive(df_kpi):
     required_cols = ['id_formation', 'ca_total_millions', 'cout_total_professeur_millions']
     if not all(col in df_kpi.columns for col in required_cols):
         st.error(f"Le fichier Fait_KPI.csv doit contenir les colonnes : {required_cols}")
@@ -80,21 +79,40 @@ def calculate_kpi(df_kpi):
         'cout_total_professeur_millions': 'cout'
     })
 
-    # Somme par formation (regroupement)
+    # Somme par formation
     kpi_summary = df_kpi.groupby('id_formation').agg(
         CA=('ca', 'sum'),
         Cout=('cout', 'sum')
     ).reset_index()
 
-    st.write("### 💰 Chiffre d'affaires et Coût par formation")
-    st.dataframe(kpi_summary)
+    st.write("### 💰 KPI par Formation")
+
+    # Filtre interactif Top N formations
+    top_n = st.slider("Nombre de formations à afficher", min_value=1, max_value=len(kpi_summary), value=len(kpi_summary))
+    kpi_top = kpi_summary.sort_values('CA', ascending=False).head(top_n)
+
+    st.dataframe(kpi_top)
 
     # Graphiques interactifs
-    fig_ca = px.bar(kpi_summary, x='id_formation', y='CA', title="CA par formation", color='CA', color_continuous_scale='Oranges')
-    fig_cout = px.bar(kpi_summary, x='id_formation', y='Cout', title="Coût par formation", color='Cout', color_continuous_scale='Blues')
-    
-    st.plotly_chart(fig_ca, use_container_width=True)
-    st.plotly_chart(fig_cout, use_container_width=True)
+    col1, col2 = st.columns(2)
+    with col1:
+        fig_ca = px.bar(
+            kpi_top, x='id_formation', y='CA',
+            title="💹 Chiffre d'Affaires par Formation",
+            color='CA', color_continuous_scale='Oranges',
+            text='CA', hover_data=['Cout']
+        )
+        fig_ca.update_traces(texttemplate='%{text:.2f}', textposition='outside')
+        st.plotly_chart(fig_ca, use_container_width=True)
+    with col2:
+        fig_cout = px.bar(
+            kpi_top, x='id_formation', y='Cout',
+            title="💰 Coût par Formation",
+            color='Cout', color_continuous_scale='Blues',
+            text='Cout', hover_data=['CA']
+        )
+        fig_cout.update_traces(texttemplate='%{text:.2f}', textposition='outside')
+        st.plotly_chart(fig_cout, use_container_width=True)
 
 # ===========================
 # Interface Streamlit
@@ -143,7 +161,7 @@ def main():
         dfs = load_csv_from_github(repo, ["Fait_KPI.csv"], sep=",")
         df_kpi = dfs.get("fait_kpi")
         if df_kpi is not None:
-            calculate_kpi(df_kpi)
+            calculate_kpi_interactive(df_kpi)
         else:
             st.error("❌ Fichier Fait_KPI.csv non trouvé.")
 
