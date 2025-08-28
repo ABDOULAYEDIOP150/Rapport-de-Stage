@@ -18,14 +18,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ===========================
-# Charger CSV depuis GitHub (RAW)
+# Charger CSV depuis GitHub (RAW) avec séparateur ;
 # ===========================
 def load_csv_from_github(repo_base_url, file_list):
     dfs = {}
     for f in file_list:
         url = f"{repo_base_url}/{f}"
         try:
-            dfs[f.replace(".csv","").lower()] = pd.read_csv(url)
+            dfs[f.replace(".csv","").lower()] = pd.read_csv(url, sep=";", encoding="utf-8")
         except Exception as e:
             st.error(f"❌ Erreur chargement {f} : {e}")
     return dfs
@@ -37,18 +37,18 @@ def explore_data(df, name):
     st.markdown(f"<h2 style='color:#0066CC;'>Analyse : {name}</h2>", unsafe_allow_html=True)
     st.write("### Aperçu")
     st.dataframe(df.head())
-    
+
     st.write("### Stats descriptives")
     st.dataframe(df.describe(include='all'))
-    
+
     # Valeurs manquantes
     miss = df.isnull().sum()
     if miss.any():
         st.write("### Valeurs manquantes")
         st.bar_chart(miss)
-    
+
     # Variables numériques
-    num = df.select_dtypes(include=['int','float']).columns.tolist()
+    num = df.select_dtypes(include=['int64','float64']).columns.tolist()
     if num:
         st.write("### Histogrammes")
         for col in num:
