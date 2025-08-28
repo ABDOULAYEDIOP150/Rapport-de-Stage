@@ -15,7 +15,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-
 # ===========================
 # Fonction de chargement CSV
 # ===========================
@@ -28,7 +27,6 @@ def load_csv_from_github(repo_base_url, file_list, sep=","):
         except Exception as e:
             st.error(f"❌ Erreur chargement {f} : {e}")
     return dfs
-
 
 # ===========================
 # Exploration graphique simple
@@ -66,6 +64,28 @@ def explore_data(df, name):
                 st.plotly_chart(fig, use_container_width=True)
                 st.info("💡 Le boxplot met en évidence la médiane et les valeurs atypiques (outliers).")
 
+# ===========================
+# Calcul CA et Coût par Formation
+# ===========================
+def calculate_kpi(df_kpi):
+    # Filtrer à partir de l'année 2023
+    df_kpi = df_kpi[df_kpi['annee'] >= 2023]
+    
+    # Calcul du CA et du coût par formation
+    kpi_summary = df_kpi.groupby(['id_formation', 'annee']).agg(
+        CA=('CA', 'sum'),
+        Cout=('Cout', 'sum')
+    ).reset_index()
+    
+    st.write("### 💰 Chiffre d'affaires et Coût par formation")
+    st.dataframe(kpi_summary)
+
+    # Graphiques interactifs
+    fig_ca = px.bar(kpi_summary, x='id_formation', y='CA', color='annee', barmode='group', title="CA par formation")
+    fig_cout = px.bar(kpi_summary, x='id_formation', y='Cout', color='annee', barmode='group', title="Coût par formation")
+    
+    st.plotly_chart(fig_ca, use_container_width=True)
+    st.plotly_chart(fig_cout, use_container_width=True)
 
 # ===========================
 # Interface Streamlit
@@ -73,11 +93,10 @@ def explore_data(df, name):
 def main():
     st.markdown("<h1 style='text-align:center;color:#003366;'>📊 Dashboard Analytique</h1>", unsafe_allow_html=True)
     st.sidebar.title("📌 Menu")
-    menu = st.sidebar.radio("Navigation", ["Données Brutes", "Données Traitées", "Exploration Graphique"])
+    menu = st.sidebar.radio("Navigation", ["Données Brutes", "Données Traitées", "Exploration Graphique", "KPI Formations"])
 
     repo = "https://raw.githubusercontent.com/ABDOULAYEDIOP150/Rapport-de-Stage/main"
     
-    # fichiers
     raw_files = [
         "etudiants_annee_2021.csv", "etudiants_annee_2022.csv",
         "etudiants_annee_2023.csv", "etudiants_annee_2024.csv",
@@ -88,30 +107,38 @@ def main():
         "Table_Formation.csv", "Table_Inscription1.csv"
     ]
 
-    # ================= Données brutes =================
     if menu == "Données Brutes":
         dfs = load_csv_from_github(repo, raw_files, sep=";")
         st.header("📂 Données Brutes")
         for name, df in dfs.items():
             with st.expander(name):
+                st.write(f"Nombre de lignes : {df.shape[0]}")
                 st.dataframe(df.head(20))
 
-    # ================= Données traitées =================
     elif menu == "Données Traitées":
         dfs = load_csv_from_github(repo, proc_files, sep=",")
         st.header("📂 Données Traitées")
         for name, df in dfs.items():
             with st.expander(name):
+                st.write(f"Nombre de lignes : {df.shape[0]}")
                 st.dataframe(df.head(20))
 
-    # ================= Exploration =================
-    else:
+    elif menu == "Exploration Graphique":
         dfs = load_csv_from_github(repo, proc_files, sep=",")
         st.header("🔎 Exploration Graphique")
         for name, df in dfs.items():
             with st.expander(name):
                 explore_data(df, name)
 
+    else:  # KPI Formations
+        dfs = load_csv_from_github(repo, ["Fait_KPI.csv"], sep=",")
+        df_kpi = dfs.get("fait_kpi")
+        if df_kpi is not None:
+            calculate_kpi(df_kpi)
+        else:
+            st.error("❌ Fichier Fait_KPI.csv non trouvé.")
+
 
 if __name__ == "__main__":
     main()
+
