@@ -1,0 +1,1133 @@
+﻿ID_Formation;Formation;Niveau;Année académique;Semestre;ID_Matiere;Matière;Professeur;Heures/semaine;Heures/mois;Taux horaire;Montant
+1;Commerce International;L1;2021-2022;S1;6.0;Communication d'entreprise;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L1;2021-2022;S1;34.0;Gestion des risques;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L1;2021-2022;S1;72.0;Étude de marché;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L1;2021-2022;S1;5.0;Commerce électronique;Mamadou BIAGUI;3;12;3000;36000
+1;Commerce International;L1;2021-2022;S1;18.0;Droit du commerce international;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L1;2021-2022;S1;22.0;Finance internationale;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L1;2021-2022;S1;;;TOTAL S1;20;80;;240000
+1;Commerce International;L1;2021-2022;S2;28.0;Gestion de projet;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L1;2021-2022;S2;16.0;Droit des affaires;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L1;2021-2022;S2;49.0;Marketing digital;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L1;2021-2022;S2;52.0;Négociation commerciale;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L1;2021-2022;S2;61.0;Stratégie d'entreprise;Mamadou BIAGUI;3;12;3000;36000
+1;Commerce International;L1;2021-2022;S2;42.0;Logistique internationale;Mamadou BIAGUI;3;12;3000;36000
+1;Commerce International;L1;2021-2022;S2;;;TOTAL S2;19;76;;228000
+1;Commerce International;L1;2021-2022;;;;TOTAL ANNUEL;39;156;;468000
+1;Commerce International;L1;2022-2023;S1;6.0;Communication d'entreprise;Mamadou BIAGUI;3;12;3000;36000
+1;Commerce International;L1;2022-2023;S1;34.0;Gestion des risques;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L1;2022-2023;S1;72.0;Étude de marché;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L1;2022-2023;S1;5.0;Commerce électronique;Mamadou BIAGUI;3;12;3000;36000
+1;Commerce International;L1;2022-2023;S1;18.0;Droit du commerce international;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L1;2022-2023;S1;22.0;Finance internationale;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L1;2022-2023;S1;;;TOTAL S1;18;72;;216000
+1;Commerce International;L1;2022-2023;S2;28.0;Gestion de projet;Mamadou BIAGUI;2;8;3000;24000
+1;Commerce International;L1;2022-2023;S2;16.0;Droit des affaires;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L1;2022-2023;S2;49.0;Marketing digital;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L1;2022-2023;S2;52.0;Négociation commerciale;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L1;2022-2023;S2;61.0;Stratégie d'entreprise;Mamadou BIAGUI;3;12;3000;36000
+1;Commerce International;L1;2022-2023;S2;42.0;Logistique internationale;Ousmane DIOUF;4;16;3000;48000
+1;Commerce International;L1;2022-2023;S2;;;TOTAL S2;19;76;;228000
+1;Commerce International;L1;2022-2023;;;;TOTAL ANNUEL;37;148;;444000
+1;Commerce International;L1;2023-2024;S1;6.0;Communication d'entreprise;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L1;2023-2024;S1;34.0;Gestion des risques;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L1;2023-2024;S1;72.0;Étude de marché;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L1;2023-2024;S1;5.0;Commerce électronique;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L1;2023-2024;S1;18.0;Droit du commerce international;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L1;2023-2024;S1;22.0;Finance internationale;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L1;2023-2024;S1;;;TOTAL S1;19;76;;228000
+1;Commerce International;L1;2023-2024;S2;28.0;Gestion de projet;Cheikh SARR;2;8;3000;24000
+1;Commerce International;L1;2023-2024;S2;16.0;Droit des affaires;Cheikh SARR;4;16;3000;48000
+1;Commerce International;L1;2023-2024;S2;49.0;Marketing digital;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L1;2023-2024;S2;52.0;Négociation commerciale;Cheikh SARR;4;16;3000;48000
+1;Commerce International;L1;2023-2024;S2;61.0;Stratégie d'entreprise;Mamadou BIAGUI;3;12;3000;36000
+1;Commerce International;L1;2023-2024;S2;42.0;Logistique internationale;Ousmane DIOUF;4;16;3000;48000
+1;Commerce International;L1;2023-2024;S2;;;TOTAL S2;21;84;;252000
+1;Commerce International;L1;2023-2024;;;;TOTAL ANNUEL;40;160;;480000
+1;Commerce International;L1;2024-2025;S1;6.0;Communication d'entreprise;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L1;2024-2025;S1;34.0;Gestion des risques;Ousmane DIOUF;4;16;3000;48000
+1;Commerce International;L1;2024-2025;S1;72.0;Étude de marché;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L1;2024-2025;S1;5.0;Commerce électronique;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L1;2024-2025;S1;18.0;Droit du commerce international;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L1;2024-2025;S1;22.0;Finance internationale;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L1;2024-2025;S1;;;TOTAL S1;20;80;;240000
+1;Commerce International;L1;2024-2025;S2;28.0;Gestion de projet;Cheikh SARR;2;8;3000;24000
+1;Commerce International;L1;2024-2025;S2;16.0;Droit des affaires;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L1;2024-2025;S2;49.0;Marketing digital;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L1;2024-2025;S2;52.0;Négociation commerciale;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L1;2024-2025;S2;61.0;Stratégie d'entreprise;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L1;2024-2025;S2;42.0;Logistique internationale;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L1;2024-2025;S2;;;TOTAL S2;21;84;;252000
+1;Commerce International;L1;2024-2025;;;;TOTAL ANNUEL;41;164;;492000
+1;Commerce International;L2;2022-2023;S1;16.0;Droit des affaires;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L2;2022-2023;S1;18.0;Droit du commerce international;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L2;2022-2023;S1;46.0;Management interculturel;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L2;2022-2023;S1;72.0;Étude de marché;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L2;2022-2023;S1;61.0;Stratégie d'entreprise;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L2;2022-2023;S1;5.0;Commerce électronique;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L2;2022-2023;S1;28.0;Gestion de projet;Cheikh SARR;2;8;3000;24000
+1;Commerce International;L2;2022-2023;S1;;;TOTAL S1;23;92;;276000
+1;Commerce International;L2;2022-2023;S2;22.0;Finance internationale;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L2;2022-2023;S2;42.0;Logistique internationale;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L2;2022-2023;S2;58.0;Principes de marketing;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L2;2022-2023;S2;49.0;Marketing digital;Ousmane DIOUF;4;16;3000;48000
+1;Commerce International;L2;2022-2023;S2;6.0;Communication d'entreprise;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L2;2022-2023;S2;34.0;Gestion des risques;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L2;2022-2023;S2;;;TOTAL S2;21;84;;252000
+1;Commerce International;L2;2022-2023;;;;TOTAL ANNUEL;44;176;;528000
+1;Commerce International;L2;2023-2024;S1;16.0;Droit des affaires;Ousmane DIOUF;4;16;3000;48000
+1;Commerce International;L2;2023-2024;S1;18.0;Droit du commerce international;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L2;2023-2024;S1;46.0;Management interculturel;Cheikh SARR;4;16;3000;48000
+1;Commerce International;L2;2023-2024;S1;72.0;Étude de marché;Cheikh SARR;4;16;3000;48000
+1;Commerce International;L2;2023-2024;S1;61.0;Stratégie d'entreprise;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L2;2023-2024;S1;5.0;Commerce électronique;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L2;2023-2024;S1;28.0;Gestion de projet;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L2;2023-2024;S1;;;TOTAL S1;26;104;;312000
+1;Commerce International;L2;2023-2024;S2;22.0;Finance internationale;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L2;2023-2024;S2;42.0;Logistique internationale;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L2;2023-2024;S2;58.0;Principes de marketing;Ousmane DIOUF;4;16;3000;48000
+1;Commerce International;L2;2023-2024;S2;49.0;Marketing digital;Cheikh SARR;4;16;3000;48000
+1;Commerce International;L2;2023-2024;S2;6.0;Communication d'entreprise;Ousmane DIOUF;4;16;3000;48000
+1;Commerce International;L2;2023-2024;S2;34.0;Gestion des risques;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L2;2023-2024;S2;;;TOTAL S2;22;88;;264000
+1;Commerce International;L2;2023-2024;;;;TOTAL ANNUEL;48;192;;576000
+1;Commerce International;L2;2024-2025;S1;16.0;Droit des affaires;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L2;2024-2025;S1;18.0;Droit du commerce international;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L2;2024-2025;S1;46.0;Management interculturel;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L2;2024-2025;S1;72.0;Étude de marché;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L2;2024-2025;S1;61.0;Stratégie d'entreprise;Mamadou BIAGUI;3;12;3000;36000
+1;Commerce International;L2;2024-2025;S1;5.0;Commerce électronique;Mamadou BIAGUI;3;12;3000;36000
+1;Commerce International;L2;2024-2025;S1;28.0;Gestion de projet;Mamadou BIAGUI;3;12;3000;36000
+1;Commerce International;L2;2024-2025;S1;;;TOTAL S1;23;92;;276000
+1;Commerce International;L2;2024-2025;S2;22.0;Finance internationale;Ousmane DIOUF;4;16;3000;48000
+1;Commerce International;L2;2024-2025;S2;42.0;Logistique internationale;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L2;2024-2025;S2;58.0;Principes de marketing;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L2;2024-2025;S2;49.0;Marketing digital;Cheikh SARR;4;16;3000;48000
+1;Commerce International;L2;2024-2025;S2;6.0;Communication d'entreprise;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L2;2024-2025;S2;34.0;Gestion des risques;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L2;2024-2025;S2;;;TOTAL S2;22;88;;264000
+1;Commerce International;L2;2024-2025;;;;TOTAL ANNUEL;45;180;;540000
+1;Commerce International;L3;2023-2024;S1;49.0;Marketing digital;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L3;2023-2024;S1;52.0;Négociation commerciale;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L3;2023-2024;S1;46.0;Management interculturel;Cheikh SARR;4;16;3000;48000
+1;Commerce International;L3;2023-2024;S1;6.0;Communication d'entreprise;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L3;2023-2024;S1;58.0;Principes de marketing;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L3;2023-2024;S1;72.0;Étude de marché;Cheikh SARR;4;16;3000;48000
+1;Commerce International;L3;2023-2024;S1;71.0;Économie internationale;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L3;2023-2024;S1;;;TOTAL S1;26;104;;312000
+1;Commerce International;L3;2023-2024;S2;34.0;Gestion des risques;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L3;2023-2024;S2;61.0;Stratégie d'entreprise;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L3;2023-2024;S2;28.0;Gestion de projet;Ousmane DIOUF;2;8;3000;24000
+1;Commerce International;L3;2023-2024;S2;5.0;Commerce électronique;Ousmane DIOUF;4;16;3000;48000
+1;Commerce International;L3;2023-2024;S2;42.0;Logistique internationale;Cheikh SARR;4;16;3000;48000
+1;Commerce International;L3;2023-2024;S2;16.0;Droit des affaires;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L3;2023-2024;S2;18.0;Droit du commerce international;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L3;2023-2024;S2;;;TOTAL S2;23;92;;276000
+1;Commerce International;L3;2023-2024;;;;TOTAL ANNUEL;49;196;;588000
+1;Commerce International;L3;2024-2025;S1;49.0;Marketing digital;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L3;2024-2025;S1;52.0;Négociation commerciale;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L3;2024-2025;S1;46.0;Management interculturel;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L3;2024-2025;S1;6.0;Communication d'entreprise;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L3;2024-2025;S1;58.0;Principes de marketing;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L3;2024-2025;S1;72.0;Étude de marché;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L3;2024-2025;S1;71.0;Économie internationale;Ousmane DIOUF;4;16;3000;48000
+1;Commerce International;L3;2024-2025;S1;;;TOTAL S1;24;96;;288000
+1;Commerce International;L3;2024-2025;S2;34.0;Gestion des risques;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L3;2024-2025;S2;61.0;Stratégie d'entreprise;Moussa DIOUF;4;16;3000;48000
+1;Commerce International;L3;2024-2025;S2;28.0;Gestion de projet;Ousmane DIOUF;3;12;3000;36000
+1;Commerce International;L3;2024-2025;S2;5.0;Commerce électronique;Mamadou BIAGUI;4;16;3000;48000
+1;Commerce International;L3;2024-2025;S2;42.0;Logistique internationale;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L3;2024-2025;S2;16.0;Droit des affaires;Cheikh SARR;3;12;3000;36000
+1;Commerce International;L3;2024-2025;S2;18.0;Droit du commerce international;Moussa DIOUF;3;12;3000;36000
+1;Commerce International;L3;2024-2025;S2;;;TOTAL S2;24;96;;288000
+1;Commerce International;L3;2024-2025;;;;TOTAL ANNUEL;48;192;;576000
+5;Comptabilité;L1;2021-2022;S1;23.0;Fiscalité;Fatou KANE;4;16;3000;48000
+5;Comptabilité;L1;2021-2022;S1;4.0;Audit;Awa DIOP;4;16;3000;48000
+5;Comptabilité;L1;2021-2022;S1;30.0;Gestion de trésorerie;Moussa DIOUF;3;12;3000;36000
+5;Comptabilité;L1;2021-2022;S1;10.0;Comptabilité des sociétés;Moussa NIANG;4;16;3000;48000
+5;Comptabilité;L1;2021-2022;S1;9.0;Comptabilité approfondie;Fatou KANE;4;16;3000;48000
+5;Comptabilité;L1;2021-2022;S1;8.0;Comptabilité analytique;Aminata FALL;3;12;3000;36000
+5;Comptabilité;L1;2021-2022;S1;;;TOTAL S1;22;88;;264000
+5;Comptabilité;L1;2021-2022;S2;11.0;Comptabilité générale;Aminata FALL;4;16;3000;48000
+5;Comptabilité;L1;2021-2022;S2;25.0;Gestion budgétaire;Fatou KANE;4;16;3000;48000
+5;Comptabilité;L1;2021-2022;S2;19.0;Droit fiscal;Fatou NIANG;4;16;3000;48000
+5;Comptabilité;L1;2021-2022;S2;21.0;Finance d'entreprise;Mamadou BIAGUI;4;16;3000;48000
+5;Comptabilité;L1;2021-2022;S2;73.0;Évaluation d'entreprise;Awa DIOP;3;12;3000;36000
+5;Comptabilité;L1;2021-2022;S2;3.0;Analyse financière;Aminata FALL;4;16;3000;48000
+5;Comptabilité;L1;2021-2022;S2;;;TOTAL S2;23;92;;276000
+5;Comptabilité;L1;2021-2022;;;;TOTAL ANNUEL;45;180;;540000
+5;Comptabilité;L1;2022-2023;S1;23.0;Fiscalité;Moussa BIAGUI;3;12;3000;36000
+5;Comptabilité;L1;2022-2023;S1;4.0;Audit;Awa DIOP;3;12;3000;36000
+5;Comptabilité;L1;2022-2023;S1;30.0;Gestion de trésorerie;Fatou NIANG;3;12;3000;36000
+5;Comptabilité;L1;2022-2023;S1;10.0;Comptabilité des sociétés;Mamadou BIAGUI;3;12;3000;36000
+5;Comptabilité;L1;2022-2023;S1;9.0;Comptabilité approfondie;Fatou SARR;4;16;3000;48000
+5;Comptabilité;L1;2022-2023;S1;8.0;Comptabilité analytique;Mamadou BIAGUI;4;16;3000;48000
+5;Comptabilité;L1;2022-2023;S1;;;TOTAL S1;20;80;;240000
+5;Comptabilité;L1;2022-2023;S2;11.0;Comptabilité générale;Moussa NIANG;4;16;3000;48000
+5;Comptabilité;L1;2022-2023;S2;25.0;Gestion budgétaire;Fatou KANE;3;12;3000;36000
+5;Comptabilité;L1;2022-2023;S2;19.0;Droit fiscal;Mamadou BIAGUI;3;12;3000;36000
+5;Comptabilité;L1;2022-2023;S2;21.0;Finance d'entreprise;Fatou NIANG;4;16;3000;48000
+5;Comptabilité;L1;2022-2023;S2;73.0;Évaluation d'entreprise;Fatou KANE;3;12;3000;36000
+5;Comptabilité;L1;2022-2023;S2;3.0;Analyse financière;Mamadou BIAGUI;4;16;3000;48000
+5;Comptabilité;L1;2022-2023;S2;;;TOTAL S2;21;84;;252000
+5;Comptabilité;L1;2022-2023;;;;TOTAL ANNUEL;41;164;;492000
+5;Comptabilité;L1;2023-2024;S1;23.0;Fiscalité;Moussa DIOUF;4;16;3000;48000
+5;Comptabilité;L1;2023-2024;S1;4.0;Audit;Fatou SARR;3;12;3000;36000
+5;Comptabilité;L1;2023-2024;S1;30.0;Gestion de trésorerie;Fatou SARR;3;12;3000;36000
+5;Comptabilité;L1;2023-2024;S1;10.0;Comptabilité des sociétés;Cheikh SARR;4;16;3000;48000
+5;Comptabilité;L1;2023-2024;S1;9.0;Comptabilité approfondie;Moussa BIAGUI;4;16;3000;48000
+5;Comptabilité;L1;2023-2024;S1;8.0;Comptabilité analytique;Cheikh SARR;4;16;3000;48000
+5;Comptabilité;L1;2023-2024;S1;;;TOTAL S1;22;88;;264000
+5;Comptabilité;L1;2023-2024;S2;11.0;Comptabilité générale;Awa DIOP;4;16;3000;48000
+5;Comptabilité;L1;2023-2024;S2;25.0;Gestion budgétaire;Mamadou BIAGUI;3;12;3000;36000
+5;Comptabilité;L1;2023-2024;S2;19.0;Droit fiscal;Moussa DIOUF;4;16;3000;48000
+5;Comptabilité;L1;2023-2024;S2;21.0;Finance d'entreprise;Mamadou BIAGUI;4;16;3000;48000
+5;Comptabilité;L1;2023-2024;S2;73.0;Évaluation d'entreprise;Awa DIOP;3;12;3000;36000
+5;Comptabilité;L1;2023-2024;S2;3.0;Analyse financière;Awa DIOP;3;12;3000;36000
+5;Comptabilité;L1;2023-2024;S2;;;TOTAL S2;21;84;;252000
+5;Comptabilité;L1;2023-2024;;;;TOTAL ANNUEL;43;172;;516000
+5;Comptabilité;L1;2024-2025;S1;23.0;Fiscalité;Fatou KANE;4;16;3000;48000
+5;Comptabilité;L1;2024-2025;S1;4.0;Audit;Cheikh SARR;3;12;3000;36000
+5;Comptabilité;L1;2024-2025;S1;30.0;Gestion de trésorerie;Cheikh SARR;4;16;3000;48000
+5;Comptabilité;L1;2024-2025;S1;10.0;Comptabilité des sociétés;Fatou SARR;3;12;3000;36000
+5;Comptabilité;L1;2024-2025;S1;9.0;Comptabilité approfondie;Moussa NIANG;4;16;3000;48000
+5;Comptabilité;L1;2024-2025;S1;8.0;Comptabilité analytique;Awa DIOP;3;12;3000;36000
+5;Comptabilité;L1;2024-2025;S1;;;TOTAL S1;21;84;;252000
+5;Comptabilité;L1;2024-2025;S2;11.0;Comptabilité générale;Moussa DIOUF;4;16;3000;48000
+5;Comptabilité;L1;2024-2025;S2;25.0;Gestion budgétaire;Moussa NIANG;4;16;3000;48000
+5;Comptabilité;L1;2024-2025;S2;19.0;Droit fiscal;Moussa NIANG;4;16;3000;48000
+5;Comptabilité;L1;2024-2025;S2;21.0;Finance d'entreprise;Mamadou BIAGUI;4;16;3000;48000
+5;Comptabilité;L1;2024-2025;S2;73.0;Évaluation d'entreprise;Fatou SARR;4;16;3000;48000
+5;Comptabilité;L1;2024-2025;S2;3.0;Analyse financière;Moussa DIOUF;3;12;3000;36000
+5;Comptabilité;L1;2024-2025;S2;;;TOTAL S2;23;92;;276000
+5;Comptabilité;L1;2024-2025;;;;TOTAL ANNUEL;44;176;;528000
+5;Comptabilité;L2;2022-2023;S1;12.0;Contrôle de gestion;Fatou SARR;3;12;3000;36000
+5;Comptabilité;L2;2022-2023;S1;21.0;Finance d'entreprise;Fatou NIANG;4;16;3000;48000
+5;Comptabilité;L2;2022-2023;S1;9.0;Comptabilité approfondie;Aminata FALL;3;12;3000;36000
+5;Comptabilité;L2;2022-2023;S1;25.0;Gestion budgétaire;Moussa NIANG;3;12;3000;36000
+5;Comptabilité;L2;2022-2023;S1;19.0;Droit fiscal;Fatou SARR;4;16;3000;48000
+5;Comptabilité;L2;2022-2023;S1;23.0;Fiscalité;Fatou SARR;3;12;3000;36000
+5;Comptabilité;L2;2022-2023;S1;;;TOTAL S1;20;80;;240000
+5;Comptabilité;L2;2022-2023;S2;51.0;Mathématiques financières;Moussa DIOUF;3;12;3000;36000
+5;Comptabilité;L2;2022-2023;S2;10.0;Comptabilité des sociétés;Fatou KANE;4;16;3000;48000
+5;Comptabilité;L2;2022-2023;S2;30.0;Gestion de trésorerie;Fatou KANE;3;12;3000;36000
+5;Comptabilité;L2;2022-2023;S2;4.0;Audit;Moussa NIANG;4;16;3000;48000
+5;Comptabilité;L2;2022-2023;S2;73.0;Évaluation d'entreprise;Fatou SARR;3;12;3000;36000
+5;Comptabilité;L2;2022-2023;S2;3.0;Analyse financière;Moussa NIANG;3;12;3000;36000
+5;Comptabilité;L2;2022-2023;S2;;;TOTAL S2;20;80;;240000
+5;Comptabilité;L2;2022-2023;;;;TOTAL ANNUEL;40;160;;480000
+5;Comptabilité;L2;2023-2024;S1;12.0;Contrôle de gestion;Moussa NIANG;4;16;3000;48000
+5;Comptabilité;L2;2023-2024;S1;21.0;Finance d'entreprise;Mamadou BIAGUI;4;16;3000;48000
+5;Comptabilité;L2;2023-2024;S1;9.0;Comptabilité approfondie;Fatou NIANG;4;16;3000;48000
+5;Comptabilité;L2;2023-2024;S1;25.0;Gestion budgétaire;Fatou NIANG;4;16;3000;48000
+5;Comptabilité;L2;2023-2024;S1;19.0;Droit fiscal;Aminata FALL;4;16;3000;48000
+5;Comptabilité;L2;2023-2024;S1;23.0;Fiscalité;Cheikh SARR;4;16;3000;48000
+5;Comptabilité;L2;2023-2024;S1;;;TOTAL S1;24;96;;288000
+5;Comptabilité;L2;2023-2024;S2;51.0;Mathématiques financières;Moussa BIAGUI;4;16;3000;48000
+5;Comptabilité;L2;2023-2024;S2;10.0;Comptabilité des sociétés;Aminata FALL;3;12;3000;36000
+5;Comptabilité;L2;2023-2024;S2;30.0;Gestion de trésorerie;Moussa BIAGUI;4;16;3000;48000
+5;Comptabilité;L2;2023-2024;S2;4.0;Audit;Fatou SARR;4;16;3000;48000
+5;Comptabilité;L2;2023-2024;S2;73.0;Évaluation d'entreprise;Fatou NIANG;3;12;3000;36000
+5;Comptabilité;L2;2023-2024;S2;3.0;Analyse financière;Cheikh SARR;3;12;3000;36000
+5;Comptabilité;L2;2023-2024;S2;;;TOTAL S2;21;84;;252000
+5;Comptabilité;L2;2023-2024;;;;TOTAL ANNUEL;45;180;;540000
+5;Comptabilité;L2;2024-2025;S1;12.0;Contrôle de gestion;Fatou NIANG;4;16;3000;48000
+5;Comptabilité;L2;2024-2025;S1;21.0;Finance d'entreprise;Fatou KANE;3;12;3000;36000
+5;Comptabilité;L2;2024-2025;S1;9.0;Comptabilité approfondie;Fatou NIANG;4;16;3000;48000
+5;Comptabilité;L2;2024-2025;S1;25.0;Gestion budgétaire;Moussa NIANG;3;12;3000;36000
+5;Comptabilité;L2;2024-2025;S1;19.0;Droit fiscal;Awa DIOP;4;16;3000;48000
+5;Comptabilité;L2;2024-2025;S1;23.0;Fiscalité;Fatou SARR;4;16;3000;48000
+5;Comptabilité;L2;2024-2025;S1;;;TOTAL S1;22;88;;264000
+5;Comptabilité;L2;2024-2025;S2;51.0;Mathématiques financières;Fatou NIANG;3;12;3000;36000
+5;Comptabilité;L2;2024-2025;S2;10.0;Comptabilité des sociétés;Moussa NIANG;4;16;3000;48000
+5;Comptabilité;L2;2024-2025;S2;30.0;Gestion de trésorerie;Aminata FALL;3;12;3000;36000
+5;Comptabilité;L2;2024-2025;S2;4.0;Audit;Fatou NIANG;3;12;3000;36000
+5;Comptabilité;L2;2024-2025;S2;73.0;Évaluation d'entreprise;Moussa DIOUF;4;16;3000;48000
+5;Comptabilité;L2;2024-2025;S2;3.0;Analyse financière;Fatou NIANG;4;16;3000;48000
+5;Comptabilité;L2;2024-2025;S2;;;TOTAL S2;21;84;;252000
+5;Comptabilité;L2;2024-2025;;;;TOTAL ANNUEL;43;172;;516000
+5;Comptabilité;L3;2023-2024;S1;21.0;Finance d'entreprise;Aminata FALL;4;16;3000;48000
+5;Comptabilité;L3;2023-2024;S1;12.0;Contrôle de gestion;Moussa BIAGUI;4;16;3000;48000
+5;Comptabilité;L3;2023-2024;S1;8.0;Comptabilité analytique;Mamadou BIAGUI;4;16;3000;48000
+5;Comptabilité;L3;2023-2024;S1;23.0;Fiscalité;Aminata FALL;4;16;3000;48000
+5;Comptabilité;L3;2023-2024;S1;10.0;Comptabilité des sociétés;Fatou SARR;3;12;3000;36000
+5;Comptabilité;L3;2023-2024;S1;25.0;Gestion budgétaire;Cheikh SARR;4;16;3000;48000
+5;Comptabilité;L3;2023-2024;S1;11.0;Comptabilité générale;Fatou KANE;4;16;3000;48000
+5;Comptabilité;L3;2023-2024;S1;;;TOTAL S1;27;108;;324000
+5;Comptabilité;L3;2023-2024;S2;3.0;Analyse financière;Moussa NIANG;3;12;3000;36000
+5;Comptabilité;L3;2023-2024;S2;51.0;Mathématiques financières;Cheikh SARR;3;12;3000;36000
+5;Comptabilité;L3;2023-2024;S2;73.0;Évaluation d'entreprise;Fatou SARR;4;16;3000;48000
+5;Comptabilité;L3;2023-2024;S2;4.0;Audit;Moussa BIAGUI;4;16;3000;48000
+5;Comptabilité;L3;2023-2024;S2;19.0;Droit fiscal;Moussa DIOUF;3;12;3000;36000
+5;Comptabilité;L3;2023-2024;S2;30.0;Gestion de trésorerie;Mamadou BIAGUI;4;16;3000;48000
+5;Comptabilité;L3;2023-2024;S2;;;TOTAL S2;21;84;;252000
+5;Comptabilité;L3;2023-2024;;;;TOTAL ANNUEL;48;192;;576000
+5;Comptabilité;L3;2024-2025;S1;21.0;Finance d'entreprise;Fatou KANE;3;12;3000;36000
+5;Comptabilité;L3;2024-2025;S1;12.0;Contrôle de gestion;Awa DIOP;4;16;3000;48000
+5;Comptabilité;L3;2024-2025;S1;8.0;Comptabilité analytique;Fatou NIANG;4;16;3000;48000
+5;Comptabilité;L3;2024-2025;S1;23.0;Fiscalité;Moussa BIAGUI;4;16;3000;48000
+5;Comptabilité;L3;2024-2025;S1;10.0;Comptabilité des sociétés;Fatou SARR;3;12;3000;36000
+5;Comptabilité;L3;2024-2025;S1;25.0;Gestion budgétaire;Awa DIOP;4;16;3000;48000
+5;Comptabilité;L3;2024-2025;S1;11.0;Comptabilité générale;Fatou SARR;3;12;3000;36000
+5;Comptabilité;L3;2024-2025;S1;;;TOTAL S1;25;100;;300000
+5;Comptabilité;L3;2024-2025;S2;3.0;Analyse financière;Fatou SARR;3;12;3000;36000
+5;Comptabilité;L3;2024-2025;S2;51.0;Mathématiques financières;Moussa BIAGUI;3;12;3000;36000
+5;Comptabilité;L3;2024-2025;S2;73.0;Évaluation d'entreprise;Moussa BIAGUI;3;12;3000;36000
+5;Comptabilité;L3;2024-2025;S2;4.0;Audit;Cheikh SARR;4;16;3000;48000
+5;Comptabilité;L3;2024-2025;S2;19.0;Droit fiscal;Fatou KANE;4;16;3000;48000
+5;Comptabilité;L3;2024-2025;S2;30.0;Gestion de trésorerie;Cheikh SARR;3;12;3000;36000
+5;Comptabilité;L3;2024-2025;S2;;;TOTAL S2;20;80;;240000
+5;Comptabilité;L3;2024-2025;;;;TOTAL ANNUEL;45;180;;540000
+6;Comptabilité Gestion;L1;2021-2022;S1;23.0;Fiscalité;Moussa BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L1;2021-2022;S1;12.0;Contrôle de gestion;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L1;2021-2022;S1;10.0;Comptabilité des sociétés;Awa DIOP;4;16;3000;48000
+6;Comptabilité Gestion;L1;2021-2022;S1;4.0;Audit;Moussa DIOUF;4;16;3000;48000
+6;Comptabilité Gestion;L1;2021-2022;S1;25.0;Gestion budgétaire;Fatou NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L1;2021-2022;S1;9.0;Comptabilité approfondie;Moussa NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L1;2021-2022;S1;;;TOTAL S1;22;88;;264000
+6;Comptabilité Gestion;L1;2021-2022;S2;19.0;Droit fiscal;Fatou KANE;4;16;3000;48000
+6;Comptabilité Gestion;L1;2021-2022;S2;64.0;Systèmes d'information;Mamadou BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L1;2021-2022;S2;21.0;Finance d'entreprise;Fatou SARR;3;12;3000;36000
+6;Comptabilité Gestion;L1;2021-2022;S2;51.0;Mathématiques financières;Fatou KANE;4;16;3000;48000
+6;Comptabilité Gestion;L1;2021-2022;S2;11.0;Comptabilité générale;Moussa NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L1;2021-2022;S2;8.0;Comptabilité analytique;Moussa DIOUF;3;12;3000;36000
+6;Comptabilité Gestion;L1;2021-2022;S2;30.0;Gestion de trésorerie;Awa DIOP;4;16;3000;48000
+6;Comptabilité Gestion;L1;2021-2022;S2;;;TOTAL S2;25;100;;300000
+6;Comptabilité Gestion;L1;2021-2022;;;;TOTAL ANNUEL;47;188;;564000
+6;Comptabilité Gestion;L1;2022-2023;S1;23.0;Fiscalité;Mamadou BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L1;2022-2023;S1;12.0;Contrôle de gestion;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L1;2022-2023;S1;10.0;Comptabilité des sociétés;Cheikh SARR;4;16;3000;48000
+6;Comptabilité Gestion;L1;2022-2023;S1;4.0;Audit;Awa DIOP;4;16;3000;48000
+6;Comptabilité Gestion;L1;2022-2023;S1;25.0;Gestion budgétaire;Mamadou BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L1;2022-2023;S1;9.0;Comptabilité approfondie;Moussa BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L1;2022-2023;S1;;;TOTAL S1;23;92;;276000
+6;Comptabilité Gestion;L1;2022-2023;S2;19.0;Droit fiscal;Fatou KANE;3;12;3000;36000
+6;Comptabilité Gestion;L1;2022-2023;S2;64.0;Systèmes d'information;Cheikh SARR;4;16;3000;48000
+6;Comptabilité Gestion;L1;2022-2023;S2;21.0;Finance d'entreprise;Moussa BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L1;2022-2023;S2;51.0;Mathématiques financières;Moussa BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L1;2022-2023;S2;11.0;Comptabilité générale;Mamadou BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L1;2022-2023;S2;8.0;Comptabilité analytique;Mamadou BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L1;2022-2023;S2;30.0;Gestion de trésorerie;Cheikh SARR;4;16;3000;48000
+6;Comptabilité Gestion;L1;2022-2023;S2;;;TOTAL S2;25;100;;300000
+6;Comptabilité Gestion;L1;2022-2023;;;;TOTAL ANNUEL;48;192;;576000
+6;Comptabilité Gestion;L1;2023-2024;S1;23.0;Fiscalité;Fatou SARR;3;12;3000;36000
+6;Comptabilité Gestion;L1;2023-2024;S1;12.0;Contrôle de gestion;Cheikh SARR;3;12;3000;36000
+6;Comptabilité Gestion;L1;2023-2024;S1;10.0;Comptabilité des sociétés;Mamadou BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L1;2023-2024;S1;4.0;Audit;Fatou SARR;3;12;3000;36000
+6;Comptabilité Gestion;L1;2023-2024;S1;25.0;Gestion budgétaire;Awa DIOP;3;12;3000;36000
+6;Comptabilité Gestion;L1;2023-2024;S1;9.0;Comptabilité approfondie;Fatou NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L1;2023-2024;S1;;;TOTAL S1;19;76;;228000
+6;Comptabilité Gestion;L1;2023-2024;S2;19.0;Droit fiscal;Mamadou BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L1;2023-2024;S2;64.0;Systèmes d'information;Cheikh SARR;4;16;3000;48000
+6;Comptabilité Gestion;L1;2023-2024;S2;21.0;Finance d'entreprise;Moussa BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L1;2023-2024;S2;51.0;Mathématiques financières;Awa DIOP;4;16;3000;48000
+6;Comptabilité Gestion;L1;2023-2024;S2;11.0;Comptabilité générale;Mamadou BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L1;2023-2024;S2;8.0;Comptabilité analytique;Aminata FALL;3;12;3000;36000
+6;Comptabilité Gestion;L1;2023-2024;S2;30.0;Gestion de trésorerie;Moussa DIOUF;4;16;3000;48000
+6;Comptabilité Gestion;L1;2023-2024;S2;;;TOTAL S2;25;100;;300000
+6;Comptabilité Gestion;L1;2023-2024;;;;TOTAL ANNUEL;44;176;;528000
+6;Comptabilité Gestion;L1;2024-2025;S1;23.0;Fiscalité;Fatou KANE;3;12;3000;36000
+6;Comptabilité Gestion;L1;2024-2025;S1;12.0;Contrôle de gestion;Moussa BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L1;2024-2025;S1;10.0;Comptabilité des sociétés;Moussa NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L1;2024-2025;S1;4.0;Audit;Moussa BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L1;2024-2025;S1;25.0;Gestion budgétaire;Moussa BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L1;2024-2025;S1;9.0;Comptabilité approfondie;Fatou NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L1;2024-2025;S1;;;TOTAL S1;19;76;;228000
+6;Comptabilité Gestion;L1;2024-2025;S2;19.0;Droit fiscal;Cheikh SARR;3;12;3000;36000
+6;Comptabilité Gestion;L1;2024-2025;S2;64.0;Systèmes d'information;Mamadou BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L1;2024-2025;S2;21.0;Finance d'entreprise;Moussa NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L1;2024-2025;S2;51.0;Mathématiques financières;Moussa NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L1;2024-2025;S2;11.0;Comptabilité générale;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L1;2024-2025;S2;8.0;Comptabilité analytique;Moussa BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L1;2024-2025;S2;30.0;Gestion de trésorerie;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L1;2024-2025;S2;;;TOTAL S2;25;100;;300000
+6;Comptabilité Gestion;L1;2024-2025;;;;TOTAL ANNUEL;44;176;;528000
+6;Comptabilité Gestion;L2;2022-2023;S1;51.0;Mathématiques financières;Fatou NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L2;2022-2023;S1;23.0;Fiscalité;Moussa NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L2;2022-2023;S1;12.0;Contrôle de gestion;Awa DIOP;3;12;3000;36000
+6;Comptabilité Gestion;L2;2022-2023;S1;30.0;Gestion de trésorerie;Aminata FALL;3;12;3000;36000
+6;Comptabilité Gestion;L2;2022-2023;S1;21.0;Finance d'entreprise;Fatou KANE;4;16;3000;48000
+6;Comptabilité Gestion;L2;2022-2023;S1;9.0;Comptabilité approfondie;Moussa BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L2;2022-2023;S1;;;TOTAL S1;19;76;;228000
+6;Comptabilité Gestion;L2;2022-2023;S2;64.0;Systèmes d'information;Fatou KANE;3;12;3000;36000
+6;Comptabilité Gestion;L2;2022-2023;S2;3.0;Analyse financière;Awa DIOP;3;12;3000;36000
+6;Comptabilité Gestion;L2;2022-2023;S2;11.0;Comptabilité générale;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L2;2022-2023;S2;10.0;Comptabilité des sociétés;Moussa DIOUF;3;12;3000;36000
+6;Comptabilité Gestion;L2;2022-2023;S2;25.0;Gestion budgétaire;Moussa BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L2;2022-2023;S2;73.0;Évaluation d'entreprise;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L2;2022-2023;S2;8.0;Comptabilité analytique;Mamadou BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L2;2022-2023;S2;;;TOTAL S2;25;100;;300000
+6;Comptabilité Gestion;L2;2022-2023;;;;TOTAL ANNUEL;44;176;;528000
+6;Comptabilité Gestion;L2;2023-2024;S1;51.0;Mathématiques financières;Aminata FALL;4;16;3000;48000
+6;Comptabilité Gestion;L2;2023-2024;S1;23.0;Fiscalité;Cheikh SARR;4;16;3000;48000
+6;Comptabilité Gestion;L2;2023-2024;S1;12.0;Contrôle de gestion;Awa DIOP;3;12;3000;36000
+6;Comptabilité Gestion;L2;2023-2024;S1;30.0;Gestion de trésorerie;Aminata FALL;3;12;3000;36000
+6;Comptabilité Gestion;L2;2023-2024;S1;21.0;Finance d'entreprise;Moussa DIOUF;3;12;3000;36000
+6;Comptabilité Gestion;L2;2023-2024;S1;9.0;Comptabilité approfondie;Cheikh SARR;4;16;3000;48000
+6;Comptabilité Gestion;L2;2023-2024;S1;;;TOTAL S1;21;84;;252000
+6;Comptabilité Gestion;L2;2023-2024;S2;64.0;Systèmes d'information;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L2;2023-2024;S2;3.0;Analyse financière;Aminata FALL;3;12;3000;36000
+6;Comptabilité Gestion;L2;2023-2024;S2;11.0;Comptabilité générale;Fatou SARR;4;16;3000;48000
+6;Comptabilité Gestion;L2;2023-2024;S2;10.0;Comptabilité des sociétés;Aminata FALL;4;16;3000;48000
+6;Comptabilité Gestion;L2;2023-2024;S2;25.0;Gestion budgétaire;Aminata FALL;4;16;3000;48000
+6;Comptabilité Gestion;L2;2023-2024;S2;73.0;Évaluation d'entreprise;Moussa DIOUF;4;16;3000;48000
+6;Comptabilité Gestion;L2;2023-2024;S2;8.0;Comptabilité analytique;Fatou NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L2;2023-2024;S2;;;TOTAL S2;26;104;;312000
+6;Comptabilité Gestion;L2;2023-2024;;;;TOTAL ANNUEL;47;188;;564000
+6;Comptabilité Gestion;L2;2024-2025;S1;51.0;Mathématiques financières;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L2;2024-2025;S1;23.0;Fiscalité;Moussa DIOUF;3;12;3000;36000
+6;Comptabilité Gestion;L2;2024-2025;S1;12.0;Contrôle de gestion;Fatou KANE;4;16;3000;48000
+6;Comptabilité Gestion;L2;2024-2025;S1;30.0;Gestion de trésorerie;Cheikh SARR;3;12;3000;36000
+6;Comptabilité Gestion;L2;2024-2025;S1;21.0;Finance d'entreprise;Moussa NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L2;2024-2025;S1;9.0;Comptabilité approfondie;Awa DIOP;4;16;3000;48000
+6;Comptabilité Gestion;L2;2024-2025;S1;;;TOTAL S1;22;88;;264000
+6;Comptabilité Gestion;L2;2024-2025;S2;64.0;Systèmes d'information;Moussa DIOUF;4;16;3000;48000
+6;Comptabilité Gestion;L2;2024-2025;S2;3.0;Analyse financière;Aminata FALL;4;16;3000;48000
+6;Comptabilité Gestion;L2;2024-2025;S2;11.0;Comptabilité générale;Fatou NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L2;2024-2025;S2;10.0;Comptabilité des sociétés;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L2;2024-2025;S2;25.0;Gestion budgétaire;Moussa BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L2;2024-2025;S2;73.0;Évaluation d'entreprise;Fatou SARR;4;16;3000;48000
+6;Comptabilité Gestion;L2;2024-2025;S2;8.0;Comptabilité analytique;Fatou KANE;4;16;3000;48000
+6;Comptabilité Gestion;L2;2024-2025;S2;;;TOTAL S2;26;104;;312000
+6;Comptabilité Gestion;L2;2024-2025;;;;TOTAL ANNUEL;48;192;;576000
+6;Comptabilité Gestion;L3;2023-2024;S1;8.0;Comptabilité analytique;Moussa BIAGUI;4;16;3000;48000
+6;Comptabilité Gestion;L3;2023-2024;S1;9.0;Comptabilité approfondie;Aminata FALL;3;12;3000;36000
+6;Comptabilité Gestion;L3;2023-2024;S1;3.0;Analyse financière;Fatou NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L3;2023-2024;S1;21.0;Finance d'entreprise;Mamadou BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L3;2023-2024;S1;25.0;Gestion budgétaire;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L3;2023-2024;S1;4.0;Audit;Fatou NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L3;2023-2024;S1;10.0;Comptabilité des sociétés;Moussa DIOUF;3;12;3000;36000
+6;Comptabilité Gestion;L3;2023-2024;S1;;;TOTAL S1;24;96;;288000
+6;Comptabilité Gestion;L3;2023-2024;S2;19.0;Droit fiscal;Aminata FALL;4;16;3000;48000
+6;Comptabilité Gestion;L3;2023-2024;S2;12.0;Contrôle de gestion;Aminata FALL;3;12;3000;36000
+6;Comptabilité Gestion;L3;2023-2024;S2;64.0;Systèmes d'information;Cheikh SARR;4;16;3000;48000
+6;Comptabilité Gestion;L3;2023-2024;S2;30.0;Gestion de trésorerie;Moussa BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L3;2023-2024;S2;51.0;Mathématiques financières;Moussa NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L3;2023-2024;S2;23.0;Fiscalité;Fatou SARR;4;16;3000;48000
+6;Comptabilité Gestion;L3;2023-2024;S2;;;TOTAL S2;22;88;;264000
+6;Comptabilité Gestion;L3;2023-2024;;;;TOTAL ANNUEL;46;184;;552000
+6;Comptabilité Gestion;L3;2024-2025;S1;8.0;Comptabilité analytique;Moussa NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L3;2024-2025;S1;9.0;Comptabilité approfondie;Moussa BIAGUI;3;12;3000;36000
+6;Comptabilité Gestion;L3;2024-2025;S1;3.0;Analyse financière;Moussa NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L3;2024-2025;S1;21.0;Finance d'entreprise;Awa DIOP;4;16;3000;48000
+6;Comptabilité Gestion;L3;2024-2025;S1;25.0;Gestion budgétaire;Cheikh SARR;4;16;3000;48000
+6;Comptabilité Gestion;L3;2024-2025;S1;4.0;Audit;Moussa NIANG;3;12;3000;36000
+6;Comptabilité Gestion;L3;2024-2025;S1;10.0;Comptabilité des sociétés;Moussa DIOUF;3;12;3000;36000
+6;Comptabilité Gestion;L3;2024-2025;S1;;;TOTAL S1;24;96;;288000
+6;Comptabilité Gestion;L3;2024-2025;S2;19.0;Droit fiscal;Moussa NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L3;2024-2025;S2;12.0;Contrôle de gestion;Cheikh SARR;4;16;3000;48000
+6;Comptabilité Gestion;L3;2024-2025;S2;64.0;Systèmes d'information;Aminata FALL;3;12;3000;36000
+6;Comptabilité Gestion;L3;2024-2025;S2;30.0;Gestion de trésorerie;Moussa NIANG;4;16;3000;48000
+6;Comptabilité Gestion;L3;2024-2025;S2;51.0;Mathématiques financières;Awa DIOP;3;12;3000;36000
+6;Comptabilité Gestion;L3;2024-2025;S2;23.0;Fiscalité;Awa DIOP;4;16;3000;48000
+6;Comptabilité Gestion;L3;2024-2025;S2;;;TOTAL S2;22;88;;264000
+6;Comptabilité Gestion;L3;2024-2025;;;;TOTAL ANNUEL;46;184;;552000
+7;Comptabilité et Gestion;L1;2021-2022;S1;30.0;Gestion de trésorerie;Fatou NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2021-2022;S1;23.0;Fiscalité;Awa DIOP;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2021-2022;S1;19.0;Droit fiscal;Cheikh SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2021-2022;S1;8.0;Comptabilité analytique;Fatou KANE;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2021-2022;S1;51.0;Mathématiques financières;Moussa NIANG;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2021-2022;S1;4.0;Audit;Moussa BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2021-2022;S1;;;TOTAL S1;20;80;;240000
+7;Comptabilité et Gestion;L1;2021-2022;S2;12.0;Contrôle de gestion;Aminata FALL;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2021-2022;S2;10.0;Comptabilité des sociétés;Fatou SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2021-2022;S2;3.0;Analyse financière;Aminata FALL;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2021-2022;S2;21.0;Finance d'entreprise;Moussa BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2021-2022;S2;73.0;Évaluation d'entreprise;Fatou NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2021-2022;S2;25.0;Gestion budgétaire;Moussa NIANG;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2021-2022;S2;;;TOTAL S2;22;88;;264000
+7;Comptabilité et Gestion;L1;2021-2022;;;;TOTAL ANNUEL;42;168;;504000
+7;Comptabilité et Gestion;L1;2022-2023;S1;30.0;Gestion de trésorerie;Cheikh SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2022-2023;S1;23.0;Fiscalité;Fatou SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2022-2023;S1;19.0;Droit fiscal;Mamadou BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2022-2023;S1;8.0;Comptabilité analytique;Aminata FALL;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2022-2023;S1;51.0;Mathématiques financières;Fatou KANE;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2022-2023;S1;4.0;Audit;Moussa BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2022-2023;S1;;;TOTAL S1;21;84;;252000
+7;Comptabilité et Gestion;L1;2022-2023;S2;12.0;Contrôle de gestion;Mamadou BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2022-2023;S2;10.0;Comptabilité des sociétés;Mamadou BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2022-2023;S2;3.0;Analyse financière;Moussa BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2022-2023;S2;21.0;Finance d'entreprise;Moussa DIOUF;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2022-2023;S2;73.0;Évaluation d'entreprise;Fatou SARR;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2022-2023;S2;25.0;Gestion budgétaire;Moussa BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2022-2023;S2;;;TOTAL S2;19;76;;228000
+7;Comptabilité et Gestion;L1;2022-2023;;;;TOTAL ANNUEL;40;160;;480000
+7;Comptabilité et Gestion;L1;2023-2024;S1;30.0;Gestion de trésorerie;Moussa NIANG;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2023-2024;S1;23.0;Fiscalité;Moussa BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2023-2024;S1;19.0;Droit fiscal;Fatou NIANG;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2023-2024;S1;8.0;Comptabilité analytique;Fatou NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2023-2024;S1;51.0;Mathématiques financières;Mamadou BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2023-2024;S1;4.0;Audit;Moussa BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2023-2024;S1;;;TOTAL S1;22;88;;264000
+7;Comptabilité et Gestion;L1;2023-2024;S2;12.0;Contrôle de gestion;Awa DIOP;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2023-2024;S2;10.0;Comptabilité des sociétés;Mamadou BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2023-2024;S2;3.0;Analyse financière;Fatou NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2023-2024;S2;21.0;Finance d'entreprise;Moussa BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2023-2024;S2;73.0;Évaluation d'entreprise;Fatou NIANG;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2023-2024;S2;25.0;Gestion budgétaire;Moussa BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2023-2024;S2;;;TOTAL S2;21;84;;252000
+7;Comptabilité et Gestion;L1;2023-2024;;;;TOTAL ANNUEL;43;172;;516000
+7;Comptabilité et Gestion;L1;2024-2025;S1;30.0;Gestion de trésorerie;Aminata FALL;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2024-2025;S1;23.0;Fiscalité;Fatou KANE;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2024-2025;S1;19.0;Droit fiscal;Mamadou BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2024-2025;S1;8.0;Comptabilité analytique;Fatou NIANG;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2024-2025;S1;51.0;Mathématiques financières;Moussa NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2024-2025;S1;4.0;Audit;Cheikh SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2024-2025;S1;;;TOTAL S1;21;84;;252000
+7;Comptabilité et Gestion;L1;2024-2025;S2;12.0;Contrôle de gestion;Fatou KANE;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2024-2025;S2;10.0;Comptabilité des sociétés;Cheikh SARR;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2024-2025;S2;3.0;Analyse financière;Fatou NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2024-2025;S2;21.0;Finance d'entreprise;Aminata FALL;3;12;3000;36000
+7;Comptabilité et Gestion;L1;2024-2025;S2;73.0;Évaluation d'entreprise;Fatou NIANG;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2024-2025;S2;25.0;Gestion budgétaire;Awa DIOP;4;16;3000;48000
+7;Comptabilité et Gestion;L1;2024-2025;S2;;;TOTAL S2;20;80;;240000
+7;Comptabilité et Gestion;L1;2024-2025;;;;TOTAL ANNUEL;41;164;;492000
+7;Comptabilité et Gestion;L2;2022-2023;S1;10.0;Comptabilité des sociétés;Moussa BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2022-2023;S1;21.0;Finance d'entreprise;Fatou NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2022-2023;S1;73.0;Évaluation d'entreprise;Fatou SARR;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2022-2023;S1;23.0;Fiscalité;Moussa DIOUF;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2022-2023;S1;25.0;Gestion budgétaire;Fatou NIANG;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2022-2023;S1;19.0;Droit fiscal;Mamadou BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2022-2023;S1;12.0;Contrôle de gestion;Fatou KANE;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2022-2023;S1;;;TOTAL S1;25;100;;300000
+7;Comptabilité et Gestion;L2;2022-2023;S2;11.0;Comptabilité générale;Moussa DIOUF;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2022-2023;S2;64.0;Systèmes d'information;Moussa DIOUF;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2022-2023;S2;30.0;Gestion de trésorerie;Moussa DIOUF;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2022-2023;S2;51.0;Mathématiques financières;Fatou KANE;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2022-2023;S2;4.0;Audit;Mamadou BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2022-2023;S2;3.0;Analyse financière;Moussa DIOUF;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2022-2023;S2;;;TOTAL S2;21;84;;252000
+7;Comptabilité et Gestion;L2;2022-2023;;;;TOTAL ANNUEL;46;184;;552000
+7;Comptabilité et Gestion;L2;2023-2024;S1;10.0;Comptabilité des sociétés;Aminata FALL;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2023-2024;S1;21.0;Finance d'entreprise;Moussa NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2023-2024;S1;73.0;Évaluation d'entreprise;Mamadou BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2023-2024;S1;23.0;Fiscalité;Moussa BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2023-2024;S1;25.0;Gestion budgétaire;Moussa NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2023-2024;S1;19.0;Droit fiscal;Moussa BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2023-2024;S1;12.0;Contrôle de gestion;Fatou KANE;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2023-2024;S1;;;TOTAL S1;24;96;;288000
+7;Comptabilité et Gestion;L2;2023-2024;S2;11.0;Comptabilité générale;Aminata FALL;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2023-2024;S2;64.0;Systèmes d'information;Moussa BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2023-2024;S2;30.0;Gestion de trésorerie;Aminata FALL;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2023-2024;S2;51.0;Mathématiques financières;Moussa DIOUF;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2023-2024;S2;4.0;Audit;Awa DIOP;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2023-2024;S2;3.0;Analyse financière;Moussa BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2023-2024;S2;;;TOTAL S2;20;80;;240000
+7;Comptabilité et Gestion;L2;2023-2024;;;;TOTAL ANNUEL;44;176;;528000
+7;Comptabilité et Gestion;L2;2024-2025;S1;10.0;Comptabilité des sociétés;Moussa BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2024-2025;S1;21.0;Finance d'entreprise;Fatou SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2024-2025;S1;73.0;Évaluation d'entreprise;Moussa BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2024-2025;S1;23.0;Fiscalité;Mamadou BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2024-2025;S1;25.0;Gestion budgétaire;Cheikh SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2024-2025;S1;19.0;Droit fiscal;Aminata FALL;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2024-2025;S1;12.0;Contrôle de gestion;Fatou SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2024-2025;S1;;;TOTAL S1;27;108;;324000
+7;Comptabilité et Gestion;L2;2024-2025;S2;11.0;Comptabilité générale;Fatou NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2024-2025;S2;64.0;Systèmes d'information;Fatou SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2024-2025;S2;30.0;Gestion de trésorerie;Cheikh SARR;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2024-2025;S2;51.0;Mathématiques financières;Moussa BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2024-2025;S2;4.0;Audit;Moussa DIOUF;3;12;3000;36000
+7;Comptabilité et Gestion;L2;2024-2025;S2;3.0;Analyse financière;Mamadou BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L2;2024-2025;S2;;;TOTAL S2;21;84;;252000
+7;Comptabilité et Gestion;L2;2024-2025;;;;TOTAL ANNUEL;48;192;;576000
+7;Comptabilité et Gestion;L3;2023-2024;S1;8.0;Comptabilité analytique;Fatou KANE;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2023-2024;S1;9.0;Comptabilité approfondie;Aminata FALL;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2023-2024;S1;10.0;Comptabilité des sociétés;Aminata FALL;3;12;3000;36000
+7;Comptabilité et Gestion;L3;2023-2024;S1;4.0;Audit;Cheikh SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2023-2024;S1;25.0;Gestion budgétaire;Fatou SARR;3;12;3000;36000
+7;Comptabilité et Gestion;L3;2023-2024;S1;11.0;Comptabilité générale;Moussa DIOUF;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2023-2024;S1;;;TOTAL S1;22;88;;264000
+7;Comptabilité et Gestion;L3;2023-2024;S2;30.0;Gestion de trésorerie;Aminata FALL;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2023-2024;S2;21.0;Finance d'entreprise;Fatou KANE;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2023-2024;S2;19.0;Droit fiscal;Fatou KANE;3;12;3000;36000
+7;Comptabilité et Gestion;L3;2023-2024;S2;73.0;Évaluation d'entreprise;Fatou KANE;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2023-2024;S2;64.0;Systèmes d'information;Fatou NIANG;3;12;3000;36000
+7;Comptabilité et Gestion;L3;2023-2024;S2;3.0;Analyse financière;Mamadou BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2023-2024;S2;;;TOTAL S2;22;88;;264000
+7;Comptabilité et Gestion;L3;2023-2024;;;;TOTAL ANNUEL;44;176;;528000
+7;Comptabilité et Gestion;L3;2024-2025;S1;8.0;Comptabilité analytique;Fatou NIANG;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2024-2025;S1;9.0;Comptabilité approfondie;Moussa DIOUF;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2024-2025;S1;10.0;Comptabilité des sociétés;Fatou SARR;3;12;3000;36000
+7;Comptabilité et Gestion;L3;2024-2025;S1;4.0;Audit;Moussa DIOUF;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2024-2025;S1;25.0;Gestion budgétaire;Cheikh SARR;3;12;3000;36000
+7;Comptabilité et Gestion;L3;2024-2025;S1;11.0;Comptabilité générale;Fatou KANE;3;12;3000;36000
+7;Comptabilité et Gestion;L3;2024-2025;S1;;;TOTAL S1;21;84;;252000
+7;Comptabilité et Gestion;L3;2024-2025;S2;30.0;Gestion de trésorerie;Moussa NIANG;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2024-2025;S2;21.0;Finance d'entreprise;Mamadou BIAGUI;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2024-2025;S2;19.0;Droit fiscal;Fatou KANE;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2024-2025;S2;73.0;Évaluation d'entreprise;Moussa BIAGUI;3;12;3000;36000
+7;Comptabilité et Gestion;L3;2024-2025;S2;64.0;Systèmes d'information;Aminata FALL;3;12;3000;36000
+7;Comptabilité et Gestion;L3;2024-2025;S2;3.0;Analyse financière;Fatou SARR;4;16;3000;48000
+7;Comptabilité et Gestion;L3;2024-2025;S2;;;TOTAL S2;22;88;;264000
+7;Comptabilité et Gestion;L3;2024-2025;;;;TOTAL ANNUEL;43;172;;516000
+4;Douane transit;L1;2021-2022;S1;50.0;Marketing touristique;Moussa BIAGUI;3;12;3000;36000
+4;Douane transit;L1;2021-2022;S1;44.0;Management de la qualité;Moussa NIANG;3;12;3000;36000
+4;Douane transit;L1;2021-2022;S1;14.0;Cuisine internationale;Fatou SARR;4;16;3000;48000
+4;Douane transit;L1;2021-2022;S1;69.0;Tourisme durable;Seydou FALL;3;12;3000;36000
+4;Douane transit;L1;2021-2022;S1;35.0;Gestion des réservations;Fatou NIANG;3;12;3000;36000
+4;Douane transit;L1;2021-2022;S1;55.0;Patisserie;Cheikh FALL;3;12;3000;36000
+4;Douane transit;L1;2021-2022;S1;60.0;Service en restauration;Cheikh DIOUF;4;16;3000;48000
+4;Douane transit;L1;2021-2022;S1;;;TOTAL S1;23;92;;276000
+4;Douane transit;L1;2021-2022;S2;66.0;Techniques culinaires;Cheikh DIOUF;4;16;3000;48000
+4;Douane transit;L1;2021-2022;S2;53.0;Oenologie et sommellerie;Cheikh BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2021-2022;S2;1.0;Accueil et relations clients;Cheikh DIOUF;4;16;3000;48000
+4;Douane transit;L1;2021-2022;S2;40.0;Hygiène et sécurité alimentaire;Seydou FALL;4;16;3000;48000
+4;Douane transit;L1;2021-2022;S2;39.0;Gestion hôtelière;Cheikh DIOUF;3;12;3000;36000
+4;Douane transit;L1;2021-2022;S2;74.0;Événementiel;Ousmane DIOUF;3;12;3000;36000
+4;Douane transit;L1;2021-2022;S2;;;TOTAL S2;22;88;;264000
+4;Douane transit;L1;2021-2022;;;;TOTAL ANNUEL;45;180;;540000
+4;Douane transit;L1;2022-2023;S1;50.0;Marketing touristique;Seydou FALL;3;12;3000;36000
+4;Douane transit;L1;2022-2023;S1;44.0;Management de la qualité;Aminata BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2022-2023;S1;14.0;Cuisine internationale;Moussa BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2022-2023;S1;69.0;Tourisme durable;Cheikh BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2022-2023;S1;35.0;Gestion des réservations;Cheikh DIOUF;3;12;3000;36000
+4;Douane transit;L1;2022-2023;S1;55.0;Patisserie;Ousmane DIOUF;3;12;3000;36000
+4;Douane transit;L1;2022-2023;S1;60.0;Service en restauration;Fatou SARR;4;16;3000;48000
+4;Douane transit;L1;2022-2023;S1;;;TOTAL S1;25;100;;300000
+4;Douane transit;L1;2022-2023;S2;66.0;Techniques culinaires;Seydou FALL;3;12;3000;36000
+4;Douane transit;L1;2022-2023;S2;53.0;Oenologie et sommellerie;Fatou SARR;4;16;3000;48000
+4;Douane transit;L1;2022-2023;S2;1.0;Accueil et relations clients;Moussa BIAGUI;3;12;3000;36000
+4;Douane transit;L1;2022-2023;S2;40.0;Hygiène et sécurité alimentaire;Seydou FALL;4;16;3000;48000
+4;Douane transit;L1;2022-2023;S2;39.0;Gestion hôtelière;Aminata BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2022-2023;S2;74.0;Événementiel;Moussa NIANG;4;16;3000;48000
+4;Douane transit;L1;2022-2023;S2;;;TOTAL S2;22;88;;264000
+4;Douane transit;L1;2022-2023;;;;TOTAL ANNUEL;47;188;;564000
+4;Douane transit;L1;2023-2024;S1;50.0;Marketing touristique;Fatou NIANG;4;16;3000;48000
+4;Douane transit;L1;2023-2024;S1;44.0;Management de la qualité;Fatou NIANG;4;16;3000;48000
+4;Douane transit;L1;2023-2024;S1;14.0;Cuisine internationale;Ousmane DIOUF;4;16;3000;48000
+4;Douane transit;L1;2023-2024;S1;69.0;Tourisme durable;Cheikh FALL;3;12;3000;36000
+4;Douane transit;L1;2023-2024;S1;35.0;Gestion des réservations;Moussa BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2023-2024;S1;55.0;Patisserie;Cheikh BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2023-2024;S1;60.0;Service en restauration;Fatou NIANG;4;16;3000;48000
+4;Douane transit;L1;2023-2024;S1;;;TOTAL S1;27;108;;324000
+4;Douane transit;L1;2023-2024;S2;66.0;Techniques culinaires;Cheikh DIOUF;4;16;3000;48000
+4;Douane transit;L1;2023-2024;S2;53.0;Oenologie et sommellerie;Aminata BIAGUI;3;12;3000;36000
+4;Douane transit;L1;2023-2024;S2;1.0;Accueil et relations clients;Mamadou BIAGUI;3;12;3000;36000
+4;Douane transit;L1;2023-2024;S2;40.0;Hygiène et sécurité alimentaire;Aminata BIAGUI;3;12;3000;36000
+4;Douane transit;L1;2023-2024;S2;39.0;Gestion hôtelière;Fatou NIANG;4;16;3000;48000
+4;Douane transit;L1;2023-2024;S2;74.0;Événementiel;Seydou FALL;3;12;3000;36000
+4;Douane transit;L1;2023-2024;S2;;;TOTAL S2;20;80;;240000
+4;Douane transit;L1;2023-2024;;;;TOTAL ANNUEL;47;188;;564000
+4;Douane transit;L1;2024-2025;S1;50.0;Marketing touristique;Cheikh DIOUF;4;16;3000;48000
+4;Douane transit;L1;2024-2025;S1;44.0;Management de la qualité;Moussa BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2024-2025;S1;14.0;Cuisine internationale;Cheikh BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2024-2025;S1;69.0;Tourisme durable;Seydou FALL;4;16;3000;48000
+4;Douane transit;L1;2024-2025;S1;35.0;Gestion des réservations;Ousmane DIOUF;4;16;3000;48000
+4;Douane transit;L1;2024-2025;S1;55.0;Patisserie;Moussa BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2024-2025;S1;60.0;Service en restauration;Moussa BIAGUI;3;12;3000;36000
+4;Douane transit;L1;2024-2025;S1;;;TOTAL S1;27;108;;324000
+4;Douane transit;L1;2024-2025;S2;66.0;Techniques culinaires;Fatou NIANG;3;12;3000;36000
+4;Douane transit;L1;2024-2025;S2;53.0;Oenologie et sommellerie;Cheikh BIAGUI;3;12;3000;36000
+4;Douane transit;L1;2024-2025;S2;1.0;Accueil et relations clients;Cheikh FALL;4;16;3000;48000
+4;Douane transit;L1;2024-2025;S2;40.0;Hygiène et sécurité alimentaire;Moussa BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2024-2025;S2;39.0;Gestion hôtelière;Cheikh FALL;3;12;3000;36000
+4;Douane transit;L1;2024-2025;S2;74.0;Événementiel;Cheikh BIAGUI;4;16;3000;48000
+4;Douane transit;L1;2024-2025;S2;;;TOTAL S2;21;84;;252000
+4;Douane transit;L1;2024-2025;;;;TOTAL ANNUEL;48;192;;576000
+4;Douane transit;L2;2022-2023;S1;1.0;Accueil et relations clients;Fatou SARR;4;16;3000;48000
+4;Douane transit;L2;2022-2023;S1;40.0;Hygiène et sécurité alimentaire;Seydou FALL;4;16;3000;48000
+4;Douane transit;L2;2022-2023;S1;39.0;Gestion hôtelière;Cheikh FALL;4;16;3000;48000
+4;Douane transit;L2;2022-2023;S1;69.0;Tourisme durable;Mamadou BIAGUI;4;16;3000;48000
+4;Douane transit;L2;2022-2023;S1;66.0;Techniques culinaires;Cheikh DIOUF;4;16;3000;48000
+4;Douane transit;L2;2022-2023;S1;44.0;Management de la qualité;Fatou SARR;4;16;3000;48000
+4;Douane transit;L2;2022-2023;S1;;;TOTAL S1;24;96;;288000
+4;Douane transit;L2;2022-2023;S2;50.0;Marketing touristique;Mamadou BIAGUI;4;16;3000;48000
+4;Douane transit;L2;2022-2023;S2;14.0;Cuisine internationale;Mamadou BIAGUI;4;16;3000;48000
+4;Douane transit;L2;2022-2023;S2;60.0;Service en restauration;Cheikh FALL;3;12;3000;36000
+4;Douane transit;L2;2022-2023;S2;29.0;Gestion de revenue;Moussa BIAGUI;3;12;3000;36000
+4;Douane transit;L2;2022-2023;S2;35.0;Gestion des réservations;Moussa BIAGUI;3;12;3000;36000
+4;Douane transit;L2;2022-2023;S2;55.0;Patisserie;Ousmane DIOUF;4;16;3000;48000
+4;Douane transit;L2;2022-2023;S2;;;TOTAL S2;21;84;;252000
+4;Douane transit;L2;2022-2023;;;;TOTAL ANNUEL;45;180;;540000
+4;Douane transit;L2;2023-2024;S1;1.0;Accueil et relations clients;Cheikh DIOUF;3;12;3000;36000
+4;Douane transit;L2;2023-2024;S1;40.0;Hygiène et sécurité alimentaire;Cheikh FALL;4;16;3000;48000
+4;Douane transit;L2;2023-2024;S1;39.0;Gestion hôtelière;Mamadou BIAGUI;3;12;3000;36000
+4;Douane transit;L2;2023-2024;S1;69.0;Tourisme durable;Cheikh DIOUF;3;12;3000;36000
+4;Douane transit;L2;2023-2024;S1;66.0;Techniques culinaires;Seydou FALL;4;16;3000;48000
+4;Douane transit;L2;2023-2024;S1;44.0;Management de la qualité;Moussa NIANG;3;12;3000;36000
+4;Douane transit;L2;2023-2024;S1;;;TOTAL S1;20;80;;240000
+4;Douane transit;L2;2023-2024;S2;50.0;Marketing touristique;Fatou NIANG;4;16;3000;48000
+4;Douane transit;L2;2023-2024;S2;14.0;Cuisine internationale;Moussa BIAGUI;3;12;3000;36000
+4;Douane transit;L2;2023-2024;S2;60.0;Service en restauration;Moussa NIANG;3;12;3000;36000
+4;Douane transit;L2;2023-2024;S2;29.0;Gestion de revenue;Moussa NIANG;4;16;3000;48000
+4;Douane transit;L2;2023-2024;S2;35.0;Gestion des réservations;Fatou SARR;3;12;3000;36000
+4;Douane transit;L2;2023-2024;S2;55.0;Patisserie;Cheikh BIAGUI;4;16;3000;48000
+4;Douane transit;L2;2023-2024;S2;;;TOTAL S2;21;84;;252000
+4;Douane transit;L2;2023-2024;;;;TOTAL ANNUEL;41;164;;492000
+4;Douane transit;L2;2024-2025;S1;1.0;Accueil et relations clients;Ousmane DIOUF;4;16;3000;48000
+4;Douane transit;L2;2024-2025;S1;40.0;Hygiène et sécurité alimentaire;Fatou SARR;4;16;3000;48000
+4;Douane transit;L2;2024-2025;S1;39.0;Gestion hôtelière;Ousmane DIOUF;3;12;3000;36000
+4;Douane transit;L2;2024-2025;S1;69.0;Tourisme durable;Fatou NIANG;3;12;3000;36000
+4;Douane transit;L2;2024-2025;S1;66.0;Techniques culinaires;Mamadou BIAGUI;4;16;3000;48000
+4;Douane transit;L2;2024-2025;S1;44.0;Management de la qualité;Aminata BIAGUI;3;12;3000;36000
+4;Douane transit;L2;2024-2025;S1;;;TOTAL S1;21;84;;252000
+4;Douane transit;L2;2024-2025;S2;50.0;Marketing touristique;Ousmane DIOUF;3;12;3000;36000
+4;Douane transit;L2;2024-2025;S2;14.0;Cuisine internationale;Moussa BIAGUI;3;12;3000;36000
+4;Douane transit;L2;2024-2025;S2;60.0;Service en restauration;Ousmane DIOUF;4;16;3000;48000
+4;Douane transit;L2;2024-2025;S2;29.0;Gestion de revenue;Aminata BIAGUI;3;12;3000;36000
+4;Douane transit;L2;2024-2025;S2;35.0;Gestion des réservations;Mamadou BIAGUI;3;12;3000;36000
+4;Douane transit;L2;2024-2025;S2;55.0;Patisserie;Cheikh FALL;4;16;3000;48000
+4;Douane transit;L2;2024-2025;S2;;;TOTAL S2;20;80;;240000
+4;Douane transit;L2;2024-2025;;;;TOTAL ANNUEL;41;164;;492000
+4;Douane transit;L3;2023-2024;S1;60.0;Service en restauration;Cheikh FALL;4;16;3000;48000
+4;Douane transit;L3;2023-2024;S1;29.0;Gestion de revenue;Seydou FALL;4;16;3000;48000
+4;Douane transit;L3;2023-2024;S1;40.0;Hygiène et sécurité alimentaire;Cheikh DIOUF;4;16;3000;48000
+4;Douane transit;L3;2023-2024;S1;1.0;Accueil et relations clients;Fatou NIANG;3;12;3000;36000
+4;Douane transit;L3;2023-2024;S1;50.0;Marketing touristique;Ousmane DIOUF;3;12;3000;36000
+4;Douane transit;L3;2023-2024;S1;74.0;Événementiel;Cheikh BIAGUI;4;16;3000;48000
+4;Douane transit;L3;2023-2024;S1;;;TOTAL S1;22;88;;264000
+4;Douane transit;L3;2023-2024;S2;14.0;Cuisine internationale;Fatou SARR;3;12;3000;36000
+4;Douane transit;L3;2023-2024;S2;53.0;Oenologie et sommellerie;Cheikh FALL;3;12;3000;36000
+4;Douane transit;L3;2023-2024;S2;35.0;Gestion des réservations;Aminata BIAGUI;3;12;3000;36000
+4;Douane transit;L3;2023-2024;S2;69.0;Tourisme durable;Mamadou BIAGUI;3;12;3000;36000
+4;Douane transit;L3;2023-2024;S2;66.0;Techniques culinaires;Mamadou BIAGUI;4;16;3000;48000
+4;Douane transit;L3;2023-2024;S2;24.0;Gestion RH hôtelière;Ousmane DIOUF;3;12;3000;36000
+4;Douane transit;L3;2023-2024;S2;;;TOTAL S2;19;76;;228000
+4;Douane transit;L3;2023-2024;;;;TOTAL ANNUEL;41;164;;492000
+4;Douane transit;L3;2024-2025;S1;60.0;Service en restauration;Fatou SARR;4;16;3000;48000
+4;Douane transit;L3;2024-2025;S1;29.0;Gestion de revenue;Moussa BIAGUI;4;16;3000;48000
+4;Douane transit;L3;2024-2025;S1;40.0;Hygiène et sécurité alimentaire;Fatou SARR;3;12;3000;36000
+4;Douane transit;L3;2024-2025;S1;1.0;Accueil et relations clients;Cheikh FALL;3;12;3000;36000
+4;Douane transit;L3;2024-2025;S1;50.0;Marketing touristique;Moussa NIANG;4;16;3000;48000
+4;Douane transit;L3;2024-2025;S1;74.0;Événementiel;Mamadou BIAGUI;4;16;3000;48000
+4;Douane transit;L3;2024-2025;S1;;;TOTAL S1;22;88;;264000
+4;Douane transit;L3;2024-2025;S2;14.0;Cuisine internationale;Cheikh DIOUF;3;12;3000;36000
+4;Douane transit;L3;2024-2025;S2;53.0;Oenologie et sommellerie;Fatou SARR;3;12;3000;36000
+4;Douane transit;L3;2024-2025;S2;35.0;Gestion des réservations;Fatou SARR;4;16;3000;48000
+4;Douane transit;L3;2024-2025;S2;69.0;Tourisme durable;Ousmane DIOUF;3;12;3000;36000
+4;Douane transit;L3;2024-2025;S2;66.0;Techniques culinaires;Ousmane DIOUF;4;16;3000;48000
+4;Douane transit;L3;2024-2025;S2;24.0;Gestion RH hôtelière;Cheikh DIOUF;3;12;3000;36000
+4;Douane transit;L3;2024-2025;S2;;;TOTAL S2;20;80;;240000
+4;Douane transit;L3;2024-2025;;;;TOTAL ANNUEL;42;168;;504000
+3;Gestion des entreprises;L1;2021-2022;S1;27.0;Gestion de production;Moussa MBOUP;3;12;3000;36000
+3;Gestion des entreprises;L1;2021-2022;S1;38.0;Gestion financière;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L1;2021-2022;S1;59.0;Responsabilité sociale;Aminata BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L1;2021-2022;S1;68.0;Théorie des organisations;Mamadou BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L1;2021-2022;S1;33.0;Gestion des ressources humaines;Moussa MBOUP;4;16;3000;48000
+3;Gestion des entreprises;L1;2021-2022;S1;62.0;Stratégie d'innovation;Mamadou NIANG;4;16;3000;48000
+3;Gestion des entreprises;L1;2021-2022;S1;47.0;Management public;Aminata DIOUF;3;12;3000;36000
+3;Gestion des entreprises;L1;2021-2022;S1;;;TOTAL S1;25;100;;300000
+3;Gestion des entreprises;L1;2021-2022;S2;2.0;Analyse des données;Ousmane DIOP;4;16;3000;48000
+3;Gestion des entreprises;L1;2021-2022;S2;48.0;Management stratégique;Moussa NGOM;3;12;3000;36000
+3;Gestion des entreprises;L1;2021-2022;S2;41.0;Leadership;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L1;2021-2022;S2;20.0;Entrepreneuriat;Moussa NGOM;4;16;3000;48000
+3;Gestion des entreprises;L1;2021-2022;S2;26.0;Gestion de la qualité;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L1;2021-2022;S2;57.0;Principes de gestion;Aminata BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L1;2021-2022;S2;45.0;Management du changement;Aminata DIOUF;3;12;3000;36000
+3;Gestion des entreprises;L1;2021-2022;S2;;;TOTAL S2;25;100;;300000
+3;Gestion des entreprises;L1;2021-2022;;;;TOTAL ANNUEL;50;200;;600000
+3;Gestion des entreprises;L1;2022-2023;S1;27.0;Gestion de production;Mamadou NIANG;4;16;3000;48000
+3;Gestion des entreprises;L1;2022-2023;S1;38.0;Gestion financière;Moussa NGOM;3;12;3000;36000
+3;Gestion des entreprises;L1;2022-2023;S1;59.0;Responsabilité sociale;Moussa MBOUP;3;12;3000;36000
+3;Gestion des entreprises;L1;2022-2023;S1;68.0;Théorie des organisations;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L1;2022-2023;S1;33.0;Gestion des ressources humaines;Moussa NGOM;4;16;3000;48000
+3;Gestion des entreprises;L1;2022-2023;S1;62.0;Stratégie d'innovation;Aminata BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L1;2022-2023;S1;47.0;Management public;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L1;2022-2023;S1;;;TOTAL S1;25;100;;300000
+3;Gestion des entreprises;L1;2022-2023;S2;2.0;Analyse des données;Mamadou BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L1;2022-2023;S2;48.0;Management stratégique;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L1;2022-2023;S2;41.0;Leadership;Ousmane DIOP;3;12;3000;36000
+3;Gestion des entreprises;L1;2022-2023;S2;20.0;Entrepreneuriat;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L1;2022-2023;S2;26.0;Gestion de la qualité;Fatou KANE;4;16;3000;48000
+3;Gestion des entreprises;L1;2022-2023;S2;57.0;Principes de gestion;Mamadou BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L1;2022-2023;S2;45.0;Management du changement;Mamadou NIANG;4;16;3000;48000
+3;Gestion des entreprises;L1;2022-2023;S2;;;TOTAL S2;26;104;;312000
+3;Gestion des entreprises;L1;2022-2023;;;;TOTAL ANNUEL;51;204;;612000
+3;Gestion des entreprises;L1;2023-2024;S1;27.0;Gestion de production;Fatou KANE;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S1;38.0;Gestion financière;Mamadou BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S1;59.0;Responsabilité sociale;Moussa NGOM;3;12;3000;36000
+3;Gestion des entreprises;L1;2023-2024;S1;68.0;Théorie des organisations;Mamadou NIANG;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S1;33.0;Gestion des ressources humaines;Moussa MBOUP;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S1;62.0;Stratégie d'innovation;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S1;47.0;Management public;Mamadou NIANG;3;12;3000;36000
+3;Gestion des entreprises;L1;2023-2024;S1;;;TOTAL S1;26;104;;312000
+3;Gestion des entreprises;L1;2023-2024;S2;2.0;Analyse des données;Moussa NGOM;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S2;48.0;Management stratégique;Aminata DIOUF;3;12;3000;36000
+3;Gestion des entreprises;L1;2023-2024;S2;41.0;Leadership;Moussa MBOUP;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S2;20.0;Entrepreneuriat;Aminata BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S2;26.0;Gestion de la qualité;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S2;57.0;Principes de gestion;Fatou KANE;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S2;45.0;Management du changement;Moussa MBOUP;4;16;3000;48000
+3;Gestion des entreprises;L1;2023-2024;S2;;;TOTAL S2;27;108;;324000
+3;Gestion des entreprises;L1;2023-2024;;;;TOTAL ANNUEL;53;212;;636000
+3;Gestion des entreprises;L1;2024-2025;S1;27.0;Gestion de production;Moussa NGOM;3;12;3000;36000
+3;Gestion des entreprises;L1;2024-2025;S1;38.0;Gestion financière;Mamadou BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L1;2024-2025;S1;59.0;Responsabilité sociale;Mamadou BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L1;2024-2025;S1;68.0;Théorie des organisations;Moussa MBOUP;4;16;3000;48000
+3;Gestion des entreprises;L1;2024-2025;S1;33.0;Gestion des ressources humaines;Fatou KANE;3;12;3000;36000
+3;Gestion des entreprises;L1;2024-2025;S1;62.0;Stratégie d'innovation;Fatou KANE;4;16;3000;48000
+3;Gestion des entreprises;L1;2024-2025;S1;47.0;Management public;Fatou KANE;3;12;3000;36000
+3;Gestion des entreprises;L1;2024-2025;S1;;;TOTAL S1;24;96;;288000
+3;Gestion des entreprises;L1;2024-2025;S2;2.0;Analyse des données;Ousmane DIOP;4;16;3000;48000
+3;Gestion des entreprises;L1;2024-2025;S2;48.0;Management stratégique;Moussa NGOM;3;12;3000;36000
+3;Gestion des entreprises;L1;2024-2025;S2;41.0;Leadership;Mamadou NIANG;4;16;3000;48000
+3;Gestion des entreprises;L1;2024-2025;S2;20.0;Entrepreneuriat;Abdoulaye NDIAYE;3;12;3000;36000
+3;Gestion des entreprises;L1;2024-2025;S2;26.0;Gestion de la qualité;Abdoulaye NDIAYE;3;12;3000;36000
+3;Gestion des entreprises;L1;2024-2025;S2;57.0;Principes de gestion;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L1;2024-2025;S2;45.0;Management du changement;Moussa MBOUP;4;16;3000;48000
+3;Gestion des entreprises;L1;2024-2025;S2;;;TOTAL S2;25;100;;300000
+3;Gestion des entreprises;L1;2024-2025;;;;TOTAL ANNUEL;49;196;;588000
+3;Gestion des entreprises;L2;2022-2023;S1;38.0;Gestion financière;Aminata DIOUF;3;12;3000;36000
+3;Gestion des entreprises;L2;2022-2023;S1;26.0;Gestion de la qualité;Aminata BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L2;2022-2023;S1;57.0;Principes de gestion;Mamadou BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L2;2022-2023;S1;48.0;Management stratégique;Mamadou BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L2;2022-2023;S1;27.0;Gestion de production;Aminata BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L2;2022-2023;S1;62.0;Stratégie d'innovation;Aminata BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L2;2022-2023;S1;;;TOTAL S1;23;92;;276000
+3;Gestion des entreprises;L2;2022-2023;S2;47.0;Management public;Mamadou NIANG;3;12;3000;36000
+3;Gestion des entreprises;L2;2022-2023;S2;20.0;Entrepreneuriat;Ousmane DIOP;3;12;3000;36000
+3;Gestion des entreprises;L2;2022-2023;S2;45.0;Management du changement;Aminata BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L2;2022-2023;S2;59.0;Responsabilité sociale;Abdoulaye NDIAYE;3;12;3000;36000
+3;Gestion des entreprises;L2;2022-2023;S2;68.0;Théorie des organisations;Ousmane DIOP;4;16;3000;48000
+3;Gestion des entreprises;L2;2022-2023;S2;7.0;Comportement organisationnel;Fatou KANE;4;16;3000;48000
+3;Gestion des entreprises;L2;2022-2023;S2;;;TOTAL S2;20;80;;240000
+3;Gestion des entreprises;L2;2022-2023;;;;TOTAL ANNUEL;43;172;;516000
+3;Gestion des entreprises;L2;2023-2024;S1;38.0;Gestion financière;Aminata DIOUF;3;12;3000;36000
+3;Gestion des entreprises;L2;2023-2024;S1;26.0;Gestion de la qualité;Abdoulaye NDIAYE;3;12;3000;36000
+3;Gestion des entreprises;L2;2023-2024;S1;57.0;Principes de gestion;Ousmane DIOP;4;16;3000;48000
+3;Gestion des entreprises;L2;2023-2024;S1;48.0;Management stratégique;Moussa NGOM;3;12;3000;36000
+3;Gestion des entreprises;L2;2023-2024;S1;27.0;Gestion de production;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L2;2023-2024;S1;62.0;Stratégie d'innovation;Moussa NGOM;3;12;3000;36000
+3;Gestion des entreprises;L2;2023-2024;S1;;;TOTAL S1;20;80;;240000
+3;Gestion des entreprises;L2;2023-2024;S2;47.0;Management public;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L2;2023-2024;S2;20.0;Entrepreneuriat;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L2;2023-2024;S2;45.0;Management du changement;Mamadou BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L2;2023-2024;S2;59.0;Responsabilité sociale;Moussa MBOUP;4;16;3000;48000
+3;Gestion des entreprises;L2;2023-2024;S2;68.0;Théorie des organisations;Mamadou BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L2;2023-2024;S2;7.0;Comportement organisationnel;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L2;2023-2024;S2;;;TOTAL S2;23;92;;276000
+3;Gestion des entreprises;L2;2023-2024;;;;TOTAL ANNUEL;43;172;;516000
+3;Gestion des entreprises;L2;2024-2025;S1;38.0;Gestion financière;Moussa NGOM;4;16;3000;48000
+3;Gestion des entreprises;L2;2024-2025;S1;26.0;Gestion de la qualité;Moussa MBOUP;4;16;3000;48000
+3;Gestion des entreprises;L2;2024-2025;S1;57.0;Principes de gestion;Mamadou NIANG;3;12;3000;36000
+3;Gestion des entreprises;L2;2024-2025;S1;48.0;Management stratégique;Moussa NGOM;3;12;3000;36000
+3;Gestion des entreprises;L2;2024-2025;S1;27.0;Gestion de production;Moussa NGOM;3;12;3000;36000
+3;Gestion des entreprises;L2;2024-2025;S1;62.0;Stratégie d'innovation;Ousmane DIOP;4;16;3000;48000
+3;Gestion des entreprises;L2;2024-2025;S1;;;TOTAL S1;21;84;;252000
+3;Gestion des entreprises;L2;2024-2025;S2;47.0;Management public;Ousmane DIOP;3;12;3000;36000
+3;Gestion des entreprises;L2;2024-2025;S2;20.0;Entrepreneuriat;Moussa NGOM;3;12;3000;36000
+3;Gestion des entreprises;L2;2024-2025;S2;45.0;Management du changement;Abdoulaye NDIAYE;3;12;3000;36000
+3;Gestion des entreprises;L2;2024-2025;S2;59.0;Responsabilité sociale;Moussa MBOUP;3;12;3000;36000
+3;Gestion des entreprises;L2;2024-2025;S2;68.0;Théorie des organisations;Aminata BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L2;2024-2025;S2;7.0;Comportement organisationnel;Moussa MBOUP;4;16;3000;48000
+3;Gestion des entreprises;L2;2024-2025;S2;;;TOTAL S2;19;76;;228000
+3;Gestion des entreprises;L2;2024-2025;;;;TOTAL ANNUEL;40;160;;480000
+3;Gestion des entreprises;L3;2023-2024;S1;68.0;Théorie des organisations;Ousmane DIOP;3;12;3000;36000
+3;Gestion des entreprises;L3;2023-2024;S1;57.0;Principes de gestion;Ousmane DIOP;3;12;3000;36000
+3;Gestion des entreprises;L3;2023-2024;S1;26.0;Gestion de la qualité;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L3;2023-2024;S1;62.0;Stratégie d'innovation;Moussa MBOUP;3;12;3000;36000
+3;Gestion des entreprises;L3;2023-2024;S1;38.0;Gestion financière;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L3;2023-2024;S1;41.0;Leadership;Fatou KANE;3;12;3000;36000
+3;Gestion des entreprises;L3;2023-2024;S1;;;TOTAL S1;20;80;;240000
+3;Gestion des entreprises;L3;2023-2024;S2;7.0;Comportement organisationnel;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L3;2023-2024;S2;47.0;Management public;Aminata BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L3;2023-2024;S2;2.0;Analyse des données;Mamadou BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L3;2023-2024;S2;20.0;Entrepreneuriat;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L3;2023-2024;S2;27.0;Gestion de production;Fatou KANE;3;12;3000;36000
+3;Gestion des entreprises;L3;2023-2024;S2;59.0;Responsabilité sociale;Mamadou NIANG;3;12;3000;36000
+3;Gestion des entreprises;L3;2023-2024;S2;33.0;Gestion des ressources humaines;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L3;2023-2024;S2;;;TOTAL S2;24;96;;288000
+3;Gestion des entreprises;L3;2023-2024;;;;TOTAL ANNUEL;44;176;;528000
+3;Gestion des entreprises;L3;2024-2025;S1;68.0;Théorie des organisations;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L3;2024-2025;S1;57.0;Principes de gestion;Fatou KANE;4;16;3000;48000
+3;Gestion des entreprises;L3;2024-2025;S1;26.0;Gestion de la qualité;Aminata DIOUF;4;16;3000;48000
+3;Gestion des entreprises;L3;2024-2025;S1;62.0;Stratégie d'innovation;Aminata BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L3;2024-2025;S1;38.0;Gestion financière;Abdoulaye NDIAYE;4;16;3000;48000
+3;Gestion des entreprises;L3;2024-2025;S1;41.0;Leadership;Moussa NGOM;4;16;3000;48000
+3;Gestion des entreprises;L3;2024-2025;S1;;;TOTAL S1;23;92;;276000
+3;Gestion des entreprises;L3;2024-2025;S2;7.0;Comportement organisationnel;Mamadou BIAGUI;4;16;3000;48000
+3;Gestion des entreprises;L3;2024-2025;S2;47.0;Management public;Fatou KANE;3;12;3000;36000
+3;Gestion des entreprises;L3;2024-2025;S2;2.0;Analyse des données;Ousmane DIOP;3;12;3000;36000
+3;Gestion des entreprises;L3;2024-2025;S2;20.0;Entrepreneuriat;Mamadou NIANG;3;12;3000;36000
+3;Gestion des entreprises;L3;2024-2025;S2;27.0;Gestion de production;Aminata BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L3;2024-2025;S2;59.0;Responsabilité sociale;Ousmane DIOP;3;12;3000;36000
+3;Gestion des entreprises;L3;2024-2025;S2;33.0;Gestion des ressources humaines;Aminata BIAGUI;3;12;3000;36000
+3;Gestion des entreprises;L3;2024-2025;S2;;;TOTAL S2;22;88;;264000
+3;Gestion des entreprises;L3;2024-2025;;;;TOTAL ANNUEL;45;180;;540000
+8;Hotellerie et Restauration;L1;2021-2022;S1;1.0;Accueil et relations clients;Cheikh BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2021-2022;S1;60.0;Service en restauration;Moussa NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2021-2022;S1;55.0;Patisserie;Seydou FALL;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2021-2022;S1;24.0;Gestion RH hôtelière;Cheikh FALL;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2021-2022;S1;66.0;Techniques culinaires;Fatou SARR;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2021-2022;S1;44.0;Management de la qualité;Fatou NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2021-2022;S1;29.0;Gestion de revenue;Ousmane DIOUF;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2021-2022;S1;;;TOTAL S1;27;108;;324000
+8;Hotellerie et Restauration;L1;2021-2022;S2;14.0;Cuisine internationale;Cheikh BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2021-2022;S2;69.0;Tourisme durable;Moussa NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2021-2022;S2;50.0;Marketing touristique;Cheikh BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2021-2022;S2;39.0;Gestion hôtelière;Moussa BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2021-2022;S2;74.0;Événementiel;Aminata BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2021-2022;S2;53.0;Oenologie et sommellerie;Mamadou BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2021-2022;S2;;;TOTAL S2;20;80;;240000
+8;Hotellerie et Restauration;L1;2021-2022;;;;TOTAL ANNUEL;47;188;;564000
+8;Hotellerie et Restauration;L1;2022-2023;S1;1.0;Accueil et relations clients;Moussa BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2022-2023;S1;60.0;Service en restauration;Cheikh BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2022-2023;S1;55.0;Patisserie;Seydou FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2022-2023;S1;24.0;Gestion RH hôtelière;Fatou SARR;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2022-2023;S1;66.0;Techniques culinaires;Mamadou BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2022-2023;S1;44.0;Management de la qualité;Cheikh FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2022-2023;S1;29.0;Gestion de revenue;Seydou FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2022-2023;S1;;;TOTAL S1;23;92;;276000
+8;Hotellerie et Restauration;L1;2022-2023;S2;14.0;Cuisine internationale;Moussa BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2022-2023;S2;69.0;Tourisme durable;Aminata BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2022-2023;S2;50.0;Marketing touristique;Moussa NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2022-2023;S2;39.0;Gestion hôtelière;Aminata BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2022-2023;S2;74.0;Événementiel;Fatou NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2022-2023;S2;53.0;Oenologie et sommellerie;Cheikh BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2022-2023;S2;;;TOTAL S2;20;80;;240000
+8;Hotellerie et Restauration;L1;2022-2023;;;;TOTAL ANNUEL;43;172;;516000
+8;Hotellerie et Restauration;L1;2023-2024;S1;1.0;Accueil et relations clients;Ousmane DIOUF;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2023-2024;S1;60.0;Service en restauration;Mamadou BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2023-2024;S1;55.0;Patisserie;Seydou FALL;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2023-2024;S1;24.0;Gestion RH hôtelière;Moussa BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2023-2024;S1;66.0;Techniques culinaires;Fatou NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2023-2024;S1;44.0;Management de la qualité;Mamadou BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2023-2024;S1;29.0;Gestion de revenue;Fatou NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2023-2024;S1;;;TOTAL S1;25;100;;300000
+8;Hotellerie et Restauration;L1;2023-2024;S2;14.0;Cuisine internationale;Mamadou BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2023-2024;S2;69.0;Tourisme durable;Cheikh BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2023-2024;S2;50.0;Marketing touristique;Moussa BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2023-2024;S2;39.0;Gestion hôtelière;Aminata BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2023-2024;S2;74.0;Événementiel;Moussa BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2023-2024;S2;53.0;Oenologie et sommellerie;Seydou FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2023-2024;S2;;;TOTAL S2;21;84;;252000
+8;Hotellerie et Restauration;L1;2023-2024;;;;TOTAL ANNUEL;46;184;;552000
+8;Hotellerie et Restauration;L1;2024-2025;S1;1.0;Accueil et relations clients;Fatou NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2024-2025;S1;60.0;Service en restauration;Aminata BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2024-2025;S1;55.0;Patisserie;Mamadou BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2024-2025;S1;24.0;Gestion RH hôtelière;Aminata BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2024-2025;S1;66.0;Techniques culinaires;Moussa NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2024-2025;S1;44.0;Management de la qualité;Moussa NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2024-2025;S1;29.0;Gestion de revenue;Cheikh FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2024-2025;S1;;;TOTAL S1;25;100;;300000
+8;Hotellerie et Restauration;L1;2024-2025;S2;14.0;Cuisine internationale;Moussa BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2024-2025;S2;69.0;Tourisme durable;Fatou NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2024-2025;S2;50.0;Marketing touristique;Cheikh FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2024-2025;S2;39.0;Gestion hôtelière;Cheikh BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L1;2024-2025;S2;74.0;Événementiel;Mamadou BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2024-2025;S2;53.0;Oenologie et sommellerie;Moussa BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L1;2024-2025;S2;;;TOTAL S2;22;88;;264000
+8;Hotellerie et Restauration;L1;2024-2025;;;;TOTAL ANNUEL;47;188;;564000
+8;Hotellerie et Restauration;L2;2022-2023;S1;50.0;Marketing touristique;Cheikh FALL;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S1;74.0;Événementiel;Seydou FALL;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S1;60.0;Service en restauration;Cheikh DIOUF;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2022-2023;S1;1.0;Accueil et relations clients;Aminata BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S1;29.0;Gestion de revenue;Moussa NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S1;66.0;Techniques culinaires;Cheikh BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S1;44.0;Management de la qualité;Ousmane DIOUF;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S1;;;TOTAL S1;27;108;;324000
+8;Hotellerie et Restauration;L2;2022-2023;S2;24.0;Gestion RH hôtelière;Fatou SARR;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S2;14.0;Cuisine internationale;Fatou NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S2;35.0;Gestion des réservations;Seydou FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2022-2023;S2;69.0;Tourisme durable;Cheikh FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2022-2023;S2;39.0;Gestion hôtelière;Cheikh BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S2;40.0;Hygiène et sécurité alimentaire;Seydou FALL;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S2;53.0;Oenologie et sommellerie;Moussa BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2022-2023;S2;;;TOTAL S2;26;104;;312000
+8;Hotellerie et Restauration;L2;2022-2023;;;;TOTAL ANNUEL;53;212;;636000
+8;Hotellerie et Restauration;L2;2023-2024;S1;50.0;Marketing touristique;Fatou NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S1;74.0;Événementiel;Cheikh BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S1;60.0;Service en restauration;Fatou NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S1;1.0;Accueil et relations clients;Fatou SARR;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2023-2024;S1;29.0;Gestion de revenue;Moussa NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S1;66.0;Techniques culinaires;Cheikh DIOUF;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S1;44.0;Management de la qualité;Cheikh DIOUF;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S1;;;TOTAL S1;22;88;;264000
+8;Hotellerie et Restauration;L2;2023-2024;S2;24.0;Gestion RH hôtelière;Cheikh DIOUF;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S2;14.0;Cuisine internationale;Fatou SARR;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S2;35.0;Gestion des réservations;Cheikh FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S2;69.0;Tourisme durable;Moussa BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S2;39.0;Gestion hôtelière;Seydou FALL;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2023-2024;S2;40.0;Hygiène et sécurité alimentaire;Fatou NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S2;53.0;Oenologie et sommellerie;Ousmane DIOUF;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2023-2024;S2;;;TOTAL S2;22;88;;264000
+8;Hotellerie et Restauration;L2;2023-2024;;;;TOTAL ANNUEL;44;176;;528000
+8;Hotellerie et Restauration;L2;2024-2025;S1;50.0;Marketing touristique;Cheikh BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S1;74.0;Événementiel;Cheikh BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S1;60.0;Service en restauration;Fatou SARR;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S1;1.0;Accueil et relations clients;Seydou FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S1;29.0;Gestion de revenue;Cheikh BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S1;66.0;Techniques culinaires;Cheikh FALL;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2024-2025;S1;44.0;Management de la qualité;Moussa NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S1;;;TOTAL S1;22;88;;264000
+8;Hotellerie et Restauration;L2;2024-2025;S2;24.0;Gestion RH hôtelière;Fatou SARR;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S2;14.0;Cuisine internationale;Fatou SARR;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2024-2025;S2;35.0;Gestion des réservations;Aminata BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S2;69.0;Tourisme durable;Ousmane DIOUF;4;16;3000;48000
+8;Hotellerie et Restauration;L2;2024-2025;S2;39.0;Gestion hôtelière;Cheikh DIOUF;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S2;40.0;Hygiène et sécurité alimentaire;Ousmane DIOUF;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S2;53.0;Oenologie et sommellerie;Ousmane DIOUF;3;12;3000;36000
+8;Hotellerie et Restauration;L2;2024-2025;S2;;;TOTAL S2;23;92;;276000
+8;Hotellerie et Restauration;L2;2024-2025;;;;TOTAL ANNUEL;45;180;;540000
+8;Hotellerie et Restauration;L3;2023-2024;S1;50.0;Marketing touristique;Cheikh BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2023-2024;S1;35.0;Gestion des réservations;Fatou SARR;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2023-2024;S1;44.0;Management de la qualité;Cheikh FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2023-2024;S1;74.0;Événementiel;Moussa NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2023-2024;S1;69.0;Tourisme durable;Fatou SARR;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2023-2024;S1;53.0;Oenologie et sommellerie;Mamadou BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2023-2024;S1;66.0;Techniques culinaires;Mamadou BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2023-2024;S1;;;TOTAL S1;23;92;;276000
+8;Hotellerie et Restauration;L3;2023-2024;S2;24.0;Gestion RH hôtelière;Fatou NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2023-2024;S2;40.0;Hygiène et sécurité alimentaire;Cheikh FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2023-2024;S2;1.0;Accueil et relations clients;Fatou NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2023-2024;S2;29.0;Gestion de revenue;Cheikh FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2023-2024;S2;39.0;Gestion hôtelière;Fatou NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2023-2024;S2;60.0;Service en restauration;Ousmane DIOUF;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2023-2024;S2;;;TOTAL S2;20;80;;240000
+8;Hotellerie et Restauration;L3;2023-2024;;;;TOTAL ANNUEL;43;172;;516000
+8;Hotellerie et Restauration;L3;2024-2025;S1;50.0;Marketing touristique;Moussa BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2024-2025;S1;35.0;Gestion des réservations;Moussa BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2024-2025;S1;44.0;Management de la qualité;Cheikh FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2024-2025;S1;74.0;Événementiel;Cheikh FALL;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2024-2025;S1;69.0;Tourisme durable;Moussa NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2024-2025;S1;53.0;Oenologie et sommellerie;Fatou NIANG;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2024-2025;S1;66.0;Techniques culinaires;Cheikh BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2024-2025;S1;;;TOTAL S1;25;100;;300000
+8;Hotellerie et Restauration;L3;2024-2025;S2;24.0;Gestion RH hôtelière;Cheikh BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2024-2025;S2;40.0;Hygiène et sécurité alimentaire;Moussa BIAGUI;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2024-2025;S2;1.0;Accueil et relations clients;Seydou FALL;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2024-2025;S2;29.0;Gestion de revenue;Moussa BIAGUI;3;12;3000;36000
+8;Hotellerie et Restauration;L3;2024-2025;S2;39.0;Gestion hôtelière;Fatou NIANG;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2024-2025;S2;60.0;Service en restauration;Cheikh FALL;4;16;3000;48000
+8;Hotellerie et Restauration;L3;2024-2025;S2;;;TOTAL S2;22;88;;264000
+8;Hotellerie et Restauration;L3;2024-2025;;;;TOTAL ANNUEL;47;188;;564000
+2;Transport Logistique;L1;2021-2022;S1;67.0;Technologies logistiques;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L1;2021-2022;S1;34.0;Gestion des risques;Moussa DIOUF;4;16;3000;48000
+2;Transport Logistique;L1;2021-2022;S1;43.0;Logistique portuaire;Moussa MBOUP;3;12;3000;36000
+2;Transport Logistique;L1;2021-2022;S1;31.0;Gestion des entrepôts;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L1;2021-2022;S1;63.0;Supply chain management;Aminata DIOUF;4;16;3000;48000
+2;Transport Logistique;L1;2021-2022;S1;36.0;Gestion des stocks;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L1;2021-2022;S1;;;TOTAL S1;22;88;;264000
+2;Transport Logistique;L1;2021-2022;S2;13.0;Coûts logistiques;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2021-2022;S2;15.0;Douane et transit;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L1;2021-2022;S2;17.0;Droit des transports;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L1;2021-2022;S2;32.0;Gestion des flottes;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L1;2021-2022;S2;54.0;Optimisation logistique;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2021-2022;S2;37.0;Gestion des transports;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2021-2022;S2;;;TOTAL S2;23;92;;276000
+2;Transport Logistique;L1;2021-2022;;;;TOTAL ANNUEL;45;180;;540000
+2;Transport Logistique;L1;2022-2023;S1;67.0;Technologies logistiques;Aminata DIOUF;3;12;3000;36000
+2;Transport Logistique;L1;2022-2023;S1;34.0;Gestion des risques;Mamadou BIAGUI;3;12;3000;36000
+2;Transport Logistique;L1;2022-2023;S1;43.0;Logistique portuaire;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L1;2022-2023;S1;31.0;Gestion des entrepôts;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L1;2022-2023;S1;63.0;Supply chain management;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L1;2022-2023;S1;36.0;Gestion des stocks;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L1;2022-2023;S1;;;TOTAL S1;20;80;;240000
+2;Transport Logistique;L1;2022-2023;S2;13.0;Coûts logistiques;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L1;2022-2023;S2;15.0;Douane et transit;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L1;2022-2023;S2;17.0;Droit des transports;Aminata FALL;3;12;3000;36000
+2;Transport Logistique;L1;2022-2023;S2;32.0;Gestion des flottes;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L1;2022-2023;S2;54.0;Optimisation logistique;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L1;2022-2023;S2;37.0;Gestion des transports;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L1;2022-2023;S2;;;TOTAL S2;22;88;;264000
+2;Transport Logistique;L1;2022-2023;;;;TOTAL ANNUEL;42;168;;504000
+2;Transport Logistique;L1;2023-2024;S1;67.0;Technologies logistiques;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L1;2023-2024;S1;34.0;Gestion des risques;Moussa DIOUF;4;16;3000;48000
+2;Transport Logistique;L1;2023-2024;S1;43.0;Logistique portuaire;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2023-2024;S1;31.0;Gestion des entrepôts;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L1;2023-2024;S1;63.0;Supply chain management;Moussa MBOUP;3;12;3000;36000
+2;Transport Logistique;L1;2023-2024;S1;36.0;Gestion des stocks;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L1;2023-2024;S1;;;TOTAL S1;22;88;;264000
+2;Transport Logistique;L1;2023-2024;S2;13.0;Coûts logistiques;Aminata FALL;3;12;3000;36000
+2;Transport Logistique;L1;2023-2024;S2;15.0;Douane et transit;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2023-2024;S2;17.0;Droit des transports;Aminata DIOUF;4;16;3000;48000
+2;Transport Logistique;L1;2023-2024;S2;32.0;Gestion des flottes;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2023-2024;S2;54.0;Optimisation logistique;Cheikh FALL;3;12;3000;36000
+2;Transport Logistique;L1;2023-2024;S2;37.0;Gestion des transports;Aminata DIOUF;3;12;3000;36000
+2;Transport Logistique;L1;2023-2024;S2;;;TOTAL S2;21;84;;252000
+2;Transport Logistique;L1;2023-2024;;;;TOTAL ANNUEL;43;172;;516000
+2;Transport Logistique;L1;2024-2025;S1;67.0;Technologies logistiques;Aminata DIOUF;4;16;3000;48000
+2;Transport Logistique;L1;2024-2025;S1;34.0;Gestion des risques;Ousmane DIOUF;4;16;3000;48000
+2;Transport Logistique;L1;2024-2025;S1;43.0;Logistique portuaire;Aminata FALL;3;12;3000;36000
+2;Transport Logistique;L1;2024-2025;S1;31.0;Gestion des entrepôts;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2024-2025;S1;63.0;Supply chain management;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2024-2025;S1;36.0;Gestion des stocks;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2024-2025;S1;;;TOTAL S1;23;92;;276000
+2;Transport Logistique;L1;2024-2025;S2;13.0;Coûts logistiques;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2024-2025;S2;15.0;Douane et transit;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L1;2024-2025;S2;17.0;Droit des transports;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L1;2024-2025;S2;32.0;Gestion des flottes;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L1;2024-2025;S2;54.0;Optimisation logistique;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L1;2024-2025;S2;37.0;Gestion des transports;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L1;2024-2025;S2;;;TOTAL S2;23;92;;276000
+2;Transport Logistique;L1;2024-2025;;;;TOTAL ANNUEL;46;184;;552000
+2;Transport Logistique;L2;2022-2023;S1;37.0;Gestion des transports;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L2;2022-2023;S1;13.0;Coûts logistiques;Aminata DIOUF;3;12;3000;36000
+2;Transport Logistique;L2;2022-2023;S1;31.0;Gestion des entrepôts;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L2;2022-2023;S1;32.0;Gestion des flottes;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L2;2022-2023;S1;54.0;Optimisation logistique;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L2;2022-2023;S1;65.0;Sécurité des transports;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L2;2022-2023;S1;;;TOTAL S1;22;88;;264000
+2;Transport Logistique;L2;2022-2023;S2;63.0;Supply chain management;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L2;2022-2023;S2;15.0;Douane et transit;Moussa MBOUP;3;12;3000;36000
+2;Transport Logistique;L2;2022-2023;S2;67.0;Technologies logistiques;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L2;2022-2023;S2;36.0;Gestion des stocks;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L2;2022-2023;S2;17.0;Droit des transports;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L2;2022-2023;S2;70.0;Transport multimodal;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L2;2022-2023;S2;56.0;Planification des transports;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L2;2022-2023;S2;;;TOTAL S2;27;108;;324000
+2;Transport Logistique;L2;2022-2023;;;;TOTAL ANNUEL;49;196;;588000
+2;Transport Logistique;L2;2023-2024;S1;37.0;Gestion des transports;Cheikh FALL;3;12;3000;36000
+2;Transport Logistique;L2;2023-2024;S1;13.0;Coûts logistiques;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L2;2023-2024;S1;31.0;Gestion des entrepôts;Aminata DIOUF;4;16;3000;48000
+2;Transport Logistique;L2;2023-2024;S1;32.0;Gestion des flottes;Aminata DIOUF;3;12;3000;36000
+2;Transport Logistique;L2;2023-2024;S1;54.0;Optimisation logistique;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L2;2023-2024;S1;65.0;Sécurité des transports;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L2;2023-2024;S1;;;TOTAL S1;20;80;;240000
+2;Transport Logistique;L2;2023-2024;S2;63.0;Supply chain management;Cheikh FALL;3;12;3000;36000
+2;Transport Logistique;L2;2023-2024;S2;15.0;Douane et transit;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L2;2023-2024;S2;67.0;Technologies logistiques;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L2;2023-2024;S2;36.0;Gestion des stocks;Cheikh FALL;3;12;3000;36000
+2;Transport Logistique;L2;2023-2024;S2;17.0;Droit des transports;Aminata DIOUF;3;12;3000;36000
+2;Transport Logistique;L2;2023-2024;S2;70.0;Transport multimodal;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L2;2023-2024;S2;56.0;Planification des transports;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L2;2023-2024;S2;;;TOTAL S2;24;96;;288000
+2;Transport Logistique;L2;2023-2024;;;;TOTAL ANNUEL;44;176;;528000
+2;Transport Logistique;L2;2024-2025;S1;37.0;Gestion des transports;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L2;2024-2025;S1;13.0;Coûts logistiques;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L2;2024-2025;S1;31.0;Gestion des entrepôts;Cheikh FALL;3;12;3000;36000
+2;Transport Logistique;L2;2024-2025;S1;32.0;Gestion des flottes;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L2;2024-2025;S1;54.0;Optimisation logistique;Cheikh FALL;3;12;3000;36000
+2;Transport Logistique;L2;2024-2025;S1;65.0;Sécurité des transports;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L2;2024-2025;S1;;;TOTAL S1;21;84;;252000
+2;Transport Logistique;L2;2024-2025;S2;63.0;Supply chain management;Cheikh FALL;3;12;3000;36000
+2;Transport Logistique;L2;2024-2025;S2;15.0;Douane et transit;Moussa MBOUP;3;12;3000;36000
+2;Transport Logistique;L2;2024-2025;S2;67.0;Technologies logistiques;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L2;2024-2025;S2;36.0;Gestion des stocks;Aminata FALL;3;12;3000;36000
+2;Transport Logistique;L2;2024-2025;S2;17.0;Droit des transports;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L2;2024-2025;S2;70.0;Transport multimodal;Moussa MBOUP;3;12;3000;36000
+2;Transport Logistique;L2;2024-2025;S2;56.0;Planification des transports;Moussa MBOUP;3;12;3000;36000
+2;Transport Logistique;L2;2024-2025;S2;;;TOTAL S2;23;92;;276000
+2;Transport Logistique;L2;2024-2025;;;;TOTAL ANNUEL;44;176;;528000
+2;Transport Logistique;L3;2023-2024;S1;15.0;Douane et transit;Cheikh FALL;4;16;3000;48000
+2;Transport Logistique;L3;2023-2024;S1;37.0;Gestion des transports;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L3;2023-2024;S1;70.0;Transport multimodal;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L3;2023-2024;S1;56.0;Planification des transports;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L3;2023-2024;S1;31.0;Gestion des entrepôts;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L3;2023-2024;S1;54.0;Optimisation logistique;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L3;2023-2024;S1;67.0;Technologies logistiques;Aminata FALL;3;12;3000;36000
+2;Transport Logistique;L3;2023-2024;S1;;;TOTAL S1;26;104;;312000
+2;Transport Logistique;L3;2023-2024;S2;43.0;Logistique portuaire;Aminata DIOUF;4;16;3000;48000
+2;Transport Logistique;L3;2023-2024;S2;32.0;Gestion des flottes;Moussa MBOUP;3;12;3000;36000
+2;Transport Logistique;L3;2023-2024;S2;63.0;Supply chain management;Aminata FALL;3;12;3000;36000
+2;Transport Logistique;L3;2023-2024;S2;65.0;Sécurité des transports;Cheikh FALL;3;12;3000;36000
+2;Transport Logistique;L3;2023-2024;S2;17.0;Droit des transports;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L3;2023-2024;S2;36.0;Gestion des stocks;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L3;2023-2024;S2;;;TOTAL S2;21;84;;252000
+2;Transport Logistique;L3;2023-2024;;;;TOTAL ANNUEL;47;188;;564000
+2;Transport Logistique;L3;2024-2025;S1;15.0;Douane et transit;Aminata FALL;4;16;3000;48000
+2;Transport Logistique;L3;2024-2025;S1;37.0;Gestion des transports;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L3;2024-2025;S1;70.0;Transport multimodal;Aminata DIOUF;4;16;3000;48000
+2;Transport Logistique;L3;2024-2025;S1;56.0;Planification des transports;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L3;2024-2025;S1;31.0;Gestion des entrepôts;Aminata DIOUF;4;16;3000;48000
+2;Transport Logistique;L3;2024-2025;S1;54.0;Optimisation logistique;Aminata DIOUF;3;12;3000;36000
+2;Transport Logistique;L3;2024-2025;S1;67.0;Technologies logistiques;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L3;2024-2025;S1;;;TOTAL S1;26;104;;312000
+2;Transport Logistique;L3;2024-2025;S2;43.0;Logistique portuaire;Moussa MBOUP;4;16;3000;48000
+2;Transport Logistique;L3;2024-2025;S2;32.0;Gestion des flottes;Aminata DIOUF;4;16;3000;48000
+2;Transport Logistique;L3;2024-2025;S2;63.0;Supply chain management;Mamadou NIANG;3;12;3000;36000
+2;Transport Logistique;L3;2024-2025;S2;65.0;Sécurité des transports;Cheikh FALL;3;12;3000;36000
+2;Transport Logistique;L3;2024-2025;S2;17.0;Droit des transports;Moussa MBOUP;3;12;3000;36000
+2;Transport Logistique;L3;2024-2025;S2;36.0;Gestion des stocks;Mamadou NIANG;4;16;3000;48000
+2;Transport Logistique;L3;2024-2025;S2;;;TOTAL S2;21;84;;252000
+2;Transport Logistique;L3;2024-2025;;;;TOTAL ANNUEL;47;188;;564000

@@ -1,0 +1,234 @@
+﻿N;NOM;PRENOMS;niveau;FORMATION;DATE_INSCRIPTION;MONTANT_global;STATUT_DE_PAIEMENT;ANNEE_ACADEMIQUE
+1;SALL;Ibrahima;L1;Comptabilité;30/09/2024;200000;Cas régulier;2024-2025
+2;SALL;Ibrahima;L1;Hotellerie et Restauration;07/07/2024;40000;Boursière MDD;2024-2025
+3;SALL;Khadija;L1;Comptabilité Gestion;14/07/2024;40000;Boursière MDD;2024-2025
+4;SENE;Ibrahima;L1;Gestion des entreprises;05/11/2024;200000;Cas régulier;2024-2025
+5;DIOP;Cheikh;L1;Gestion des entreprises;09/07/2024;125000;Cas régulier;2024-2025
+6;DIALLO;Moussa;L1;Transport Logistique;23/03/2024;40000;Boursière MDD;2024-2025
+7;SALL;Rokhaya;L1;Hotellerie et Restauration;16/03/2024;40000;Boursière MDD;2024-2025
+8;NDIAYE;Ibrahima;L1;Hotellerie et Restauration;18/08/2024;40000;Boursière MDD;2024-2025
+9;DIOP;Aissatou;L1;Commerce International;28/01/2024;40000;Boursière MDD;2024-2025
+10;DIENG;Omar;L1;Commerce International;30/04/2024;40000;Boursière MDD;2024-2025
+11;NDIAYE;Omar;L1;Hotellerie et Restauration;24/04/2024;200000;Cas régulier;2024-2025
+12;NDIAYE;Omar;L1;Douane transit;15/03/2024;125000;Cas régulier;2024-2025
+13;DIALLO;Cheikh;L1;Comptabilité et Gestion;22/12/2024;225000;Cas régulier;2024-2025
+14;SALL;Mamadou;L1;Comptabilité;03/01/2024;125000;Cas régulier;2024-2025
+15;DIALLO;Ibrahima;L1;Gestion des entreprises;17/03/2024;40000;Boursière MDD;2024-2025
+16;NDIAYE;Khadija;L1;Comptabilité;01/05/2024;40000;Boursière MDD;2024-2025
+17;NDIAYE;Fatou;L1;Hotellerie et Restauration;02/05/2024;40000;Boursière MDD;2024-2025
+18;KANE;Cheikh;L1;Comptabilité et Gestion;02/02/2024;225000;Cas régulier;2024-2025
+19;KANE;Rokhaya;L1;Gestion des entreprises;09/01/2024;150000;Cas régulier;2024-2025
+20;DIALLO;Aissatou;L1;Gestion des entreprises;01/01/2024;40000;Boursière MDD;2024-2025
+21;TOURE;Mamadou;L1;Hotellerie et Restauration;01/08/2024;125000;Cas régulier;2024-2025
+22;DIENG;Omar;L1;Commerce International;04/02/2024;225000;Cas régulier;2024-2025
+23;SALL;Fatou;L1;Hotellerie et Restauration;21/11/2024;40000;Boursière MDD;2024-2025
+24;FALL;Khadija;L1;Transport Logistique;09/01/2024;40000;Boursière MDD;2024-2025
+25;NDIAYE;Omar;L1;Transport Logistique;03/05/2024;200000;Cas régulier;2024-2025
+26;SENE;Fatou;L1;Commerce International;29/06/2024;40000;Boursière MDD;2024-2025
+27;SENE;Cheikh;L1;Gestion des entreprises;22/12/2024;40000;Boursière MDD;2024-2025
+28;SENE;Aminata;L1;Commerce International;02/02/2024;40000;Boursière MDD;2024-2025
+29;DIOP;Khadija;L1;Commerce International;13/04/2024;150000;Cas régulier;2024-2025
+30;DIOP;Omar;L1;Gestion des entreprises;07/06/2024;40000;Boursière MDD;2024-2025
+31;DIENG;Cheikh;L1;Commerce International;09/05/2024;150000;Cas régulier;2024-2025
+32;DIALLO;Omar;L1;Transport Logistique;25/01/2024;40000;Boursière MDD;2024-2025
+33;DIALLO;Moussa;L1;Comptabilité et Gestion;07/07/2024;40000;Boursière MDD;2024-2025
+34;GUEYE;Cheikh;L1;Hotellerie et Restauration;16/07/2024;40000;Boursière MDD;2024-2025
+35;SENE;Cheikh;L1;Comptabilité;20/12/2024;40000;Boursière MDD;2024-2025
+36;FALL;Rokhaya;L1;Transport Logistique;16/05/2024;225000;Cas régulier;2024-2025
+37;NDIAYE;Aissatou;L1;Transport Logistique;04/11/2024;200000;Cas régulier;2024-2025
+38;FALL;Moussa;L1;Comptabilité;10/02/2024;40000;Boursière MDD;2024-2025
+39;DIALLO;Khadija;L1;Douane transit;16/08/2024;40000;Boursière MDD;2024-2025
+40;SENE;Cheikh;L1;Commerce International;28/06/2024;40000;Boursière MDD;2024-2025
+41;DIOP;Omar;L1;Transport Logistique;10/11/2024;40000;Boursière MDD;2024-2025
+42;DIALLO;Fatou;L1;Comptabilité et Gestion;08/02/2024;40000;Boursière MDD;2024-2025
+43;FALL;Rokhaya;L1;Gestion des entreprises;13/12/2024;125000;Cas régulier;2024-2025
+44;SENE;Mamadou;L1;Comptabilité;13/12/2024;40000;Boursière MDD;2024-2025
+45;DIOP;Aminata;L1;Comptabilité;04/02/2024;200000;Cas régulier;2024-2025
+46;FALL;Aissatou;L1;Comptabilité;17/10/2024;150000;Cas régulier;2024-2025
+47;SALL;Omar;L1;Gestion des entreprises;09/07/2024;40000;Boursière MDD;2024-2025
+48;NDIAYE;Mamadou;L1;Hotellerie et Restauration;11/03/2024;40000;Boursière MDD;2024-2025
+49;GUEYE;Omar;L1;Hotellerie et Restauration;28/11/2024;40000;Boursière MDD;2024-2025
+50;TOURE;Moussa;L1;Comptabilité Gestion;14/01/2024;225000;Cas régulier;2024-2025
+51;DIENG;Aissatou;L1;Comptabilité Gestion;14/10/2024;200000;Cas régulier;2024-2025
+52;DIALLO;Cheikh;L1;Comptabilité Gestion;19/04/2024;40000;Boursière MDD;2024-2025
+53;SALL;Ibrahima;L1;Hotellerie et Restauration;03/03/2024;125000;Cas régulier;2024-2025
+54;SALL;Aminata;L1;Transport Logistique;31/12/2024;40000;Boursière MDD;2024-2025
+55;NDIAYE;Omar;L1;Comptabilité Gestion;07/12/2024;40000;Boursière MDD;2024-2025
+56;NDIAYE;Rokhaya;L1;Douane transit;04/10/2024;40000;Boursière MDD;2024-2025
+57;DIALLO;Aminata;L1;Transport Logistique;30/12/2024;200000;Cas régulier;2024-2025
+58;DIENG;Ibrahima;L1;Gestion des entreprises;03/03/2024;150000;Cas régulier;2024-2025
+59;TOURE;Cheikh;L1;Comptabilité Gestion;14/01/2024;40000;Boursière MDD;2024-2025
+60;DIENG;Mamadou;L1;Hotellerie et Restauration;07/07/2024;40000;Boursière MDD;2024-2025
+61;DIENG;Aminata;L1;Douane transit;09/11/2024;125000;Cas régulier;2024-2025
+62;DIALLO;Aissatou;L1;Douane transit;02/09/2024;40000;Boursière MDD;2024-2025
+63;GUEYE;Mamadou;L1;Hotellerie et Restauration;07/02/2024;200000;Cas régulier;2024-2025
+64;NDIAYE;Cheikh;L1;Comptabilité;26/08/2024;40000;Boursière MDD;2024-2025
+65;SENE;Rokhaya;L1;Douane transit;23/11/2024;150000;Cas régulier;2024-2025
+66;GUEYE;Rokhaya;L1;Douane transit;29/01/2024;150000;Cas régulier;2024-2025
+67;DIALLO;Aminata;L1;Transport Logistique;23/03/2024;40000;Boursière MDD;2024-2025
+68;TOURE;Omar;L1;Hotellerie et Restauration;22/09/2024;40000;Boursière MDD;2024-2025
+69;NDIAYE;Khadija;L1;Comptabilité et Gestion;10/04/2024;40000;Boursière MDD;2024-2025
+70;SENE;Khadija;L1;Transport Logistique;10/11/2024;150000;Cas régulier;2024-2025
+71;KANE;Mamadou;L1;Gestion des entreprises;19/03/2024;200000;Cas régulier;2024-2025
+72;KANE;Fatou;L1;Hotellerie et Restauration;15/01/2024;125000;Cas régulier;2024-2025
+73;KANE;Khadija;L1;Hotellerie et Restauration;29/11/2024;225000;Cas régulier;2024-2025
+74;KANE;Fatou;L1;Comptabilité et Gestion;11/09/2024;40000;Boursière MDD;2024-2025
+75;DIALLO;Cheikh;L1;Transport Logistique;05/05/2024;40000;Boursière MDD;2024-2025
+76;DIALLO;Cheikh;L1;Comptabilité et Gestion;07/02/2024;150000;Cas régulier;2024-2025
+77;SALL;Aissatou;L1;Commerce International;04/09/2024;40000;Boursière MDD;2024-2025
+78;TOURE;Omar;L1;Douane transit;06/11/2024;200000;Cas régulier;2024-2025
+79;FALL;Omar;L1;Commerce International;23/07/2024;200000;Cas régulier;2024-2025
+80;DIENG;Rokhaya;L1;Comptabilité et Gestion;24/02/2024;40000;Boursière MDD;2024-2025
+81;TOURE;Cheikh;L1;Douane transit;03/03/2024;40000;Boursière MDD;2024-2025
+82;SALL;Ibrahima;L1;Comptabilité;13/03/2024;125000;Cas régulier;2024-2025
+83;DIALLO;Aissatou;L1;Douane transit;11/11/2024;40000;Boursière MDD;2024-2025
+84;TOURE;Aminata;L1;Gestion des entreprises;16/06/2024;40000;Boursière MDD;2024-2025
+85;TOURE;Aminata;L1;Douane transit;12/09/2024;40000;Boursière MDD;2024-2025
+86;SALL;Khadija;L1;Douane transit;11/09/2024;125000;Cas régulier;2024-2025
+87;GUEYE;Rokhaya;L1;Transport Logistique;22/08/2024;150000;Cas régulier;2024-2025
+88;KANE;Omar;L1;Comptabilité et Gestion;25/01/2024;200000;Cas régulier;2024-2025
+89;SALL;Mamadou;L1;Comptabilité Gestion;30/11/2024;40000;Boursière MDD;2024-2025
+90;DIALLO;Rokhaya;L1;Comptabilité Gestion;05/01/2024;225000;Cas régulier;2024-2025
+91;SENE;Khadija;L1;Gestion des entreprises;06/07/2024;40000;Boursière MDD;2024-2025
+92;FALL;Fatou;L1;Comptabilité;24/07/2024;150000;Cas régulier;2024-2025
+93;FALL;Rokhaya;L1;Hotellerie et Restauration;27/05/2024;225000;Cas régulier;2024-2025
+94;DIENG;Cheikh;L1;Gestion des entreprises;08/10/2024;40000;Boursière MDD;2024-2025
+95;KANE;Mamadou;L1;Commerce International;01/03/2024;125000;Cas régulier;2024-2025
+96;GUEYE;Omar;L1;Transport Logistique;22/06/2024;40000;Boursière MDD;2024-2025
+97;SENE;Ibrahima;L1;Hotellerie et Restauration;04/11/2024;40000;Boursière MDD;2024-2025
+98;DIENG;Fatou;L1;Comptabilité Gestion;24/01/2024;150000;Cas régulier;2024-2025
+99;FALL;Cheikh;L1;Transport Logistique;22/09/2024;40000;Boursière MDD;2024-2025
+100;SENE;Mamadou;L1;Hotellerie et Restauration;20/09/2024;200000;Cas régulier;2024-2025
+1;KANE;Fatou;L2;Comptabilité;01/02/2024;225000;Cas régulier;2024-2025
+2;TOURE;Cheikh;L2;Douane transit;07/12/2024;200000;Cas régulier;2024-2025
+3;DIENG;Ibrahima;L2;Gestion des entreprises;01/03/2024;40000;Boursière MDD;2024-2025
+4;NDIAYE;Aissatou;L2;Commerce International;26/08/2024;40000;Boursière MDD;2024-2025
+5;DIOP;Aissatou;L2;Gestion des entreprises;06/06/2024;125000;Cas régulier;2024-2025
+6;DIOP;Omar;L2;Gestion des entreprises;22/03/2024;150000;Cas régulier;2024-2025
+7;KANE;Mamadou;L2;Hotellerie et Restauration;26/07/2024;40000;Boursière MDD;2024-2025
+8;SALL;Rokhaya;L2;Douane transit;17/12/2024;40000;Boursière MDD;2024-2025
+9;DIENG;Omar;L2;Commerce International;14/09/2024;40000;Boursière MDD;2024-2025
+10;SALL;Aissatou;L2;Hotellerie et Restauration;26/12/2024;125000;Cas régulier;2024-2025
+11;KANE;Aminata;L2;Douane transit;08/06/2024;125000;Cas régulier;2024-2025
+12;KANE;Ibrahima;L2;Transport Logistique;19/12/2024;225000;Cas régulier;2024-2025
+13;SENE;Moussa;L2;Commerce International;01/03/2024;200000;Cas régulier;2024-2025
+14;FALL;Aminata;L2;Hotellerie et Restauration;23/11/2024;40000;Boursière MDD;2024-2025
+15;FALL;Khadija;L2;Comptabilité et Gestion;31/05/2024;40000;Boursière MDD;2024-2025
+16;SALL;Fatou;L2;Douane transit;07/07/2024;40000;Boursière MDD;2024-2025
+17;TOURE;Rokhaya;L2;Comptabilité Gestion;10/11/2024;40000;Boursière MDD;2024-2025
+18;FALL;Aminata;L2;Gestion des entreprises;23/04/2024;125000;Cas régulier;2024-2025
+19;KANE;Aminata;L2;Comptabilité;22/04/2024;125000;Cas régulier;2024-2025
+20;GUEYE;Moussa;L2;Comptabilité Gestion;09/03/2024;40000;Boursière MDD;2024-2025
+21;KANE;Ibrahima;L2;Comptabilité et Gestion;01/09/2024;125000;Cas régulier;2024-2025
+22;FALL;Moussa;L2;Douane transit;19/03/2024;225000;Cas régulier;2024-2025
+23;GUEYE;Mamadou;L2;Comptabilité et Gestion;20/08/2024;125000;Cas régulier;2024-2025
+24;SENE;Moussa;L2;Comptabilité Gestion;06/11/2024;200000;Cas régulier;2024-2025
+25;GUEYE;Rokhaya;L2;Transport Logistique;10/07/2024;225000;Cas régulier;2024-2025
+26;DIOP;Khadija;L2;Hotellerie et Restauration;31/07/2024;150000;Cas régulier;2024-2025
+27;SALL;Ibrahima;L2;Douane transit;25/12/2024;40000;Boursière MDD;2024-2025
+28;NDIAYE;Omar;L2;Gestion des entreprises;08/10/2024;150000;Cas régulier;2024-2025
+29;DIOP;Omar;L2;Comptabilité;29/08/2024;40000;Boursière MDD;2024-2025
+30;DIENG;Khadija;L2;Transport Logistique;02/10/2024;225000;Cas régulier;2024-2025
+31;NDIAYE;Aminata;L2;Comptabilité;06/12/2024;40000;Boursière MDD;2024-2025
+32;DIALLO;Moussa;L2;Transport Logistique;21/04/2024;200000;Cas régulier;2024-2025
+33;SENE;Moussa;L2;Comptabilité Gestion;06/05/2024;40000;Boursière MDD;2024-2025
+34;SALL;Fatou;L2;Comptabilité;14/12/2024;40000;Boursière MDD;2024-2025
+35;FALL;Moussa;L2;Gestion des entreprises;01/11/2024;40000;Boursière MDD;2024-2025
+36;DIENG;Ibrahima;L2;Transport Logistique;11/02/2024;225000;Cas régulier;2024-2025
+37;DIALLO;Aissatou;L2;Transport Logistique;26/09/2024;225000;Cas régulier;2024-2025
+38;GUEYE;Khadija;L2;Comptabilité Gestion;16/08/2024;40000;Boursière MDD;2024-2025
+39;SALL;Omar;L2;Comptabilité et Gestion;27/09/2024;225000;Cas régulier;2024-2025
+40;DIENG;Rokhaya;L2;Hotellerie et Restauration;26/12/2024;225000;Cas régulier;2024-2025
+41;SALL;Ibrahima;L2;Gestion des entreprises;04/07/2024;40000;Boursière MDD;2024-2025
+42;NDIAYE;Rokhaya;L2;Gestion des entreprises;09/02/2024;125000;Cas régulier;2024-2025
+43;SALL;Omar;L2;Douane transit;15/10/2024;40000;Boursière MDD;2024-2025
+44;DIOP;Omar;L2;Douane transit;27/02/2024;40000;Boursière MDD;2024-2025
+45;SALL;Moussa;L2;Hotellerie et Restauration;01/02/2024;150000;Cas régulier;2024-2025
+46;TOURE;Aminata;L2;Transport Logistique;07/10/2024;40000;Boursière MDD;2024-2025
+47;FALL;Moussa;L2;Comptabilité Gestion;15/09/2024;200000;Cas régulier;2024-2025
+48;DIOP;Aissatou;L2;Comptabilité et Gestion;13/04/2024;125000;Cas régulier;2024-2025
+49;SENE;Moussa;L2;Hotellerie et Restauration;20/10/2024;150000;Cas régulier;2024-2025
+50;DIOP;Khadija;L2;Comptabilité;01/10/2024;225000;Cas régulier;2024-2025
+51;SALL;Moussa;L2;Gestion des entreprises;17/03/2024;40000;Boursière MDD;2024-2025
+52;SALL;Khadija;L2;Comptabilité Gestion;25/03/2024;150000;Cas régulier;2024-2025
+53;SALL;Cheikh;L2;Gestion des entreprises;16/06/2024;40000;Boursière MDD;2024-2025
+54;GUEYE;Aminata;L2;Comptabilité;23/09/2024;150000;Cas régulier;2024-2025
+55;SENE;Aminata;L2;Comptabilité;14/08/2024;125000;Cas régulier;2024-2025
+56;SALL;Fatou;L2;Hotellerie et Restauration;29/02/2024;40000;Boursière MDD;2024-2025
+57;NDIAYE;Aminata;L2;Hotellerie et Restauration;14/12/2024;125000;Cas régulier;2024-2025
+58;DIOP;Aminata;L2;Comptabilité et Gestion;15/04/2024;40000;Boursière MDD;2024-2025
+59;DIENG;Aminata;L2;Comptabilité;25/10/2024;40000;Boursière MDD;2024-2025
+60;DIENG;Omar;L2;Transport Logistique;07/09/2024;40000;Boursière MDD;2024-2025
+61;NDIAYE;Moussa;L2;Commerce International;16/02/2024;200000;Cas régulier;2024-2025
+62;NDIAYE;Aissatou;L2;Hotellerie et Restauration;18/09/2024;40000;Boursière MDD;2024-2025
+63;SALL;Mamadou;L2;Transport Logistique;16/08/2024;40000;Boursière MDD;2024-2025
+64;GUEYE;Omar;L2;Comptabilité et Gestion;29/01/2024;40000;Boursière MDD;2024-2025
+65;DIALLO;Ibrahima;L2;Comptabilité;20/08/2024;225000;Cas régulier;2024-2025
+66;DIALLO;Omar;L2;Douane transit;08/03/2024;225000;Cas régulier;2024-2025
+67;KANE;Ibrahima;L2;Commerce International;19/09/2024;40000;Boursière MDD;2024-2025
+68;KANE;Aissatou;L2;Comptabilité et Gestion;31/07/2024;40000;Boursière MDD;2024-2025
+69;GUEYE;Mamadou;L2;Transport Logistique;21/08/2024;40000;Boursière MDD;2024-2025
+70;KANE;Aissatou;L2;Hotellerie et Restauration;15/10/2024;225000;Cas régulier;2024-2025
+71;NDIAYE;Moussa;L2;Comptabilité et Gestion;30/01/2024;150000;Cas régulier;2024-2025
+72;SALL;Khadija;L2;Transport Logistique;13/10/2024;150000;Cas régulier;2024-2025
+73;FALL;Omar;L2;Commerce International;24/08/2024;225000;Cas régulier;2024-2025
+74;DIOP;Aminata;L2;Gestion des entreprises;10/12/2024;200000;Cas régulier;2024-2025
+75;DIENG;Moussa;L2;Hotellerie et Restauration;06/06/2024;40000;Boursière MDD;2024-2025
+76;NDIAYE;Rokhaya;L2;Transport Logistique;12/01/2024;40000;Boursière MDD;2024-2025
+1;SALL;Ibrahima;L3;Douane transit;17/02/2024;40000;Boursière MDD;2024-2025
+2;SALL;Aissatou;L3;Comptabilité Gestion;01/10/2024;125000;Cas régulier;2024-2025
+3;SALL;Cheikh;L3;Comptabilité et Gestion;07/04/2024;40000;Boursière MDD;2024-2025
+4;SENE;Khadija;L3;Hotellerie et Restauration;27/01/2024;200000;Cas régulier;2024-2025
+5;SALL;Cheikh;L3;Transport Logistique;17/05/2024;225000;Cas régulier;2024-2025
+6;DIOP;Rokhaya;L3;Douane transit;12/07/2024;40000;Boursière MDD;2024-2025
+7;TOURE;Mamadou;L3;Comptabilité;10/12/2024;200000;Cas régulier;2024-2025
+8;SENE;Mamadou;L3;Gestion des entreprises;05/11/2024;150000;Cas régulier;2024-2025
+9;KANE;Ibrahima;L3;Douane transit;04/11/2024;150000;Cas régulier;2024-2025
+10;TOURE;Moussa;L3;Transport Logistique;21/01/2024;40000;Boursière MDD;2024-2025
+11;GUEYE;Mamadou;L3;Commerce International;07/02/2024;200000;Cas régulier;2024-2025
+12;FALL;Aissatou;L3;Transport Logistique;06/04/2024;40000;Boursière MDD;2024-2025
+13;SENE;Fatou;L3;Comptabilité;27/10/2024;40000;Boursière MDD;2024-2025
+14;SENE;Khadija;L3;Douane transit;09/12/2024;150000;Cas régulier;2024-2025
+15;FALL;Fatou;L3;Comptabilité et Gestion;13/10/2024;40000;Boursière MDD;2024-2025
+16;SENE;Khadija;L3;Comptabilité;21/04/2024;225000;Cas régulier;2024-2025
+17;DIOP;Aminata;L3;Commerce International;02/09/2024;40000;Boursière MDD;2024-2025
+18;TOURE;Cheikh;L3;Douane transit;16/04/2024;40000;Boursière MDD;2024-2025
+19;SENE;Cheikh;L3;Comptabilité Gestion;19/06/2024;150000;Cas régulier;2024-2025
+20;NDIAYE;Aminata;L3;Commerce International;04/06/2024;40000;Boursière MDD;2024-2025
+21;DIALLO;Mamadou;L3;Comptabilité et Gestion;08/01/2024;225000;Cas régulier;2024-2025
+22;NDIAYE;Rokhaya;L3;Commerce International;18/04/2024;40000;Boursière MDD;2024-2025
+23;KANE;Moussa;L3;Transport Logistique;07/04/2024;200000;Cas régulier;2024-2025
+24;DIOP;Aissatou;L3;Transport Logistique;01/03/2024;40000;Boursière MDD;2024-2025
+25;SENE;Khadija;L3;Commerce International;02/09/2024;200000;Cas régulier;2024-2025
+26;DIENG;Cheikh;L3;Douane transit;04/05/2024;225000;Cas régulier;2024-2025
+27;SALL;Ibrahima;L3;Gestion des entreprises;22/12/2024;225000;Cas régulier;2024-2025
+28;SENE;Cheikh;L3;Gestion des entreprises;05/11/2024;40000;Boursière MDD;2024-2025
+29;TOURE;Moussa;L3;Comptabilité;26/12/2024;225000;Cas régulier;2024-2025
+30;TOURE;Moussa;L3;Hotellerie et Restauration;14/04/2024;40000;Boursière MDD;2024-2025
+31;FALL;Omar;L3;Hotellerie et Restauration;22/07/2024;40000;Boursière MDD;2024-2025
+32;FALL;Mamadou;L3;Commerce International;02/05/2024;150000;Cas régulier;2024-2025
+33;SALL;Cheikh;L3;Hotellerie et Restauration;09/10/2024;40000;Boursière MDD;2024-2025
+34;SENE;Cheikh;L3;Transport Logistique;13/06/2024;200000;Cas régulier;2024-2025
+35;SENE;Cheikh;L3;Gestion des entreprises;24/05/2024;40000;Boursière MDD;2024-2025
+36;SALL;Omar;L3;Hotellerie et Restauration;13/07/2024;150000;Cas régulier;2024-2025
+37;GUEYE;Fatou;L3;Comptabilité Gestion;26/08/2024;40000;Boursière MDD;2024-2025
+38;NDIAYE;Omar;L3;Transport Logistique;30/09/2024;40000;Boursière MDD;2024-2025
+39;DIALLO;Omar;L3;Douane transit;28/11/2024;40000;Boursière MDD;2024-2025
+40;GUEYE;Khadija;L3;Commerce International;02/07/2024;40000;Boursière MDD;2024-2025
+41;TOURE;Ibrahima;L3;Hotellerie et Restauration;06/06/2024;150000;Cas régulier;2024-2025
+42;DIALLO;Fatou;L3;Gestion des entreprises;13/05/2024;40000;Boursière MDD;2024-2025
+43;NDIAYE;Ibrahima;L3;Douane transit;03/07/2024;225000;Cas régulier;2024-2025
+44;NDIAYE;Moussa;L3;Hotellerie et Restauration;19/09/2024;40000;Boursière MDD;2024-2025
+45;SENE;Khadija;L3;Comptabilité Gestion;11/09/2024;40000;Boursière MDD;2024-2025
+46;KANE;Fatou;L3;Comptabilité;26/08/2024;40000;Boursière MDD;2024-2025
+47;TOURE;Aissatou;L3;Douane transit;20/02/2024;150000;Cas régulier;2024-2025
+48;GUEYE;Aminata;L3;Comptabilité Gestion;28/08/2024;125000;Cas régulier;2024-2025
+49;GUEYE;Omar;L3;Transport Logistique;12/06/2024;125000;Cas régulier;2024-2025
+50;DIOP;Aissatou;L3;Transport Logistique;14/04/2024;125000;Cas régulier;2024-2025
+51;SALL;Moussa;L3;Comptabilité et Gestion;08/07/2024;40000;Boursière MDD;2024-2025
+52;DIENG;Aissatou;L3;Gestion des entreprises;09/06/2024;40000;Boursière MDD;2024-2025
+53;KANE;Omar;L3;Commerce International;30/07/2024;40000;Boursière MDD;2024-2025
+54;SALL;Moussa;L3;Comptabilité et Gestion;24/01/2024;125000;Cas régulier;2024-2025
+55;DIOP;Fatou;L3;Commerce International;15/10/2024;40000;Boursière MDD;2024-2025
+56;SALL;Khadija;L3;Gestion des entreprises;23/04/2024;40000;Boursière MDD;2024-2025
+57;DIALLO;Aissatou;L3;Gestion des entreprises;15/03/2024;125000;Cas régulier;2024-2025

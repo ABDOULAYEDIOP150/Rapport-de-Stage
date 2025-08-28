@@ -1,0 +1,160 @@
+﻿N;NOM;PRENOMS;niveau;FORMATION;DATE_INSCRIPTION;MONTANT_global;STATUT_DE_PAIEMENT;ANNEE_ACADEMIQUE
+1;SALL;Ibrahima;L1;Douane transit;20/05/2022;40000;Boursière MDD;2022-2023
+2;SALL;Fatou;L1;Comptabilité Gestion;19/07/2022;40000;Boursière MDD;2022-2023
+3;GUEYE;Aminata;L1;Douane transit;28/08/2022;125000;Cas régulier;2022-2023
+4;GUEYE;Mamadou;L1;Commerce International;16/10/2022;125000;Cas régulier;2022-2023
+5;GUEYE;Aminata;L1;Comptabilité Gestion;25/08/2022;125000;Cas régulier;2022-2023
+6;DIALLO;Aissatou;L1;Gestion des entreprises;17/06/2022;225000;Cas régulier;2022-2023
+7;FALL;Omar;L1;Gestion des entreprises;14/07/2022;40000;Boursière MDD;2022-2023
+8;GUEYE;Khadija;L1;Commerce International;11/02/2022;40000;Boursière MDD;2022-2023
+9;DIOP;Rokhaya;L1;Douane transit;27/01/2022;40000;Boursière MDD;2022-2023
+10;TOURE;Moussa;L1;Comptabilité;30/11/2022;125000;Cas régulier;2022-2023
+11;TOURE;Ibrahima;L1;Hotellerie et Restauration;11/01/2022;150000;Cas régulier;2022-2023
+12;SENE;Cheikh;L1;Transport Logistique;09/12/2022;150000;Cas régulier;2022-2023
+13;SALL;Khadija;L1;Gestion des entreprises;08/07/2022;125000;Cas régulier;2022-2023
+14;SENE;Khadija;L1;Douane transit;25/02/2022;200000;Cas régulier;2022-2023
+15;KANE;Aissatou;L1;Douane transit;23/07/2022;125000;Cas régulier;2022-2023
+16;KANE;Ibrahima;L1;Hotellerie et Restauration;22/02/2022;40000;Boursière MDD;2022-2023
+17;KANE;Moussa;L1;Transport Logistique;17/10/2022;200000;Cas régulier;2022-2023
+18;DIENG;Aissatou;L1;Gestion des entreprises;05/12/2022;40000;Boursière MDD;2022-2023
+19;NDIAYE;Rokhaya;L1;Commerce International;28/11/2022;40000;Boursière MDD;2022-2023
+20;DIOP;Aissatou;L1;Transport Logistique;08/09/2022;225000;Cas régulier;2022-2023
+21;FALL;Cheikh;L1;Douane transit;29/12/2022;225000;Cas régulier;2022-2023
+22;SENE;Rokhaya;L1;Douane transit;30/11/2022;40000;Boursière MDD;2022-2023
+23;KANE;Rokhaya;L1;Comptabilité Gestion;05/09/2022;40000;Boursière MDD;2022-2023
+24;GUEYE;Mamadou;L1;Hotellerie et Restauration;18/05/2022;40000;Boursière MDD;2022-2023
+25;TOURE;Moussa;L1;Hotellerie et Restauration;23/05/2022;40000;Boursière MDD;2022-2023
+26;TOURE;Cheikh;L1;Commerce International;19/10/2022;40000;Boursière MDD;2022-2023
+27;FALL;Fatou;L1;Comptabilité et Gestion;11/09/2022;40000;Boursière MDD;2022-2023
+28;SENE;Cheikh;L1;Gestion des entreprises;19/04/2022;40000;Boursière MDD;2022-2023
+29;DIALLO;Omar;L1;Douane transit;24/05/2022;40000;Boursière MDD;2022-2023
+30;DIENG;Fatou;L1;Hotellerie et Restauration;22/09/2022;125000;Cas régulier;2022-2023
+31;TOURE;Aissatou;L1;Transport Logistique;08/09/2022;225000;Cas régulier;2022-2023
+32;SALL;Cheikh;L1;Transport Logistique;09/01/2022;200000;Cas régulier;2022-2023
+33;TOURE;Aissatou;L1;Douane transit;21/12/2022;200000;Cas régulier;2022-2023
+34;KANE;Omar;L1;Commerce International;31/08/2022;40000;Boursière MDD;2022-2023
+35;GUEYE;Rokhaya;L1;Commerce International;19/06/2022;40000;Boursière MDD;2022-2023
+36;SALL;Khadija;L1;Gestion des entreprises;06/06/2022;40000;Boursière MDD;2022-2023
+37;TOURE;Moussa;L1;Transport Logistique;09/04/2022;40000;Boursière MDD;2022-2023
+38;NDIAYE;Rokhaya;L1;Transport Logistique;20/12/2022;150000;Cas régulier;2022-2023
+39;TOURE;Cheikh;L1;Douane transit;22/05/2022;40000;Boursière MDD;2022-2023
+40;NDIAYE;Ibrahima;L1;Douane transit;01/06/2022;200000;Cas régulier;2022-2023
+41;SENE;Khadija;L1;Hotellerie et Restauration;08/01/2022;200000;Cas régulier;2022-2023
+42;DIOP;Fatou;L1;Commerce International;11/10/2022;40000;Boursière MDD;2022-2023
+43;SENE;Cheikh;L1;Comptabilité Gestion;22/02/2022;200000;Cas régulier;2022-2023
+44;SALL;Cheikh;L1;Hotellerie et Restauration;14/08/2022;40000;Boursière MDD;2022-2023
+45;SENE;Fatou;L1;Comptabilité;10/05/2022;40000;Boursière MDD;2022-2023
+46;NDIAYE;Moussa;L1;Hotellerie et Restauration;25/07/2022;40000;Boursière MDD;2022-2023
+47;NDIAYE;Mamadou;L1;Comptabilité et Gestion;19/11/2022;150000;Cas régulier;2022-2023
+48;SENE;Mamadou;L1;Gestion des entreprises;05/06/2022;150000;Cas régulier;2022-2023
+49;NDIAYE;Rokhaya;L1;Comptabilité et Gestion;02/08/2022;225000;Cas régulier;2022-2023
+50;SALL;Cheikh;L1;Comptabilité et Gestion;02/06/2022;40000;Boursière MDD;2022-2023
+51;DIALLO;Mamadou;L1;Comptabilité et Gestion;14/11/2022;125000;Cas régulier;2022-2023
+52;TOURE;Ibrahima;L1;Comptabilité;16/05/2022;150000;Cas régulier;2022-2023
+53;TOURE;Aminata;L1;Transport Logistique;10/10/2022;150000;Cas régulier;2022-2023
+54;DIOP;Aissatou;L1;Transport Logistique;19/08/2022;40000;Boursière MDD;2022-2023
+55;DIALLO;Fatou;L1;Gestion des entreprises;29/04/2022;40000;Boursière MDD;2022-2023
+56;DIALLO;Cheikh;L1;Comptabilité;06/02/2022;200000;Cas régulier;2022-2023
+57;KANE;Ibrahima;L1;Douane transit;06/08/2022;150000;Cas régulier;2022-2023
+58;SENE;Khadija;L1;Commerce International;14/03/2022;125000;Cas régulier;2022-2023
+59;SENE;Khadija;L1;Comptabilité Gestion;01/11/2022;40000;Boursière MDD;2022-2023
+60;SALL;Moussa;L1;Hotellerie et Restauration;28/08/2022;40000;Boursière MDD;2022-2023
+61;GUEYE;Khadija;L1;Gestion des entreprises;14/09/2022;40000;Boursière MDD;2022-2023
+62;SALL;Moussa;L1;Comptabilité et Gestion;03/11/2022;225000;Cas régulier;2022-2023
+63;FALL;Mamadou;L1;Commerce International;09/05/2022;125000;Cas régulier;2022-2023
+64;TOURE;Mamadou;L1;Hotellerie et Restauration;28/10/2022;200000;Cas régulier;2022-2023
+65;KANE;Fatou;L1;Comptabilité;31/03/2022;40000;Boursière MDD;2022-2023
+66;DIENG;Cheikh;L1;Douane transit;23/05/2022;225000;Cas régulier;2022-2023
+67;SALL;Moussa;L1;Comptabilité et Gestion;29/08/2022;40000;Boursière MDD;2022-2023
+68;GUEYE;Omar;L1;Transport Logistique;14/06/2022;150000;Cas régulier;2022-2023
+69;FALL;Aissatou;L1;Transport Logistique;22/12/2022;40000;Boursière MDD;2022-2023
+70;DIALLO;Aissatou;L1;Transport Logistique;09/10/2022;225000;Cas régulier;2022-2023
+71;NDIAYE;Omar;L1;Transport Logistique;10/05/2022;40000;Boursière MDD;2022-2023
+72;NDIAYE;Aissatou;L1;Commerce International;21/09/2022;225000;Cas régulier;2022-2023
+73;GUEYE;Fatou;L1;Comptabilité Gestion;07/04/2022;40000;Boursière MDD;2022-2023
+74;KANE;Cheikh;L1;Comptabilité et Gestion;17/11/2022;40000;Boursière MDD;2022-2023
+75;DIOP;Ibrahima;L1;Transport Logistique;17/05/2022;200000;Cas régulier;2022-2023
+76;SALL;Cheikh;L1;Gestion des entreprises;04/03/2022;150000;Cas régulier;2022-2023
+77;SENE;Khadija;L1;Comptabilité;10/10/2022;225000;Cas régulier;2022-2023
+78;NDIAYE;Ibrahima;L1;Transport Logistique;28/02/2022;40000;Boursière MDD;2022-2023
+79;NDIAYE;Aminata;L1;Commerce International;13/09/2022;40000;Boursière MDD;2022-2023
+80;DIENG;Khadija;L1;Transport Logistique;01/08/2022;40000;Boursière MDD;2022-2023
+81;SALL;Ibrahima;L1;Gestion des entreprises;22/08/2022;225000;Cas régulier;2022-2023
+82;TOURE;Mamadou;L1;Comptabilité;18/09/2022;125000;Cas régulier;2022-2023
+83;DIALLO;Aissatou;L1;Comptabilité Gestion;24/06/2022;40000;Boursière MDD;2022-2023
+84;DIOP;Khadija;L1;Comptabilité;02/06/2022;40000;Boursière MDD;2022-2023
+85;SENE;Cheikh;L1;Gestion des entreprises;03/10/2022;40000;Boursière MDD;2022-2023
+86;FALL;Omar;L1;Hotellerie et Restauration;10/10/2022;40000;Boursière MDD;2022-2023
+87;SALL;Omar;L1;Hotellerie et Restauration;07/04/2022;225000;Cas régulier;2022-2023
+88;TOURE;Aissatou;L1;Comptabilité;23/01/2022;40000;Boursière MDD;2022-2023
+89;SALL;Aissatou;L1;Comptabilité Gestion;17/07/2022;225000;Cas régulier;2022-2023
+90;DIOP;Aminata;L1;Commerce International;15/09/2022;40000;Boursière MDD;2022-2023
+1;GUEYE;Moussa;L2;Comptabilité Gestion;10/11/2022;40000;Boursière MDD;2022-2023
+2;TOURE;Mamadou;L2;Comptabilité et Gestion;13/06/2022;225000;Cas régulier;2022-2023
+3;TOURE;Cheikh;L2;Gestion des entreprises;25/03/2022;225000;Cas régulier;2022-2023
+4;KANE;Ibrahima;L2;Douane transit;21/07/2022;200000;Cas régulier;2022-2023
+5;DIENG;Mamadou;L2;Comptabilité;12/11/2022;150000;Cas régulier;2022-2023
+6;TOURE;Ibrahima;L2;Commerce International;03/06/2022;40000;Boursière MDD;2022-2023
+7;SENE;Cheikh;L2;Transport Logistique;31/10/2022;40000;Boursière MDD;2022-2023
+8;DIENG;Mamadou;L2;Hotellerie et Restauration;22/06/2022;225000;Cas régulier;2022-2023
+9;FALL;Ibrahima;L2;Gestion des entreprises;17/09/2022;40000;Boursière MDD;2022-2023
+10;DIALLO;Ibrahima;L2;Gestion des entreprises;18/09/2022;200000;Cas régulier;2022-2023
+11;SALL;Cheikh;L2;Commerce International;30/09/2022;200000;Cas régulier;2022-2023
+12;FALL;Aissatou;L2;Hotellerie et Restauration;08/09/2022;200000;Cas régulier;2022-2023
+13;DIENG;Aminata;L2;Comptabilité et Gestion;29/12/2022;40000;Boursière MDD;2022-2023
+14;DIENG;Aminata;L2;Commerce International;16/10/2022;40000;Boursière MDD;2022-2023
+15;DIALLO;Ibrahima;L2;Hotellerie et Restauration;03/06/2022;40000;Boursière MDD;2022-2023
+16;SENE;Aminata;L2;Douane transit;01/09/2022;225000;Cas régulier;2022-2023
+17;NDIAYE;Ibrahima;L2;Douane transit;09/01/2022;40000;Boursière MDD;2022-2023
+18;FALL;Aissatou;L2;Commerce International;08/07/2022;40000;Boursière MDD;2022-2023
+19;DIENG;Cheikh;L2;Comptabilité Gestion;19/06/2022;150000;Cas régulier;2022-2023
+20;FALL;Omar;L2;Gestion des entreprises;11/12/2022;150000;Cas régulier;2022-2023
+21;DIENG;Aminata;L2;Commerce International;26/02/2022;200000;Cas régulier;2022-2023
+22;TOURE;Rokhaya;L2;Hotellerie et Restauration;02/08/2022;200000;Cas régulier;2022-2023
+23;DIENG;Rokhaya;L2;Douane transit;26/10/2022;150000;Cas régulier;2022-2023
+24;GUEYE;Cheikh;L2;Douane transit;07/06/2022;200000;Cas régulier;2022-2023
+25;FALL;Moussa;L2;Comptabilité Gestion;19/12/2022;40000;Boursière MDD;2022-2023
+26;SENE;Moussa;L2;Transport Logistique;19/11/2022;200000;Cas régulier;2022-2023
+27;NDIAYE;Fatou;L2;Gestion des entreprises;14/01/2022;150000;Cas régulier;2022-2023
+28;DIOP;Fatou;L2;Transport Logistique;02/11/2022;40000;Boursière MDD;2022-2023
+29;SENE;Khadija;L2;Douane transit;31/08/2022;225000;Cas régulier;2022-2023
+30;DIOP;Aminata;L2;Comptabilité;16/05/2022;200000;Cas régulier;2022-2023
+31;TOURE;Khadija;L2;Comptabilité;02/12/2022;225000;Cas régulier;2022-2023
+32;DIALLO;Ibrahima;L2;Comptabilité et Gestion;24/10/2022;40000;Boursière MDD;2022-2023
+33;NDIAYE;Cheikh;L2;Comptabilité;23/10/2022;200000;Cas régulier;2022-2023
+34;GUEYE;Moussa;L2;Transport Logistique;27/04/2022;200000;Cas régulier;2022-2023
+35;SALL;Cheikh;L2;Transport Logistique;27/01/2022;40000;Boursière MDD;2022-2023
+36;GUEYE;Mamadou;L2;Comptabilité et Gestion;26/10/2022;40000;Boursière MDD;2022-2023
+37;NDIAYE;Ibrahima;L2;Douane transit;03/09/2022;40000;Boursière MDD;2022-2023
+38;SENE;Fatou;L2;Transport Logistique;29/03/2022;40000;Boursière MDD;2022-2023
+39;DIALLO;Aissatou;L2;Gestion des entreprises;26/09/2022;40000;Boursière MDD;2022-2023
+40;DIOP;Moussa;L2;Gestion des entreprises;19/11/2022;40000;Boursière MDD;2022-2023
+41;SALL;Ibrahima;L2;Comptabilité et Gestion;14/11/2022;200000;Cas régulier;2022-2023
+42;KANE;Mamadou;L2;Gestion des entreprises;14/07/2022;125000;Cas régulier;2022-2023
+43;SENE;Rokhaya;L2;Hotellerie et Restauration;17/03/2022;225000;Cas régulier;2022-2023
+44;NDIAYE;Rokhaya;L2;Hotellerie et Restauration;15/12/2022;40000;Boursière MDD;2022-2023
+45;KANE;Aissatou;L2;Comptabilité Gestion;05/05/2022;40000;Boursière MDD;2022-2023
+46;SALL;Rokhaya;L2;Douane transit;17/01/2022;40000;Boursière MDD;2022-2023
+47;TOURE;Fatou;L2;Douane transit;21/10/2022;225000;Cas régulier;2022-2023
+48;DIENG;Fatou;L2;Transport Logistique;25/12/2022;200000;Cas régulier;2022-2023
+49;GUEYE;Omar;L2;Comptabilité Gestion;26/02/2022;150000;Cas régulier;2022-2023
+50;GUEYE;Mamadou;L2;Commerce International;08/04/2022;40000;Boursière MDD;2022-2023
+51;GUEYE;Khadija;L2;Gestion des entreprises;10/01/2022;200000;Cas régulier;2022-2023
+52;DIALLO;Cheikh;L2;Hotellerie et Restauration;14/08/2022;40000;Boursière MDD;2022-2023
+53;DIENG;Khadija;L2;Gestion des entreprises;10/06/2022;40000;Boursière MDD;2022-2023
+54;NDIAYE;Ibrahima;L2;Transport Logistique;03/08/2022;40000;Boursière MDD;2022-2023
+55;KANE;Ibrahima;L2;Transport Logistique;19/03/2022;125000;Cas régulier;2022-2023
+56;KANE;Moussa;L2;Comptabilité Gestion;31/07/2022;40000;Boursière MDD;2022-2023
+57;SENE;Cheikh;L2;Commerce International;20/12/2022;40000;Boursière MDD;2022-2023
+58;SALL;Omar;L2;Commerce International;15/04/2022;200000;Cas régulier;2022-2023
+59;SENE;Moussa;L2;Comptabilité et Gestion;30/07/2022;40000;Boursière MDD;2022-2023
+60;DIALLO;Ibrahima;L2;Transport Logistique;14/09/2022;125000;Cas régulier;2022-2023
+61;FALL;Rokhaya;L2;Gestion des entreprises;10/11/2022;40000;Boursière MDD;2022-2023
+62;NDIAYE;Aissatou;L2;Commerce International;30/08/2022;40000;Boursière MDD;2022-2023
+63;SENE;Moussa;L2;Douane transit;01/02/2022;200000;Cas régulier;2022-2023
+64;DIOP;Omar;L2;Commerce International;28/12/2022;225000;Cas régulier;2022-2023
+65;DIENG;Aissatou;L2;Commerce International;12/03/2022;200000;Cas régulier;2022-2023
+66;DIENG;Khadija;L2;Hotellerie et Restauration;23/09/2022;40000;Boursière MDD;2022-2023
+67;KANE;Omar;L2;Gestion des entreprises;17/04/2022;225000;Cas régulier;2022-2023
+68;SENE;Khadija;L2;Commerce International;15/10/2022;40000;Boursière MDD;2022-2023
+69;SALL;Rokhaya;L2;Douane transit;16/06/2022;150000;Cas régulier;2022-2023
